@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@elastic/elasticsearch": "^8.17.1",
+    "lucide-react": "^0.482.0"
+  }
+}

@@ -1,0 +1,83 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id          String   @id @default(uuid())
+  name        String
+  email       String   @unique
+  password    String
+  role        String   @default("user")
+  phone       String   @unique
+  idCardImage String?  
+  addresses   Address[]
+  orders      Order[]
+  carts       Cart[]
+}
+
+
+model Address {
+  id         String @id @default(uuid())
+  userId     String
+  user       User   @relation(fields: [userId], references: [id])
+  street     String
+  district   String
+  city       String 
+  province   String 
+  zip        String
+  isDefault  Boolean @default(false)
+}
+
+model Book {
+  id          String   @id @default(uuid())
+  title       String
+  author      String
+  price       Int
+  stock       Int
+  categoryId  String
+  category    Category @relation(fields: [categoryId], references: [id])
+  imageUrl    String?
+  orderItems  OrderItem[]
+  carts      Cart[]
+}
+
+model Category {
+  id    String  @id @default(uuid())
+  name  String  @unique
+  books Book[]
+}
+
+model Cart {
+  id       String @id @default(uuid())
+  userId   String
+  user     User   @relation(fields: [userId], references: [id])
+  bookId   String
+  book     Book   @relation(fields: [bookId], references: [id])
+  quantity Int
+}
+
+model Order {
+  id                 String     @id @default(uuid())
+  userId             String
+  user               User       @relation(fields: [userId], references: [id])
+  totalAmount        Int
+  shippingCost       Int        @default(0) // Biaya ongkir
+  shippingTrackingId String?    // ID tracking dari API logistik
+  status             String     @default("pending") // pending, paid, shipped, completed
+  orderItems         OrderItem[]
+}
+
+model OrderItem {
+  id       String  @id @default(uuid())
+  orderId  String
+  order    Order   @relation(fields: [orderId], references: [id])
+  bookId   String
+  book     Book    @relation(fields: [bookId], references: [id])
+  quantity Int
+  price    Int
+}
