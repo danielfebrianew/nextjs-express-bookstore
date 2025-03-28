@@ -8,13 +8,13 @@ import { Input } from "@/components/ui/input";
 import Link from "next/link";
 import axios from "axios";
 import { Eye, EyeOff } from "lucide-react";
+import toast from "react-hot-toast";
 
 export default function LoginPage() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [showPassword, setShowPassword] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
-  const [error, setError] = useState<string | null>(null);
   const [isClient, setIsClient] = useState(false);
   const router = useRouter();
   const { login } = useAuth();
@@ -26,19 +26,25 @@ export default function LoginPage() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsLoading(true);
-    setError(null);
 
     try {
       console.log("Logging in with:", email, password);
       const response = await login(email, password);
       console.log("Login successful:", response);
+      toast.success("Login successful! Redirecting...");
       router.push("/");
     } catch (err: any) {
       console.error("Login error:", err.response?.data || err.message);
-      if (axios.isAxiosError(err) && err.response?.status === 401) {
-        setError("Invalid email or password. Please try again.");
+      if (axios.isAxiosError(err)) {
+        if (err.response?.status === 401) {
+          toast.error("Invalid email or password. Please try again.");
+        } else if (err.response?.status === 404) {
+          toast.error("User not found. Please register first.");
+        } else {
+          toast.error(err.response?.data?.message || "Login failed. Please try again.");
+        }
       } else {
-        setError(err.response?.data?.message || "Login failed. Please try again.");
+        toast.error("An unexpected error occurred. Please try again.");
       }
     } finally {
       setIsLoading(false);
@@ -54,12 +60,6 @@ export default function LoginPage() {
       <h1 className="text-3xl font-bold text-center mb-8 text-black">Login to Your Account</h1>
       <div className="max-w-md mx-auto p-6 bg-white rounded-lg shadow-md">
         <h1 className="text-2xl text-black font-bold mb-6 text-center">Login</h1>
-        
-        {error && (
-          <div className="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded mb-4">
-            {error}
-          </div>
-        )}
         
         <form onSubmit={handleSubmit} className="space-y-4">
           {/* Input Email */}

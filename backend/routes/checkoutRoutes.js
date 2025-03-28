@@ -138,7 +138,7 @@ router.post("/", authenticateUser, async (req, res) => {
 });
 
 
-router.post("/shipping-options", authenticateUser, async (req, res) => {
+router.get("/shipping-options", authenticateUser, async (req, res) => {
   try {
     const userId = req.user.id;
     if (!userId) return res.status(400).json({ message: "User ID is required" });

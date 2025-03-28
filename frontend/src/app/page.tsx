@@ -5,6 +5,7 @@ import Link from "next/link";
 import { booksAPI, categoriesAPI } from "@/lib/api";
 import BookCard from "@/components/books/BookCard";
 import { Button } from "@/components/ui/button";
+import { Toaster } from "react-hot-toast";
 
 interface Book {
   id: string;
@@ -37,7 +38,7 @@ export default function Home() {
           booksAPI.getAllBooks(),
           categoriesAPI.getAllCategories(),
         ]);
-    
+        
         console.log("booksData:", booksData); // Debugging
     
         // Ambil books dari key `results`
@@ -79,6 +80,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="bg-primary/10 rounded-lg p-8 text-center">
         <h1 className="text-4xl font-bold mb-4">Welcome to BookStore</h1>
+        <div><Toaster/></div>
         <p className="text-xl mb-6 max-w-2xl mx-auto">
           Discover your next favorite book from our vast collection of titles
         </p>

@@ -1,0 +1,97 @@
+"use client";
+
+import React, { useState, useEffect } from "react";
+import { useRouter } from 'next/navigation';
+import { authAPI } from "../../lib/api";
+
+interface Address {
+  id: string;
+  userId: string;
+  street: string;
+  district: string;
+  city: string;
+  province: string;
+  zip: string;
+  isDefault: boolean;
+}
+
+interface UserProfile {
+  id: string;
+  name: string;
+  email: string;
+  role: string;
+  phone: string;
+  idCardImage: string;
+  addresses: Address[];
+}
+
+export default function ProfilePage() {
+  const [user, setUser] = useState<UserProfile | null>(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+  const router = useRouter(); // Gunakan useRouter
+
+  useEffect(() => {
+    const fetchUserProfile = async () => {
+      try {
+        const profileData = await authAPI.getProfile();
+        console.log("Profile Data:", profileData); // Debugging
+        setUser(profileData);
+      } catch (err) {
+        setError("Failed to load profile data.");
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchUserProfile();
+  }, []);
+
+  const handleAddAddress = () => {
+    console.log("Navigasi ke halaman tambah alamat...");
+    router.push('/profile/add-address'); // Perbaikan router.push()
+  };
+
+  if (loading) return <p className="text-gray-700">Loading...</p>;
+  if (error) return <p className="text-red-500">{error}</p>;
+
+  return (
+    <div className="container mx-auto p-6">
+      <h1 className="text-2xl font-bold mb-4">User Profile</h1>
+      <div className="bg-white shadow-md rounded-lg p-6">
+        <div className="flex items-center space-x-4">
+          <img src={user?.idCardImage} alt="ID Card" className="w-24 h-24 object-cover rounded-lg border" />
+          <div>
+            <h2 className="text-xl font-semibold">{user?.name}</h2>
+            <p className="text-gray-700">{user?.email}</p>
+            <p className="text-gray-700">{user?.phone}</p>
+          </div>
+        </div>
+
+        <h3 className="text-lg font-semibold mt-6">Addresses</h3>
+        <div className="mt-2">
+          {user?.addresses.length ? (
+            user?.addresses.map((address) => (
+              <div key={address.id} className={`p-4 border rounded-md mt-2 ${address.isDefault ? "bg-blue-100" : "bg-gray-100"}`}>
+                <p>
+                  <strong>{address.street}, {address.district}, {address.city}, {address.province}, {address.zip}</strong>
+                </p>
+                {address.isDefault && <span className="text-sm text-blue-600 font-semibold">Default Address</span>}
+              </div>
+            ))
+          ) : (
+            <div className="mt-4 text-center">
+              <p className="text-gray-500">Belum ada alamat.</p>
+              <button 
+                onClick={handleAddAddress} 
+                className="mt-2 bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 transition"
+              >
+                Tambah Alamat Baru
+              </button>
+            </div>
+          )}
+        </div>
+      </div>
+    </div>
+  );
+}

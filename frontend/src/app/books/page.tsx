@@ -9,7 +9,7 @@ interface Book {
   title: string;
   author: string;
   price: number;
-  coverImage: string;
+  imageUrl: string;
   description: string;
   categoryId: string;
 }

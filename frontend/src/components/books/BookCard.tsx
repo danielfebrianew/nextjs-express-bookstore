@@ -50,6 +50,7 @@ export default function BookCard({ book }: BookCardProps) {
             <Image
               src={book.imageUrl}
               alt={book.title}
+              sizes="400px"
               fill
               className="object-contain"
               style={{ objectFit: 'contain', objectPosition: 'center' }}

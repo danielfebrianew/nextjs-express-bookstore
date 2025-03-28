@@ -1,12 +1,17 @@
 import express from "express";
 import prisma from "../prismaClient.js";
+import { authenticateUser } from "../middleware/authMiddleware.js";
 
 const router = express.Router();
 
 // Create Address
-router.post('/', async (req, res) => {
+router.post('/', authenticateUser, async (req, res) => {
     try {
-        const { userId, street, district, city, province, zip, isDefault } = req.body;
+        console.log("Request Body:", req.user);
+        const userId = req.user.id;
+        if (!userId) return res.status(400).json({ message: "User ID is required" });
+
+        const { street, district, city, province, zip, isDefault } = req.body;
         if (isDefault) {
             await prisma.address.updateMany({
                 where: { userId },

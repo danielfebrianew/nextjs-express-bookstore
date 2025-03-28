@@ -40,10 +40,11 @@ router.get("/:id", authenticateUser, async (req, res) => {
 // Add or update cart item
 router.post("/", authenticateUser, async (req, res) => {
   const { bookId, quantity } = req.body;
+  const userId = req.user.id; // Ambil userId dari middleware
 
   try {
     const existingCartItem = await prisma.cart.findFirst({
-      where: { userId: req.user.id, bookId },
+      where: { userId, bookId },
     });
 
     if (existingCartItem) {
@@ -55,7 +56,7 @@ router.post("/", authenticateUser, async (req, res) => {
     }
 
     const newCartItem = await prisma.cart.create({
-      data: { userId: req.user.id, bookId, quantity },
+      data: { userId, bookId, quantity },
     });
 
     res.status(201).json(newCartItem);

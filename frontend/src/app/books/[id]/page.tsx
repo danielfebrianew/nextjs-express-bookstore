@@ -7,6 +7,7 @@ import { booksAPI } from "@/lib/api";
 import { useCart } from "@/lib/cart-context";
 import { formatPrice } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
+import toast from "react-hot-toast"; // 🔥 Import react-hot-toast
 
 interface Book {
   id: string;
@@ -28,13 +29,15 @@ export default function BookDetailPage() {
   const [quantity, setQuantity] = useState(1);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const { addToCart, loading: cartLoading } = useCart();
+  const { addToCart } = useCart();
+  const [isAdding, setIsAdding] = useState(false); // 🔄 State untuk loading tombol
 
   useEffect(() => {
     const fetchBook = async () => {
       try {
         setLoading(true);
         const bookData = await booksAPI.getBookById(id as string);
+        
         setBook(bookData);
       } catch (err) {
         setError("Failed to load book details. Please try again later.");
@@ -51,13 +54,21 @@ export default function BookDetailPage() {
 
   const handleAddToCart = async () => {
     if (!book) return;
-    
+    if (quantity < 1) {
+      toast.error("Quantity must be at least 1.");
+      return;
+    }
+
+    setIsAdding(true);
     try {
       await addToCart(book.id, quantity);
-      // Reset quantity after adding to cart
-      setQuantity(1);
+      toast.success(`${book.title} added to cart!`);
+      setQuantity(1); // Reset jumlah setelah berhasil
     } catch (error) {
       console.error("Failed to add to cart:", error);
+      toast.error("Failed to add item. Please try again.");
+    } finally {
+      setIsAdding(false);
     }
   };
 
@@ -94,7 +105,7 @@ export default function BookDetailPage() {
         <div>
           <h1 className="text-3xl font-bold mb-2">{book.title}</h1>
           <p className="text-xl text-gray-600 mb-4">by {book.author}</p>
-          
+
           {book.category && (
             <div className="mb-4">
               <span className="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">
@@ -102,14 +113,14 @@ export default function BookDetailPage() {
               </span>
             </div>
           )}
-          
+
           <div className="text-2xl font-bold mb-6">{formatPrice(book.price)}</div>
-          
+
           <div className="mb-6">
             <h2 className="text-lg font-semibold mb-2">Description</h2>
             <p className="text-gray-700">{book.description}</p>
           </div>
-          
+
           <div className="flex items-center space-x-4 mb-6">
             <div className="w-20">
               <label htmlFor="quantity" className="block text-sm font-medium mb-1">
@@ -124,17 +135,17 @@ export default function BookDetailPage() {
                 className="w-full px-3 py-2 border rounded-md"
               />
             </div>
-            
+
             <Button
               onClick={handleAddToCart}
-              disabled={cartLoading}
+              disabled={isAdding} // Disable tombol saat proses add to cart
               className="mt-auto"
             >
-              Add to Cart
+              {isAdding ? "Adding..." : "Add to Cart"} {/* Ganti teks saat loading */}
             </Button>
           </div>
         </div>
       </div>
     </div>
   );
-} 
+}

@@ -6,16 +6,12 @@ const API_URL = "http://localhost:5000";
 export const api = axios.create({
   baseURL: API_URL,
   withCredentials: true, // Important for cookies
+  headers: {
+    'Content-Type': 'application/json',
+  },
 });
 
-// Set up an Axios interceptor to include the token in requests
-api.interceptors.request.use((config) => {
-  const token = localStorage.getItem('accessToken'); // Retrieve the token
-  if (token) {
-    config.headers.Authorization = `Bearer ${token}`;
-  }
-  return config;
-});
+// Remove the token interceptor since we'll rely on cookies
 
 // ✅ Interface untuk data yang digunakan di API
 interface Credentials {
@@ -44,7 +40,7 @@ export const authAPI = {
     try {
       const response = await api.post("/api/v1/users/login", credentials);
       console.log("Response Login:", response.data);
-      localStorage.setItem('accessToken', response.data.token);
+      
       return response.data;
     } catch (error) {
       console.error("Login Error:", error);
@@ -76,6 +72,7 @@ export const authAPI = {
   },
 };
 
+// Rest of the code remains the same (booksAPI, categoriesAPI, cartAPI, ordersAPI)
 export const booksAPI = {
   getAllBooks: async () => {
     try {

@@ -33,7 +33,14 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
         setLoading(true);
         const userData = await authAPI.getProfile();
         setUser(userData);
-      } catch (err) {
+      } catch (err: any) {
+        // Log more detailed error information
+        console.error("Auth Check Error:", {
+          status: err.response?.status,
+          data: err.response?.data,
+          message: err.message
+        });
+        
         // User is not logged in, that's okay
         setUser(null);
       } finally {
@@ -49,10 +56,21 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       setLoading(true);
       setError(null);
       const response = await authAPI.login({ email, password });
+      
+      // Log login response for debugging
+      console.log("Login Response:", response);
+      
       // After successful login, fetch user profile
       const userData = await authAPI.getProfile();
       setUser(userData);
     } catch (err: any) {
+      // Log more detailed error information
+      console.error("Login Error:", {
+        status: err.response?.status,
+        data: err.response?.data,
+        message: err.message
+      });
+      
       setError(err.response?.data?.message || "Login failed");
       throw err;
     } finally {
@@ -68,6 +86,13 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       // After registration, log the user in
       await login(userData.email, userData.password);
     } catch (err: any) {
+      // Log more detailed error information
+      console.error("Register Error:", {
+        status: err.response?.status,
+        data: err.response?.data,
+        message: err.message
+      });
+      
       setError(err.response?.data?.message || "Registration failed");
       throw err;
     } finally {
@@ -81,6 +106,13 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       await authAPI.logout();
       setUser(null);
     } catch (err: any) {
+      // Log more detailed error information
+      console.error("Logout Error:", {
+        status: err.response?.status,
+        data: err.response?.data,
+        message: err.message
+      });
+      
       setError(err.response?.data?.message || "Logout failed");
     } finally {
       setLoading(false);
@@ -102,4 +134,4 @@ export function useAuth() {
     throw new Error("useAuth must be used within an AuthProvider");
   }
   return context;
-} 
+}
