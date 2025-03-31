@@ -4,44 +4,61 @@ import midtransClient from "midtrans-client";
 import { PrismaClient } from "@prisma/client";
 import { authenticateUser } from "../middleware/authMiddleware.js";
 import dotenv from "dotenv";
-import qs from "qs"; // Untuk format x-www-form-urlencoded
+import qs from "qs";
+import logger from "../utils/logger.js"; // Import logger
 
 dotenv.config();
 const router = express.Router();
 const prisma = new PrismaClient();
 
-// Midtrans Config
 const snap = new midtransClient.Snap({
   isProduction: false,
   serverKey: process.env.MIDTRANS_SERVER_KEY,
 });
 
-// RajaOngkir Config
 const RAJAONGKIR_API_URL = "https://rajaongkir.komerce.id/api/v1/calculate/domestic-cost";
+
+// Middleware logging untuk semua request
+router.use((req, res, next) => {
+  logger.info(`[REQ] ${req.method} ${req.originalUrl} - Body: ${JSON.stringify(req.body)}`);
+  next();
+});
 
 router.post("/", authenticateUser, async (req, res) => {
   try {
     const userId = req.user.id;
-    if (!userId) return res.status(400).json({ message: "User ID is required" });
+    logger.info(`🔐 Authenticated user ID: ${userId}`);
 
     const { shippingCode, shippingService } = req.body;
     if (!shippingCode || !shippingService) {
+      logger.warn("❗ Missing shipping details");
       return res.status(400).json({ message: "Shipping details are required" });
     }
 
-    // 🔹 Ambil data user dan alamat default
     const user = await prisma.user.findUnique({
       where: { id: userId },
-      include: { addresses: { where: { isDefault: true } }, carts: { include: { book: true } } }
+      include: {
+        addresses: { where: { isDefault: true } },
+        carts: { include: { book: true } }
+      }
     });
 
-    if (!user) return res.status(404).json({ message: "User not found" });
-    if (user.carts.length === 0) return res.status(400).json({ message: "Cart is empty" });
+    if (!user) {
+      logger.warn("❗ User not found");
+      return res.status(404).json({ message: "User not found" });
+    }
+    if (user.carts.length === 0) {
+      logger.warn("🛒 Cart is empty");
+      return res.status(400).json({ message: "Cart is empty" });
+    }
 
     const defaultAddress = user.addresses.find(addr => addr.isDefault);
-    if (!defaultAddress) return res.status(400).json({ message: "No default address found" });
+    if (!defaultAddress) {
+      logger.warn("📭 No default address found");
+      return res.status(400).json({ message: "No default address found" });
+    }
 
-    // 🔹 Hit RajaOngkir untuk mendapatkan semua opsi pengiriman
+    logger.info(`📦 Requesting shipping cost for ${shippingCode} - ${shippingService}`);
     const shippingData = qs.stringify({
       origin: "31555",
       destination: defaultAddress.zip,
@@ -56,23 +73,21 @@ router.post("/", authenticateUser, async (req, res) => {
       }
     });
 
-    if (!shippingResponse.data || !shippingResponse.data.data) {
-      throw new Error("Invalid response from RajaOngkir");
-    }
+    if (!shippingResponse.data?.data) throw new Error("Invalid response from RajaOngkir");
 
-    // 🔹 Cari shippingCost berdasarkan shippingCode dan shippingService
     const shippingOption = shippingResponse.data.data.find(option =>
       option.code === shippingCode && option.service === shippingService
     );
 
     if (!shippingOption) {
+      logger.warn("🚫 Invalid shipping option selected");
       return res.status(400).json({ message: "Invalid shipping option selected" });
     }
 
     const shippingCost = shippingOption.cost;
     const shippingCourier = shippingOption.name;
+    logger.info(`✅ Shipping selected: ${shippingCourier} - ${shippingService}, Cost: ${shippingCost}`);
 
-    // 🔹 Hitung total harga produk dari cart
     const itemDetails = user.carts.map(cart => ({
       id: cart.bookId,
       name: cart.book.title,
@@ -83,7 +98,6 @@ router.post("/", authenticateUser, async (req, res) => {
     const totalItemPrice = itemDetails.reduce((sum, item) => sum + item.price * item.quantity, 0);
     const totalAmount = totalItemPrice + shippingCost;
 
-    // 🔹 Buat order di database
     const order = await prisma.order.create({
       data: {
         userId,
@@ -100,12 +114,21 @@ router.post("/", authenticateUser, async (req, res) => {
       }
     });
 
-    // 🔹 Midtrans Transaction
+    logger.info(`📝 Order created: ID=${order.id}, Total=${totalAmount}`);
+
     const transactionParams = {
-      transaction_details: { order_id: order.id, gross_amount: totalAmount },
+      transaction_details: {
+        order_id: order.id,
+        gross_amount: totalAmount
+      },
       item_details: [
         ...itemDetails,
-        { id: "SHIPPING", name: `Shipping (${shippingCourier})`, price: shippingCost, quantity: 1 }
+        {
+          id: "SHIPPING",
+          name: `Shipping (${shippingCourier})`,
+          price: shippingCost,
+          quantity: 1
+        }
       ],
       customer_details: {
         first_name: user.name,
@@ -119,45 +142,47 @@ router.post("/", authenticateUser, async (req, res) => {
     };
 
     const transaction = await snap.createTransaction(transactionParams);
+    logger.info(`💳 Midtrans transaction created: token=${transaction.token}`);
 
-    // 🔹 Simpan token pembayaran ke order
     await prisma.order.update({
       where: { id: order.id },
       data: { shippingTrackingId: transaction.token }
     });
 
-    // 🔹 Kosongkan cart setelah checkout
     await prisma.cart.deleteMany({ where: { userId } });
 
+    logger.info(`✅ Checkout completed for user ID: ${userId}`);
     res.json({ token: transaction.token, redirect_url: transaction.redirect_url });
 
   } catch (error) {
-    console.error("Checkout Error:", error.message);
+    logger.error(`❌ Checkout Error: ${error.message}`);
     res.status(500).json({ message: "Checkout failed", error: error.message });
   }
 });
 
-
 router.get("/shipping-options", authenticateUser, async (req, res) => {
   try {
     const userId = req.user.id;
-    if (!userId) return res.status(400).json({ message: "User ID is required" });
-
     const user = await prisma.user.findUnique({
       where: { id: userId },
       include: { addresses: { where: { isDefault: true } } }
     });
 
-    if (!user) return res.status(404).json({ message: "User not found" });
+    if (!user) {
+      logger.warn("❗ User not found on shipping options check");
+      return res.status(404).json({ message: "User not found" });
+    }
 
     const defaultAddress = user.addresses.find(addr => addr.isDefault);
-    if (!defaultAddress) return res.status(400).json({ message: "No default address found" });
+    if (!defaultAddress) {
+      logger.warn("📭 No default address found during shipping option check");
+      return res.status(400).json({ message: "No default address found" });
+    }
 
-    // 🔹 Hit API RajaOngkir untuk semua opsi pengiriman
     const shippingData = qs.stringify({
-      origin: "31555", // Sesuaikan dengan kode asal toko
+      origin: "31555",
       destination: defaultAddress.zip,
-      weight: 1000, // Misal 1kg, bisa dinamis
+      weight: 100,
       courier: "jne:sicepat:jnt"
     });
 
@@ -168,17 +193,15 @@ router.get("/shipping-options", authenticateUser, async (req, res) => {
       }
     });
 
-    if (!shippingResponse.data || !shippingResponse.data.data) {
-      throw new Error("Invalid response from RajaOngkir");
-    }
+    if (!shippingResponse.data?.data) throw new Error("Invalid response from RajaOngkir");
 
+    logger.info(`📦 Shipping options fetched for user ID: ${userId}`);
     res.json({ shippingOptions: shippingResponse.data.data });
 
   } catch (error) {
-    console.error("Shipping Options Error:", error.message);
+    logger.error(`❌ Shipping Options Error: ${error.message}`);
     res.status(500).json({ message: "Failed to fetch shipping options", error: error.message });
   }
 });
-
 
 export default router;

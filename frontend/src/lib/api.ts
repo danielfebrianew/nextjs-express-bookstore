@@ -39,7 +39,7 @@ export const authAPI = {
   login: async (credentials: Credentials) => {
     try {
       const response = await api.post("/api/v1/users/login", credentials);
-      console.log("Response Login:", response.data);
+      // console.log("Response Login:", response.data);
       
       return response.data;
     } catch (error) {

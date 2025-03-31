@@ -1,0 +1,46 @@
+[undefined] info: [REQ] GET /api/v1/checkout/shipping-options - Body: {}
+[undefined] info: 📦 Shipping options fetched for user ID: 74f62252-8e7e-40e2-845b-6fe1a73f1835
+[undefined] info: [REQ] GET /api/v1/checkout/shipping-options - Body: {}
+[undefined] info: 📦 Shipping options fetched for user ID: 74f62252-8e7e-40e2-845b-6fe1a73f1835
+[2025-03-30T01:23:11.054Z] info: [REQ] GET /api/v1/checkout/shipping-options - Body: {}
+[2025-03-30T01:23:11.251Z] info: 📦 Shipping options fetched for user ID: 74f62252-8e7e-40e2-845b-6fe1a73f1835
+[2025-03-30T01:23:11.253Z] info: [REQ] GET /api/v1/checkout/shipping-options - Body: {}
+[2025-03-30T01:23:11.299Z] info: 📦 Shipping options fetched for user ID: 74f62252-8e7e-40e2-845b-6fe1a73f1835
+[function toLocaleString() { [native code] }] info: [REQ] GET /api/v1/checkout/shipping-options - Body: {}
+[function toLocaleString() { [native code] }] info: 📦 Shipping options fetched for user ID: 74f62252-8e7e-40e2-845b-6fe1a73f1835
+[function toLocaleString() { [native code] }] info: [REQ] GET /api/v1/checkout/shipping-options - Body: {}
+[function toLocaleString() { [native code] }] info: 📦 Shipping options fetched for user ID: 74f62252-8e7e-40e2-845b-6fe1a73f1835
+[30/03/2025, 08.27.22] info: [REQ] GET /api/v1/checkout/shipping-options - Body: {}
+[30/03/2025, 08.27.22] info: 📦 Shipping options fetched for user ID: 74f62252-8e7e-40e2-845b-6fe1a73f1835
+[30/03/2025, 08.27.22] info: [REQ] GET /api/v1/checkout/shipping-options - Body: {}
+[30/03/2025, 08.27.22] info: 📦 Shipping options fetched for user ID: 74f62252-8e7e-40e2-845b-6fe1a73f1835
+[30/03/2025, 08.27.53WIB] info: [REQ] GET /api/v1/checkout/shipping-options - Body: {}
+[30/03/2025, 08.27.54WIB] info: 📦 Shipping options fetched for user ID: 74f62252-8e7e-40e2-845b-6fe1a73f1835
+[30/03/2025, 08.27.54WIB] info: [REQ] GET /api/v1/checkout/shipping-options - Body: {}
+[30/03/2025, 08.27.54WIB] info: 📦 Shipping options fetched for user ID: 74f62252-8e7e-40e2-845b-6fe1a73f1835
+[30/03/2025, 08.28.03 WIB] info: [REQ] GET /api/v1/checkout/shipping-options - Body: {}
+[30/03/2025, 08.28.03 WIB] info: 📦 Shipping options fetched for user ID: 74f62252-8e7e-40e2-845b-6fe1a73f1835
+[30/03/2025, 08.28.03 WIB] info: [REQ] GET /api/v1/checkout/shipping-options - Body: {}
+[30/03/2025, 08.28.03 WIB] info: 📦 Shipping options fetched for user ID: 74f62252-8e7e-40e2-845b-6fe1a73f1835
+[30/03/2025, 08.29.11 WIB] info: [REQ] POST /api/v1/checkout - Body: {"shippingCode":"jnt","shippingService":"EZ"}
+[30/03/2025, 08.29.11 WIB] info: 🔐 Authenticated user ID: 74f62252-8e7e-40e2-845b-6fe1a73f1835
+[30/03/2025, 08.29.11 WIB] info: 📦 Requesting shipping cost for jnt - EZ
+[30/03/2025, 08.29.11 WIB] info: ✅ Shipping selected: J&T Express - EZ, Cost: 46000
+[30/03/2025, 08.29.11 WIB] info: 📝 Order created: ID=9fbf7911-356d-456e-a1d8-077ef2f67138, Total=304000
+[30/03/2025, 08.29.11 WIB] info: 💳 Midtrans transaction created: token=d60f8e67-6199-4e65-93df-b71d57955ecb
+[30/03/2025, 08.29.11 WIB] info: ✅ Checkout completed for user ID: 74f62252-8e7e-40e2-845b-6fe1a73f1835
+[30/03/2025, 08.30.05 WIB] info: [REQ] GET /api/v1/checkout/shipping-options - Body: {}
+[30/03/2025, 08.30.05 WIB] info: 📦 Shipping options fetched for user ID: 74f62252-8e7e-40e2-845b-6fe1a73f1835
+[30/03/2025, 09.13.48 WIB] info: API /books/search dipanggil dengan query: animal
+[30/03/2025, 10.14.31 WIB] info: Server running on http://localhost:5000
+[30/03/2025, 10.14.45 WIB] info: Server running on http://localhost:5000
+[30/03/2025, 10.16.31 WIB] info: Server running on http://localhost:5000
+[30/03/2025, 10.16.37 WIB] warn: Validation failed: [{"code":"invalid_type","expected":"string","received":"undefined","path":["street"],"message":"Required"},{"code":"invalid_type","expected":"string","received":"undefined","path":["district"],"message":"Required"},{"code":"invalid_type","expected":"string","received":"undefined","path":["city"],"message":"Required"},{"code":"invalid_type","expected":"string","received":"undefined","path":["province"],"message":"Required"},{"code":"invalid_type","expected":"string","received":"undefined","path":["zip"],"message":"Required"}]
+[30/03/2025, 10.53.54 WIB] info: Server running on http://localhost:5000
+[30/03/2025, 10.55.39 WIB] info: Server running on http://localhost:5000
+[30/03/2025, 10.55.41 WIB] info: Server running on http://localhost:5000
+[30/03/2025, 10.55.47 WIB] warn: Validation failed: [{"code":"invalid_type","expected":"string","received":"undefined","path":["street"],"message":"Required"},{"code":"invalid_type","expected":"string","received":"undefined","path":["district"],"message":"Required"},{"code":"invalid_type","expected":"string","received":"undefined","path":["city"],"message":"Required"},{"code":"invalid_type","expected":"string","received":"undefined","path":["province"],"message":"Required"},{"code":"invalid_type","expected":"string","received":"undefined","path":["zip"],"message":"Required"}]
+[30/03/2025, 22.36.42 WIB] info: Server running on http://localhost:5000
+[30/03/2025, 22.36.58 WIB] warn: Validation failed: [{"code":"invalid_type","expected":"string","received":"undefined","path":["street"],"message":"Required"},{"code":"invalid_type","expected":"string","received":"undefined","path":["district"],"message":"Required"},{"code":"invalid_type","expected":"string","received":"undefined","path":["city"],"message":"Required"},{"code":"invalid_type","expected":"string","received":"undefined","path":["province"],"message":"Required"},{"code":"invalid_type","expected":"string","received":"undefined","path":["zip"],"message":"Required"}]
+[30/03/2025, 22.41.28 WIB] info: Server running on http://localhost:5000
+[30/03/2025, 22.41.36 WIB] warn: Validation failed: [{"code":"invalid_type","expected":"string","received":"undefined","path":["street"],"message":"Required"},{"code":"invalid_type","expected":"string","received":"undefined","path":["district"],"message":"Required"},{"code":"invalid_type","expected":"string","received":"undefined","path":["city"],"message":"Required"},{"code":"invalid_type","expected":"string","received":"undefined","path":["province"],"message":"Required"},{"code":"invalid_type","expected":"string","received":"undefined","path":["zip"],"message":"Required"}]

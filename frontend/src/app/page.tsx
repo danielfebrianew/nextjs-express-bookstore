@@ -39,7 +39,7 @@ export default function Home() {
           categoriesAPI.getAllCategories(),
         ]);
         
-        console.log("booksData:", booksData); // Debugging
+        // console.log("booksData:", booksData);
     
         // Ambil books dari key `results`
         setFeaturedBooks(booksData.results.slice(0, 4));
