@@ -2,6 +2,7 @@ import express from "express";
 import cors from "cors";
 import vhost from "vhost";
 import cookieParser from "cookie-parser";
+import rateLimit from "express-rate-limit";
 
 // Import routing
 import userRoutes from "./routes/userRoutes.js";

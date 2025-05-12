@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from "react";
 import { booksAPI, categoriesAPI } from "@/lib/api";
 import BookCard from "@/components/books/BookCard";
+import { useAuthStore } from "@/lib/stores/auth-store";
 
 interface Book {
   id: string;
@@ -20,6 +21,7 @@ interface Category {
 }
 
 export default function BooksPage() {
+  const { user } = useAuthStore((state) => state);
   const [books, setBooks] = useState<Book[]>([]);
   const [categories, setCategories] = useState<Category[]>([]);
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);

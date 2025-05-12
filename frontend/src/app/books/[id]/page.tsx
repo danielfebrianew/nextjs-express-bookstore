@@ -4,10 +4,11 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import { useParams } from "next/navigation";
 import { booksAPI } from "@/lib/api";
-import { useCart } from "@/lib/cart-context";
+import { useCartStore } from "@/lib/stores/cart-store";
 import { formatPrice } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
-import toast from "react-hot-toast"; // 🔥 Import react-hot-toast
+import toast from "react-hot-toast"; 
+import { useAuthStore } from "@/lib/stores/auth-store";
 
 interface Book {
   id: string;
@@ -25,12 +26,14 @@ interface Book {
 
 export default function BookDetailPage() {
   const { id } = useParams();
+  const { user } = useAuthStore();
+  const [isLoggedIn] = useState(!!user); // Check if user is logged in
   const [book, setBook] = useState<Book | null>(null);
   const [quantity, setQuantity] = useState(1);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const { addToCart } = useCart();
-  const [isAdding, setIsAdding] = useState(false); // 🔄 State untuk loading tombol
+  const addToCart  = useCartStore((state) => state.addToCart);
+  const [isAdding, setIsAdding] = useState(false); 
 
   useEffect(() => {
     const fetchBook = async () => {
@@ -53,6 +56,11 @@ export default function BookDetailPage() {
   }, [id]);
 
   const handleAddToCart = async () => {
+    if (!isLoggedIn) {
+      toast.error('Havent logged in yet.');
+      return;
+    }
+    
     if (!book) return;
     if (quantity < 1) {
       toast.error("Quantity must be at least 1.");

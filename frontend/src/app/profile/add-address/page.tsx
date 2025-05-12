@@ -17,8 +17,7 @@ const fetchShippingOptions = async () => {
   // Extract token from cookies
   const token = document.cookie
     .split('; ')
-    .find(row => row.startsWith('token='))
-    ?.split('=')[1];
+    .find(row => row.startsWith('token='))?.split('=')[1];
 
   if (!token) {
     throw new Error('No authentication token found in cookies');
@@ -39,7 +38,9 @@ const fetchShippingOptions = async () => {
   }
 
   const data = await response.json();
-  return data.shippingOptions;
+  
+  // Check if shippingOptions is an array and return an empty array if not
+  return Array.isArray(data.shippingOptions) ? data.shippingOptions : [];
 };
 
 export default function ShippingOptionsPage() {

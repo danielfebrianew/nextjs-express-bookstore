@@ -6,7 +6,7 @@ import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { Trash2 } from "lucide-react";
 import { cartAPI } from "@/lib/api";
-import { useAuth } from "@/lib/auth-context";
+import { useAuthStore } from "@/lib/stores/auth-store";
 import toast from "react-hot-toast";
 
 interface CartItem {
@@ -18,7 +18,7 @@ interface CartItem {
 }
 
 export default function Cart() {
-  const { user } = useAuth();
+  const user = useAuthStore((state) => state.user);
   const router = useRouter();
   const [cartItems, setCartItems] = useState<CartItem[]>([]);
   const [selectedItems, setSelectedItems] = useState<string[]>([]);

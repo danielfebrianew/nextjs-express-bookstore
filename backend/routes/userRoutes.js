@@ -4,9 +4,13 @@ import jwt from "jsonwebtoken";
 import dotenv from "dotenv";
 import prisma from "../prismaClient.js";
 import { authenticateUser } from "../middleware/authMiddleware.js";
-import { z } from 'zod'; 
-import logger from "../utils/logger.js"; 
-import phoneUtil from 'google-libphonenumber'; // Import libphonenumber untuk sanitasi phone number
+import { z } from 'zod';
+import logger from "../utils/logger.js";
+import libphonenumber from "google-libphonenumber";
+import { upload } from "../config/cloudinary.js";
+
+const phoneUtil = libphonenumber.PhoneNumberUtil.getInstance();
+const PhoneNumberFormat = libphonenumber.PhoneNumberFormat;
 
 dotenv.config();
 
@@ -21,35 +25,43 @@ const router = express.Router();
 const registerSchema = z.object({
   name: z.string().min(1, { message: "Name is required" }).transform((name) => name.trim()),
   email: z.string().email({ message: "Invalid email address" }).transform((email) => email.toLowerCase().trim()),
-  password: z.string().min(6, { message: "Password must be at least 6 characters" }),
-  phone: z.string().min(1, { message: "Phone number is required" }).transform((phone) => phone.replace(/\s+/g, '')),
-  idCardImage: z.string().url({ message: "Invalid URL format for ID Card Image" }).optional(),
+  password: z.string().min(4, { message: "Password must be at least 6 characters" }),
+  phone: z.string().min(1, { message: "Phone number is required" }),
+  profilePicture: z.string().url({ message: "Invalid URL format for ID Card Image" }).optional(),
+  role: z.enum(["admin", "user"]).optional(),
 });
 
 const loginSchema = z.object({
   email: z.string().email({ message: "Invalid email address" }).transform((email) => email.toLowerCase().trim()),
-  password: z.string().min(6, { message: "Password must be at least 6 characters" }),
+  password: z.string().min(4, { message: "Password must be at least 6 characters" }),
 });
 
 // Helper function for phone number validation using libphonenumber
 const validatePhoneNumber = (phone) => {
-  const phoneNumber = phoneUtil.parseAndKeepRawInput(phone, 'ID'); // ID for Indonesia
+  const phoneNumber = phoneUtil.parseAndKeepRawInput(phone, "ID");
+
   if (!phoneUtil.isValidNumber(phoneNumber)) {
-    throw new Error('Invalid phone number');
+    throw new Error("Invalid phone number");
   }
-  return phoneUtil.format(phoneNumber, phoneUtil.PhoneNumberFormat.E164); // Format to +62xxxx
+
+  return phoneUtil.format(phoneNumber, PhoneNumberFormat.E164); // ✅ Ini baru benar
 };
 
 // Register User
-router.post("/register", xss(), async (req, res) => {
+router.post("/register", async (req, res) => {
   try {
     const result = registerSchema.safeParse(req.body);
+    logger.info(`Register request received ${JSON.stringify(req.body)}`);
     if (!result.success) {
-      logger.warn("Validation failed for registration: " + result.error.errors[0].message);
-      return res.status(400).json({ error: result.error.errors[0].message });
+      // Log specific validation errors for each field
+      const errors = result.error.errors.map(error => {
+        return `Field: ${error.path[0]}, Message: ${error.message}`;
+      });
+      logger.warn("Validation failed for registration: " + errors.join(", "));
+      return res.status(400).json({ error: errors.join(", ") });
     }
 
-    const { name, email, password, phone, idCardImage } = req.body;
+    const { name, email, password, phone, profilePicture } = req.body;
 
     // Validate and sanitize phone number
     let sanitizedPhone;
@@ -78,6 +90,9 @@ router.post("/register", xss(), async (req, res) => {
     // Hash password before saving
     const hashedPassword = await bcrypt.hash(password, 12); // Salt round increased
 
+    const allowedRoles = ["admin", "user"];
+    const role = allowedRoles.includes(req.body.role) ? req.body.role : "user";
+
     // Create new user
     const user = await prisma.user.create({
       data: {
@@ -85,8 +100,8 @@ router.post("/register", xss(), async (req, res) => {
         email,
         password: hashedPassword,
         phone: sanitizedPhone,
-        idCardImage,
-        role: "user",
+        profilePicture,
+        role: role,
       },
     });
 
@@ -128,7 +143,6 @@ router.post("/login", async (req, res) => {
       secure: process.env.NODE_ENV === "production",
       sameSite: "strict",
       maxAge: 7 * 24 * 60 * 60 * 1000,
-      domain: "yourdomain.com", // Secure cookie domain
       path: "/", // Set appropriate path for cookie
     });
 
@@ -141,15 +155,15 @@ router.post("/login", async (req, res) => {
 });
 
 // Get user profile (Private)
-router.get("/users/profile", authenticateUser, async (req, res) => {
+router.get("/profile", authenticateUser, async (req, res) => {
   try {
     const user = await prisma.user.findUnique({
-      where: { id: req.user.userId },
-      select: { id: true, name: true, email: true }
+      where: { id: req.user.id },
+      select: { id: true, name: true, email: true, role: true, profilePicture: true, phone: true },
     });
 
     if (!user) {
-      logger.warn("User not found: " + req.user.userId);
+      logger.warn("User not found: " + req.user.id);
       return res.status(404).json({ error: "User not found" });
     }
 
@@ -160,11 +174,62 @@ router.get("/users/profile", authenticateUser, async (req, res) => {
   }
 });
 
+// Update user profile
+router.put(
+  "/profile",
+  authenticateUser,
+  upload.single("profilePicture"),
+  async (req, res) => {
+    try {
+      const { name, phone } = req.body;
+
+      // Validasi dan sanitize nomor telepon jika ada
+      let sanitizedPhone;
+      if (phone) {
+        try {
+          sanitizedPhone = validatePhoneNumber(phone);
+        } catch (error) {
+          logger.warn("Phone validation failed: " + error.message);
+          return res.status(400).json({ error: error.message });
+        }
+      }
+
+      // Upload gambar baru jika ada
+      let profilePicture;
+      if (req.file) {
+        profilePicture = req.file.path; // path dari Cloudinary upload
+      }
+
+      // Update data di database
+      const updatedUser = await prisma.user.update({
+        where: { id: req.user.id },
+        data: {
+          name: name?.trim(),
+          phone: sanitizedPhone,
+          profilePicture: profilePicture,
+        },
+      });
+
+      logger.info(`User updated: ${updatedUser.email}`);
+      res.json({ message: "Profile updated", user: updatedUser });
+    } catch (error) {
+      logger.error("Error updating profile: " + error.message);
+      res.status(500).json({ error: "Failed to update profile" });
+    }
+  }
+);
+
 // Logout (Handled on frontend by deleting token)
 router.post("/logout", (req, res) => {
   res.clearCookie("token"); // Clear the token on logout
   logger.info("User logged out successfully");
   res.json({ message: "Logged out" });
 });
+
+// Validate JWT Token
+router.get("/validate-token", authenticateUser, (req, res) => {
+  res.status(200).json({ valid: true, userId: req.user.id });
+});
+
 
 export default router;

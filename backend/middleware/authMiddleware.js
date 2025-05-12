@@ -6,25 +6,25 @@ import { z } from "zod"; // Import Zod for validation
 const { verify } = jwt;
 
 // Zod schema untuk memvalidasi token
-const tokenSchema = z.object({
-  token: z.string().min(1, "Token must be provided").regex(/^Bearer\s[^\s]+$/, "Token format is invalid"), // Validasi format token
-});
+const tokenSchema = z.string().min(1, "Token must be provided");
 
 // Middleware untuk memeriksa apakah user terautentikasi
 const authenticateUser = async (req, res, next) => {
-  const token = req.cookies.token || req.headers.authorization;
-
-  // Validasi token dengan Zod
-  const parsedToken = tokenSchema.safeParse({ token });
-  if (!parsedToken.success) {
-    logger.error("Token validation failed", { errors: parsedToken.error.errors });
-    return res.status(401).json({ message: 'Access Denied', details: parsedToken.error.errors });
-  }
+  const token = req.cookies.token || req.headers.authorization?.replace("Bearer ", "");
 
   if (!token) {
     logger.warn("Token not provided");
     return res.status(401).json({ message: 'Access Denied' });
   }
+
+  // Validasi token dengan Zod
+  const parsedToken = tokenSchema.safeParse(token);
+  if (!parsedToken.success) {
+    logger.error(`User token validation failed ${JSON.stringify(parsedToken, null, 2)}`, { errors: parsedToken.error.errors });
+    return res.status(401).json({ message: 'Access Denied', details: parsedToken.error.errors });
+  }
+
+  logger.info("Token received:", token);
 
   try {
     const decoded = verify(token.replace('Bearer ', ''), process.env.JWT_SECRET);
@@ -48,12 +48,12 @@ const authenticateUser = async (req, res, next) => {
 
 // Middleware untuk mengizinkan hanya admin
 const authorizeAdmin = async (req, res, next) => {
-  const token = req.cookies.token || req.headers.authorization;
+  const token = req.cookies.token || req.headers.authorization?.replace("Bearer ", "");
 
   // Validasi token dengan Zod
-  const parsedToken = tokenSchema.safeParse({ token });
+  const parsedToken = tokenSchema.safeParse(token);
   if (!parsedToken.success) {
-    logger.error("Token validation failed", { errors: parsedToken.error.errors });
+    logger.error(`Token validation failed ${parsedToken}`, { errors: parsedToken.error.errors });
     return res.status(401).json({ message: 'Access Denied', details: parsedToken.error.errors });
   }
 
@@ -76,7 +76,7 @@ const authorizeAdmin = async (req, res, next) => {
 
     if (req.user.role !== 'admin') {
       logger.warn("Access denied for non-admin user", { userId: req.user.id });
-      return res.status(403).json({ message: 'Forbidden: Admins only' });
+      return res.status(403).json({ message: `Forbidden: Admins only, your role: ${req.user.role} for ${req.user.name}` });
     }
 
     logger.info("Admin authorization successful", { userId: req.user.id });

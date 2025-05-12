@@ -44,3 +44,2581 @@
 [30/03/2025, 22.36.58 WIB] warn: Validation failed: [{"code":"invalid_type","expected":"string","received":"undefined","path":["street"],"message":"Required"},{"code":"invalid_type","expected":"string","received":"undefined","path":["district"],"message":"Required"},{"code":"invalid_type","expected":"string","received":"undefined","path":["city"],"message":"Required"},{"code":"invalid_type","expected":"string","received":"undefined","path":["province"],"message":"Required"},{"code":"invalid_type","expected":"string","received":"undefined","path":["zip"],"message":"Required"}]
 [30/03/2025, 22.41.28 WIB] info: Server running on http://localhost:5000
 [30/03/2025, 22.41.36 WIB] warn: Validation failed: [{"code":"invalid_type","expected":"string","received":"undefined","path":["street"],"message":"Required"},{"code":"invalid_type","expected":"string","received":"undefined","path":["district"],"message":"Required"},{"code":"invalid_type","expected":"string","received":"undefined","path":["city"],"message":"Required"},{"code":"invalid_type","expected":"string","received":"undefined","path":["province"],"message":"Required"},{"code":"invalid_type","expected":"string","received":"undefined","path":["zip"],"message":"Required"}]
+[31/03/2025, 08.06.07 WIB] info: Server running on http://localhost:5000
+[31/03/2025, 08.06.11 WIB] error: Phone validation failed: phoneUtil.parseAndKeepRawInput is not a function
+[31/03/2025, 08.07.57 WIB] info: Server running on http://localhost:5000
+[31/03/2025, 08.08.10 WIB] error: Phone validation failed: phoneUtil.parseAndKeepRawInput is not a function
+[31/03/2025, 09.33.10 WIB] info: Server running on http://localhost:5000
+[02/04/2025, 10.51.11 WIB] info: Server running on http://localhost:5000
+[02/04/2025, 10.51.31 WIB] info: Fetching all categories
+[02/04/2025, 10.51.31 WIB] info: Fetched all categories
+[02/04/2025, 11.07.58 WIB] info: Server running on http://localhost:5000
+[02/04/2025, 11.08.46 WIB] info: Server running on http://localhost:5000
+[02/04/2025, 11.08.54 WIB] info: Server running on http://localhost:5000
+[02/04/2025, 11.17.11 WIB] info: Fetching all categories
+[02/04/2025, 11.17.11 WIB] info: Fetched all categories
+[02/04/2025, 11.17.33 WIB] info: Fetching all categories
+[02/04/2025, 11.17.33 WIB] info: Fetched all categories
+[02/04/2025, 11.17.49 WIB] info: Fetching all categories
+[02/04/2025, 11.17.49 WIB] info: Fetched all categories
+[02/04/2025, 11.17.49 WIB] info: Fetching all categories
+[02/04/2025, 11.17.49 WIB] info: Fetched all categories
+[02/04/2025, 11.20.14 WIB] info: Fetching all categories
+[02/04/2025, 11.20.14 WIB] info: Fetched all categories
+[02/04/2025, 11.21.44 WIB] warn: Validation failed for login: Password must be at least 6 characters
+[02/04/2025, 11.21.49 WIB] error: Phone validation failed: Cannot read properties of undefined (reading 'E164')
+[02/04/2025, 11.23.34 WIB] info: Server running on http://localhost:5000
+[02/04/2025, 11.23.38 WIB] error: Token validation failed
+[02/04/2025, 11.23.38 WIB] info: Fetching all categories
+[02/04/2025, 11.23.38 WIB] info: Fetched all categories
+[02/04/2025, 11.23.54 WIB] error: Phone validation failed: Cannot read properties of undefined (reading 'E164')
+[02/04/2025, 11.24.55 WIB] info: Server running on http://localhost:5000
+[02/04/2025, 11.26.20 WIB] info: Server running on http://localhost:5000
+[02/04/2025, 11.26.22 WIB] warn: Registration failed: Email or phone number already in use for email: danielfebrian@example.com, phone: +6281434567891
+[02/04/2025, 11.26.28 WIB] info: User registered successfully: danielfebrian@example.com
+[02/04/2025, 11.26.50 WIB] warn: Login failed: Invalid password for email: danielfebrian@example.com
+[02/04/2025, 11.26.54 WIB] info: User logged in successfully: danielfebrian@example.com
+[02/04/2025, 11.27.01 WIB] error: Token validation failed
+[02/04/2025, 11.30.07 WIB] info: Server running on http://localhost:5000
+[02/04/2025, 11.30.08 WIB] error: Error during token verification
+[02/04/2025, 11.30.22 WIB] error: Error during token verification
+[02/04/2025, 11.30.26 WIB] info: User logged in successfully: danielfebrian@example.com
+[02/04/2025, 11.30.34 WIB] error: Error during token verification
+[02/04/2025, 11.31.42 WIB] info: Server running on http://localhost:5000
+[02/04/2025, 11.31.45 WIB] error: Token validation failed
+[02/04/2025, 11.33.28 WIB] info: Server running on http://localhost:5000
+[02/04/2025, 11.33.29 WIB] error: Error during token verification
+[02/04/2025, 11.33.32 WIB] info: User logged in successfully: danielfebrian@example.com
+[02/04/2025, 11.33.55 WIB] error: Error during token verification
+[02/04/2025, 11.33.57 WIB] error: Error during token verification
+[02/04/2025, 11.34.03 WIB] error: Error during token verification
+[02/04/2025, 11.34.43 WIB] info: Server running on http://localhost:5000
+[02/04/2025, 11.34.46 WIB] error: Error during token verification
+[02/04/2025, 11.35.04 WIB] error: Error during token verification
+[02/04/2025, 11.35.31 WIB] error: Error during token verification
+[02/04/2025, 11.36.29 WIB] info: Server running on http://localhost:5000
+[02/04/2025, 11.36.32 WIB] info: User authenticated successfully
+[02/04/2025, 11.36.32 WIB] error: Error fetching user profile: 
+Invalid `prisma.user.findUnique()` invocation:
+
+{
+  where: {
+    id: undefined,
+?   email?: String,
+?   phone?: String,
+?   AND?: UserWhereInput | UserWhereInput[],
+?   OR?: UserWhereInput[],
+?   NOT?: UserWhereInput | UserWhereInput[],
+?   name?: StringFilter | String,
+?   password?: StringFilter | String,
+?   role?: StringFilter | String,
+?   idCardImage?: StringNullableFilter | String | Null,
+?   addresses?: AddressListRelationFilter,
+?   orders?: OrderListRelationFilter,
+?   carts?: CartListRelationFilter
+  },
+  select: {
+    id: true,
+    name: true,
+    email: true
+  }
+}
+
+Argument `where` of type UserWhereUniqueInput needs at least one of `id`, `email` or `phone` arguments. Available options are marked with ?.
+[02/04/2025, 11.37.31 WIB] info: Server running on http://localhost:5000
+[02/04/2025, 11.37.44 WIB] info: Server running on http://localhost:5000
+[02/04/2025, 11.37.46 WIB] info: User authenticated successfully
+[02/04/2025, 11.37.51 WIB] error: Error during token verification
+[02/04/2025, 11.37.51 WIB] info: Fetching all categories
+[02/04/2025, 11.37.51 WIB] info: Fetched all categories
+[02/04/2025, 11.38.43 WIB] error: Error during token verification
+[02/04/2025, 11.38.43 WIB] info: Fetching all categories
+[02/04/2025, 11.38.43 WIB] info: Fetched all categories
+[13/04/2025, 18.24.00 WIB] info: Server running on http://localhost:5000
+[13/04/2025, 18.24.10 WIB] info: User logged in successfully: danielfebrian@example.com
+[13/04/2025, 23.01.37 WIB] info: Server running on http://localhost:5000
+[14/04/2025, 09.36.43 WIB] info: Server running on http://localhost:5000
+[14/04/2025, 10.02.26 WIB] info: User logged in successfully: danielfebrian@example.com
+[14/04/2025, 10.03.28 WIB] warn: Login failed: Invalid password for email: danielfebrian@example.com
+[14/04/2025, 10.03.31 WIB] warn: Login failed: Invalid password for email: danielfebrian@example.com
+[14/04/2025, 10.03.32 WIB] warn: Login failed: Invalid password for email: danielfebrian@example.com
+[14/04/2025, 10.03.32 WIB] warn: Login failed: Invalid password for email: danielfebrian@example.com
+[14/04/2025, 10.03.53 WIB] info: User logged in successfully: danielfebrian@example.com
+[14/04/2025, 10.03.58 WIB] info: User logged in successfully: danielfebrian@example.com
+[14/04/2025, 10.04.56 WIB] info: User logged in successfully: danielfebrian@example.com
+[14/04/2025, 10.11.31 WIB] warn: Login failed: Invalid email or password for email: daniel@example.com
+[14/04/2025, 10.11.51 WIB] info: User logged in successfully: danielfebrian@example.com
+[14/04/2025, 10.58.56 WIB] info: User logged in successfully: danielfebrian@example.com
+[14/04/2025, 11.02.36 WIB] info: User registered successfully: danielfebr1ian@example.com
+[14/04/2025, 11.23.59 WIB] warn: Validation failed for registration: Required
+[14/04/2025, 11.24.14 WIB] warn: Validation failed for registration: Required
+[14/04/2025, 11.24.43 WIB] warn: Validation failed for registration: Required
+[14/04/2025, 11.26.43 WIB] warn: Validation failed for registration: Required
+[14/04/2025, 11.26.47 WIB] warn: Validation failed for registration: Required
+[14/04/2025, 11.29.50 WIB] info: Server running on http://localhost:5000
+[14/04/2025, 11.30.10 WIB] warn: Validation failed for registration: Field: phone, Message: Required
+[14/04/2025, 11.30.51 WIB] info: User registered successfully: danielfe2br1ian@example.com
+[14/04/2025, 11.57.50 WIB] warn: Validation failed for registration: Field: phone, Message: Required
+[14/04/2025, 12.02.12 WIB] info: Server running on http://localhost:5000
+[14/04/2025, 12.17.22 WIB] warn: Validation failed for registration: Field: phone, Message: Required
+[14/04/2025, 12.18.12 WIB] info: Server running on http://localhost:5000
+[14/04/2025, 12.18.15 WIB] info: Register request received
+[14/04/2025, 12.18.15 WIB] warn: Validation failed for registration: Field: phone, Message: Required
+[14/04/2025, 12.18.51 WIB] info: Server running on http://localhost:5000
+[14/04/2025, 12.18.53 WIB] info: Register request received {"name":"danielfebrian","email":"daniel123@example.com","password":"danielfebrian","phone_number":"85876030034"}
+[14/04/2025, 12.18.53 WIB] warn: Validation failed for registration: Field: phone, Message: Required
+[14/04/2025, 12.20.11 WIB] info: Server running on http://localhost:5000
+[14/04/2025, 12.20.14 WIB] info: Register request received {"name":"danielfebrian","email":"daniel123@example.com","password":"danielfebrian","phone_number":"85876030034"}
+[14/04/2025, 12.20.14 WIB] warn: Validation failed for registration: Field: phone, Message: Required
+[14/04/2025, 12.22.48 WIB] info: Register request received {"name":"danielfebrian","email":"danielfebrian123@example.co.id","password":"danielfebrian","phone":"8587634534"}
+[14/04/2025, 12.22.49 WIB] info: User registered successfully: danielfebrian123@example.co.id
+[14/04/2025, 12.22.59 WIB] info: Register request received {"name":"danielfebrian","email":"danielfebrian123@example.co.id","password":"danielfebrian","phone":"85876345342"}
+[14/04/2025, 12.22.59 WIB] warn: Registration failed: Email or phone number already in use for email: danielfebrian123@example.co.id, phone: +6285876345342
+[14/04/2025, 12.23.22 WIB] info: Register request received {"name":"danielfebrian","email":"danielfebrian23@example.co.id","password":"danielfebrian","phone":"85876345342"}
+[14/04/2025, 12.23.23 WIB] info: User registered successfully: danielfebrian23@example.co.id
+[14/04/2025, 12.25.22 WIB] info: Register request received {"name":"danielfebrian","email":"danielfebri23@example.co.id","password":"danielfebrian","phone":"85876315342"}
+[14/04/2025, 12.25.22 WIB] info: User registered successfully: danielfebri23@example.co.id
+[14/04/2025, 12.27.21 WIB] info: Register request received {"name":"danielfebrian","email":"danielfbri23@example.co.id","password":"danielfebrian","phone":"81876315342"}
+[14/04/2025, 12.27.21 WIB] info: User registered successfully: danielfbri23@example.co.id
+[14/04/2025, 12.30.19 WIB] info: Register request received {"name":"danielfebrian","email":"danielfbri23@example.co.id","password":"danielfebrian","phone":"81876315342"}
+[14/04/2025, 12.30.19 WIB] warn: Registration failed: Email or phone number already in use for email: danielfbri23@example.co.id, phone: +6281876315342
+[14/04/2025, 12.30.31 WIB] info: Register request received {"name":"danielfebrian","email":"anielfbri23@example.co.id","password":"danielfebrian","phone":"81870315342"}
+[14/04/2025, 12.30.32 WIB] info: User registered successfully: anielfbri23@example.co.id
+[14/04/2025, 12.34.05 WIB] info: Register request received {"name":"aslkdnlas","email":"askldalks@example.com","password":"danielfebiranew","phone":"86587403022"}
+[14/04/2025, 12.34.05 WIB] info: User registered successfully: askldalks@example.com
+[14/04/2025, 12.35.43 WIB] info: Register request received {"name":"aslkdnlas","email":"asklalks@example.com","password":"danielfebiranew","phone":"86187403022"}
+[14/04/2025, 12.35.44 WIB] info: User registered successfully: asklalks@example.com
+[14/04/2025, 12.37.32 WIB] info: Register request received {"name":"aslkdnlas","email":"asklaslks@example.com","password":"danielfebiranew","phone":"86181403022"}
+[14/04/2025, 12.37.32 WIB] info: User registered successfully: asklaslks@example.com
+[14/04/2025, 12.39.02 WIB] info: Register request received {"name":"aslkdnlas","email":"ask1laslks@example.com","password":"danielfebiranew","phone":"86681403022"}
+[14/04/2025, 12.39.02 WIB] info: User registered successfully: ask1laslks@example.com
+[14/04/2025, 12.40.20 WIB] info: Register request received {"name":"aslkdnlas","email":"ask12aslks@example.com","password":"danielfebiranew","phone":"8681403022"}
+[14/04/2025, 12.40.20 WIB] info: User registered successfully: ask12aslks@example.com
+[14/04/2025, 12.42.24 WIB] info: Register request received {"name":"aslkdnlas","email":"ask12aslks@example.com","password":"danielfebiranew","phone":"8681403022"}
+[14/04/2025, 12.42.24 WIB] warn: Registration failed: Email or phone number already in use for email: ask12aslks@example.com, phone: +628681403022
+[14/04/2025, 12.45.10 WIB] info: Register request received {"name":"askdnla","email":"alskndk@exception.co","password":"danielfebweina","phone":"87678712644"}
+[14/04/2025, 12.45.10 WIB] info: User registered successfully: alskndk@exception.co
+[14/04/2025, 12.47.35 WIB] info: Register request received {"name":"asdasdas","email":"asdasdas@excepitiono.co","password":"daeuhdka","phone":"28371292390"}
+[14/04/2025, 12.47.35 WIB] info: User registered successfully: asdasdas@excepitiono.co
+[14/04/2025, 12.50.44 WIB] info: Register request received {"name":"asdasdasfs","email":"asdsadsa@example.com","password":"aslkdnla","phone":"82391283923"}
+[14/04/2025, 12.50.45 WIB] info: User registered successfully: asdsadsa@example.com
+[14/04/2025, 12.53.03 WIB] info: Register request received {"name":"asdasdasfs","email":"asdsa2ds123a@example.com","password":"aslkdnla23","phone":"82311283923"}
+[14/04/2025, 12.53.03 WIB] info: User registered successfully: asdsa2ds123a@example.com
+[14/04/2025, 13.28.05 WIB] info: Register request received {"name":"asdasdasfs","email":"asdsa2ds123a@example.com","password":"aslkdnla23","phone":"82311283923"}
+[14/04/2025, 13.28.05 WIB] warn: Registration failed: Email or phone number already in use for email: asdsa2ds123a@example.com, phone: +6282311283923
+[14/04/2025, 14.19.35 WIB] info: Server running on http://localhost:5000
+[14/04/2025, 14.19.45 WIB] info: Register request received {"name":"danielfebrian","email":"danielf1e2br1ian@example.com","password":"daniel","phone":"85876040034","role":"user"}
+[14/04/2025, 14.19.46 WIB] info: User registered successfully: danielf1e2br1ian@example.com
+[14/04/2025, 14.21.37 WIB] info: Register request received {"name":"asdasdasfs","email":"asdsa2ds123a@example.com","password":"aslkdnla23","phone":"82311283923"}
+[14/04/2025, 14.21.37 WIB] warn: Registration failed: Email or phone number already in use for email: asdsa2ds123a@example.com, phone: +6282311283923
+[14/04/2025, 14.21.45 WIB] info: Register request received {"name":"asdasdasfs","email":"asdsds123a@example.com","password":"aslkdnla23","phone":"82381283923"}
+[14/04/2025, 14.21.45 WIB] info: User registered successfully: asdsds123a@example.com
+[14/04/2025, 14.23.56 WIB] info: Register request received {"name":"Wili Yudistira","email":"wiliyudistira@email.com","password":"wiliyudistira","phone":"88763492312"}
+[14/04/2025, 14.23.57 WIB] info: User registered successfully: wiliyudistira@email.com
+[14/04/2025, 14.24.26 WIB] info: User logged in successfully: wiliyudistira@email.com
+[14/04/2025, 15.06.39 WIB] info: User logged in successfully: danielfebrian@example.com
+[14/04/2025, 15.27.15 WIB] info: User logged in successfully: danielfebrian@example.com
+[14/04/2025, 15.28.01 WIB] info: User logged in successfully: danielfebrian@example.com
+[14/04/2025, 15.28.06 WIB] info: User logged in successfully: danielfebrian@example.com
+[14/04/2025, 15.30.04 WIB] info: User logged in successfully: danielfebrian@example.com
+[14/04/2025, 17.02.03 WIB] info: Server running on http://localhost:5000
+[14/04/2025, 17.04.54 WIB] info: User logged in successfully: danielfebrian@example.com
+[14/04/2025, 17.10.51 WIB] info: User logged in successfully: danielfebrian@example.com
+[14/04/2025, 19.25.09 WIB] info: User logged in successfully: danielfebrian@example.com
+[14/04/2025, 21.49.47 WIB] info: Server running on http://localhost:5000
+[14/04/2025, 21.50.05 WIB] info: Server running on http://localhost:5000
+[14/04/2025, 22.00.37 WIB] info: Server running on http://localhost:5000
+[14/04/2025, 23.23.34 WIB] info: Server running on http://localhost:5000
+[14/04/2025, 23.25.38 WIB] info: Server running on http://localhost:5000
+[14/04/2025, 23.28.14 WIB] info: User logged in successfully: danielfebrian@example.com
+[15/04/2025, 16.14.27 WIB] info: Server running on http://localhost:5000
+[15/04/2025, 16.15.14 WIB] info: Server running on http://localhost:5000
+[15/04/2025, 16.18.06 WIB] info: Server running on http://localhost:5000
+[15/04/2025, 16.18.23 WIB] info: User logged in successfully: danielfebrian@example.com
+[15/04/2025, 16.20.30 WIB] error: Token validation failed
+[15/04/2025, 16.20.30 WIB] info: Fetching all categories
+[15/04/2025, 16.20.30 WIB] info: Fetched all categories
+[15/04/2025, 16.26.31 WIB] info: User logged in successfully: danielfebrian@example.com
+[15/04/2025, 18.44.12 WIB] info: Server running on http://localhost:5000
+[15/04/2025, 18.46.21 WIB] error: Error during token verification
+[15/04/2025, 18.46.33 WIB] info: User logged in successfully: danielfebrian@example.com
+[15/04/2025, 18.46.49 WIB] info: User authenticated successfully
+[15/04/2025, 18.46.49 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[15/04/2025, 18.46.49 WIB] info: Fetched all cart items
+[15/04/2025, 18.47.00 WIB] info: User authenticated successfully
+[15/04/2025, 18.47.00 WIB] info: Added new cart item
+[15/04/2025, 18.47.07 WIB] info: User authenticated successfully
+[15/04/2025, 18.47.07 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[15/04/2025, 18.47.07 WIB] info: Fetched all cart items
+[15/04/2025, 19.26.46 WIB] info: User authenticated successfully
+[15/04/2025, 19.26.46 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[15/04/2025, 19.26.46 WIB] info: Fetched all cart items
+[15/04/2025, 19.26.59 WIB] info: User authenticated successfully
+[15/04/2025, 19.26.59 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[15/04/2025, 19.26.59 WIB] info: Fetched all cart items
+[15/04/2025, 19.27.39 WIB] info: User authenticated successfully
+[15/04/2025, 19.27.39 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[15/04/2025, 19.27.39 WIB] info: Fetched all cart items
+[15/04/2025, 19.51.54 WIB] info: User authenticated successfully
+[15/04/2025, 19.51.54 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[15/04/2025, 19.51.54 WIB] info: Fetched all cart items
+[15/04/2025, 19.52.03 WIB] info: User authenticated successfully
+[15/04/2025, 19.52.03 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[15/04/2025, 19.52.03 WIB] info: Fetched all cart items
+[15/04/2025, 19.52.08 WIB] info: User authenticated successfully
+[15/04/2025, 19.52.08 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[15/04/2025, 19.52.08 WIB] info: Fetched all cart items
+[15/04/2025, 19.52.40 WIB] info: User authenticated successfully
+[15/04/2025, 19.52.40 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[15/04/2025, 19.52.40 WIB] info: Fetched all cart items
+[15/04/2025, 19.53.21 WIB] info: User authenticated successfully
+[15/04/2025, 19.53.21 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[15/04/2025, 19.53.21 WIB] info: Fetched all cart items
+[15/04/2025, 19.55.17 WIB] info: User authenticated successfully
+[15/04/2025, 19.55.17 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[15/04/2025, 19.55.17 WIB] info: Fetched all cart items
+[15/04/2025, 19.59.04 WIB] info: User authenticated successfully
+[15/04/2025, 19.59.04 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[15/04/2025, 19.59.04 WIB] info: Fetched all cart items
+[15/04/2025, 19.59.33 WIB] info: User authenticated successfully
+[15/04/2025, 19.59.33 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[15/04/2025, 19.59.33 WIB] info: Fetched all cart items
+[15/04/2025, 20.00.24 WIB] info: User authenticated successfully
+[15/04/2025, 20.00.24 WIB] info: Added new cart item
+[15/04/2025, 20.05.00 WIB] info: User authenticated successfully
+[15/04/2025, 20.05.00 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[15/04/2025, 20.05.00 WIB] info: Fetched all cart items
+[15/04/2025, 20.05.08 WIB] info: User authenticated successfully
+[15/04/2025, 20.05.08 WIB] info: Updated cart item
+[15/04/2025, 20.06.42 WIB] info: User authenticated successfully
+[15/04/2025, 20.06.42 WIB] info: Updated cart item
+[15/04/2025, 20.12.18 WIB] info: User authenticated successfully
+[15/04/2025, 20.12.18 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[15/04/2025, 20.12.18 WIB] info: Fetched all cart items
+[15/04/2025, 20.12.22 WIB] info: User authenticated successfully
+[15/04/2025, 20.12.22 WIB] info: Updated cart item
+[15/04/2025, 20.12.24 WIB] info: User authenticated successfully
+[15/04/2025, 20.12.24 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[15/04/2025, 20.12.24 WIB] info: Fetched all cart items
+[15/04/2025, 20.12.28 WIB] info: User authenticated successfully
+[15/04/2025, 20.12.28 WIB] info: Updated cart item
+[15/04/2025, 20.12.29 WIB] info: User authenticated successfully
+[15/04/2025, 20.12.29 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[15/04/2025, 20.12.29 WIB] info: Fetched all cart items
+[15/04/2025, 20.12.32 WIB] info: User authenticated successfully
+[15/04/2025, 20.12.32 WIB] info: Added new cart item
+[15/04/2025, 20.12.32 WIB] info: User authenticated successfully
+[15/04/2025, 20.12.32 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[15/04/2025, 20.12.32 WIB] info: Fetched all cart items
+[15/04/2025, 20.13.27 WIB] info: User authenticated successfully
+[15/04/2025, 20.13.27 WIB] info: Updated cart item
+[15/04/2025, 20.13.28 WIB] info: User authenticated successfully
+[15/04/2025, 20.13.28 WIB] info: Updated cart item
+[15/04/2025, 20.13.45 WIB] info: User authenticated successfully
+[15/04/2025, 20.13.45 WIB] info: Updated cart item
+[15/04/2025, 20.13.46 WIB] info: User authenticated successfully
+[15/04/2025, 20.13.46 WIB] info: Updated cart item
+[15/04/2025, 20.13.46 WIB] info: User authenticated successfully
+[15/04/2025, 20.13.46 WIB] info: Updated cart item
+[15/04/2025, 20.13.47 WIB] info: User authenticated successfully
+[15/04/2025, 20.13.47 WIB] info: Updated cart item
+[15/04/2025, 20.15.26 WIB] info: User authenticated successfully
+[15/04/2025, 20.15.26 WIB] info: Updated cart item
+[15/04/2025, 20.15.27 WIB] info: User authenticated successfully
+[15/04/2025, 20.15.27 WIB] info: Updated cart item
+[15/04/2025, 20.15.34 WIB] info: User authenticated successfully
+[15/04/2025, 20.15.34 WIB] info: Updated cart item
+[15/04/2025, 20.15.35 WIB] info: User authenticated successfully
+[15/04/2025, 20.15.35 WIB] info: Updated cart item
+[15/04/2025, 20.17.20 WIB] info: User authenticated successfully
+[15/04/2025, 20.17.20 WIB] info: Updated cart item
+[15/04/2025, 20.19.09 WIB] info: User authenticated successfully
+[15/04/2025, 20.19.09 WIB] info: Updated cart item
+[15/04/2025, 20.19.10 WIB] info: User authenticated successfully
+[15/04/2025, 20.19.10 WIB] info: Updated cart item
+[15/04/2025, 20.19.11 WIB] info: User authenticated successfully
+[15/04/2025, 20.19.11 WIB] info: Updated cart item
+[15/04/2025, 20.19.12 WIB] info: User authenticated successfully
+[15/04/2025, 20.19.12 WIB] info: Updated cart item
+[15/04/2025, 20.19.13 WIB] info: User authenticated successfully
+[15/04/2025, 20.19.13 WIB] info: Updated cart item
+[15/04/2025, 20.19.13 WIB] info: User authenticated successfully
+[15/04/2025, 20.19.13 WIB] info: Updated cart item
+[15/04/2025, 20.19.14 WIB] info: User authenticated successfully
+[15/04/2025, 20.19.14 WIB] info: Updated cart item
+[15/04/2025, 20.19.15 WIB] info: User authenticated successfully
+[15/04/2025, 20.19.15 WIB] info: Updated cart item
+[15/04/2025, 20.19.16 WIB] info: User authenticated successfully
+[15/04/2025, 20.19.16 WIB] info: Updated cart item
+[15/04/2025, 20.19.23 WIB] info: User authenticated successfully
+[15/04/2025, 20.19.23 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[15/04/2025, 20.19.23 WIB] info: Fetched all cart items
+[15/04/2025, 20.19.25 WIB] info: User authenticated successfully
+[15/04/2025, 20.19.25 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[15/04/2025, 20.19.25 WIB] info: Fetched all cart items
+[15/04/2025, 20.43.05 WIB] info: User authenticated successfully
+[15/04/2025, 20.43.05 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[15/04/2025, 20.43.05 WIB] info: Fetched all cart items
+[15/04/2025, 20.43.56 WIB] info: User authenticated successfully
+[15/04/2025, 20.43.56 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[15/04/2025, 20.43.56 WIB] info: Fetched all cart items
+[15/04/2025, 20.49.09 WIB] info: User authenticated successfully
+[15/04/2025, 20.49.09 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[15/04/2025, 20.49.09 WIB] info: Fetched all cart items
+[15/04/2025, 20.51.29 WIB] info: User authenticated successfully
+[15/04/2025, 20.51.29 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[15/04/2025, 20.51.29 WIB] info: Fetched all cart items
+[15/04/2025, 20.51.50 WIB] info: User authenticated successfully
+[15/04/2025, 20.51.50 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[15/04/2025, 20.51.50 WIB] info: Fetched all cart items
+[15/04/2025, 20.51.56 WIB] info: User authenticated successfully
+[15/04/2025, 20.51.56 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[15/04/2025, 20.51.56 WIB] info: Fetched all cart items
+[15/04/2025, 20.52.00 WIB] info: User authenticated successfully
+[15/04/2025, 20.52.00 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[15/04/2025, 20.52.00 WIB] info: Fetched all cart items
+[15/04/2025, 20.53.16 WIB] info: User authenticated successfully
+[15/04/2025, 20.53.16 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[15/04/2025, 20.53.16 WIB] info: Fetched all cart items
+[15/04/2025, 20.53.31 WIB] info: User authenticated successfully
+[15/04/2025, 20.53.31 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[15/04/2025, 20.53.31 WIB] info: Fetched all cart items
+[15/04/2025, 20.53.42 WIB] info: User authenticated successfully
+[15/04/2025, 20.53.42 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[15/04/2025, 20.53.42 WIB] info: Fetched all cart items
+[15/04/2025, 22.37.57 WIB] info: User authenticated successfully
+[15/04/2025, 22.37.57 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[15/04/2025, 22.37.57 WIB] info: Fetched all cart items
+[15/04/2025, 22.38.17 WIB] info: User authenticated successfully
+[15/04/2025, 22.38.17 WIB] info: Updated cart item
+[15/04/2025, 22.38.22 WIB] info: User authenticated successfully
+[15/04/2025, 22.38.22 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[15/04/2025, 22.38.22 WIB] info: Fetched all cart items
+[15/04/2025, 22.38.26 WIB] info: User authenticated successfully
+[15/04/2025, 22.38.26 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[15/04/2025, 22.38.26 WIB] info: Fetched all cart items
+[16/04/2025, 16.02.00 WIB] info: Server running on http://localhost:5000
+[16/04/2025, 16.02.55 WIB] error: Token validation failed
+[16/04/2025, 16.02.55 WIB] info: Fetching all categories
+[16/04/2025, 16.02.56 WIB] info: Fetched all categories
+[16/04/2025, 16.10.17 WIB] error: Token validation failed
+[16/04/2025, 16.10.17 WIB] info: Fetching all categories
+[16/04/2025, 16.10.17 WIB] info: Fetched all categories
+[16/04/2025, 16.10.59 WIB] error: Token validation failed
+[16/04/2025, 16.10.59 WIB] info: Fetching all categories
+[16/04/2025, 16.10.59 WIB] info: Fetched all categories
+[16/04/2025, 16.11.26 WIB] error: Token validation failed
+[16/04/2025, 16.12.37 WIB] error: Token validation failed
+[16/04/2025, 16.14.32 WIB] error: Token validation failed
+[16/04/2025, 16.14.32 WIB] error: Token validation failed
+[16/04/2025, 16.14.34 WIB] info: Fetching all categories
+[16/04/2025, 16.14.34 WIB] info: Fetched all categories
+[16/04/2025, 16.14.34 WIB] info: Fetching all categories
+[16/04/2025, 16.14.34 WIB] info: Fetched all categories
+[16/04/2025, 16.14.44 WIB] info: Fetching all categories
+[16/04/2025, 16.14.44 WIB] info: Fetched all categories
+[16/04/2025, 16.14.44 WIB] info: Fetching all categories
+[16/04/2025, 16.14.44 WIB] info: Fetched all categories
+[16/04/2025, 16.14.53 WIB] error: Token validation failed
+[16/04/2025, 16.14.59 WIB] info: Fetching all categories
+[16/04/2025, 16.14.59 WIB] info: Fetched all categories
+[16/04/2025, 16.14.59 WIB] info: Fetching all categories
+[16/04/2025, 16.14.59 WIB] info: Fetched all categories
+[16/04/2025, 16.16.10 WIB] error: Token validation failed
+[16/04/2025, 16.16.17 WIB] error: Token validation failed
+[16/04/2025, 16.16.43 WIB] info: User logged in successfully: danielfebrian@example.com
+[16/04/2025, 16.16.43 WIB] error: Token validation failed
+[16/04/2025, 16.28.45 WIB] info: Fetching all categories
+[16/04/2025, 16.28.45 WIB] error: Error during token verification
+[16/04/2025, 16.28.45 WIB] info: Fetched all categories
+[16/04/2025, 16.28.55 WIB] error: Error during token verification
+[16/04/2025, 16.28.56 WIB] error: Error during token verification
+[16/04/2025, 16.28.59 WIB] info: User logged out successfully
+[16/04/2025, 16.29.02 WIB] info: Fetching all categories
+[16/04/2025, 16.29.02 WIB] error: Error during token verification
+[16/04/2025, 16.29.02 WIB] info: Fetched all categories
+[16/04/2025, 16.29.11 WIB] error: Error during token verification
+[16/04/2025, 16.29.20 WIB] info: User logged in successfully: danielfebrian@example.com
+[16/04/2025, 16.29.20 WIB] info: User authenticated successfully
+[16/04/2025, 16.29.20 WIB] info: User authenticated successfully
+[16/04/2025, 16.29.20 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[16/04/2025, 16.29.20 WIB] info: Fetched all cart items
+[16/04/2025, 16.29.20 WIB] info: Fetching all categories
+[16/04/2025, 16.29.20 WIB] info: Fetched all categories
+[16/04/2025, 16.29.20 WIB] info: Fetching all categories
+[16/04/2025, 16.29.20 WIB] info: Fetched all categories
+[16/04/2025, 16.29.23 WIB] info: User authenticated successfully
+[16/04/2025, 16.29.23 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[16/04/2025, 16.29.23 WIB] info: Fetched all cart items
+[16/04/2025, 16.29.23 WIB] info: User authenticated successfully
+[16/04/2025, 16.29.23 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[16/04/2025, 16.29.23 WIB] info: Fetched all cart items
+[16/04/2025, 16.29.24 WIB] info: Fetching all categories
+[16/04/2025, 16.29.24 WIB] info: Fetched all categories
+[16/04/2025, 16.29.24 WIB] info: Fetching all categories
+[16/04/2025, 16.29.24 WIB] info: Fetched all categories
+[16/04/2025, 16.29.28 WIB] info: User authenticated successfully
+[16/04/2025, 16.29.28 WIB] info: Updated cart item
+[16/04/2025, 16.29.28 WIB] info: User authenticated successfully
+[16/04/2025, 16.29.28 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[16/04/2025, 16.29.28 WIB] info: Fetched all cart items
+[16/04/2025, 16.29.29 WIB] info: User authenticated successfully
+[16/04/2025, 16.29.29 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[16/04/2025, 16.29.29 WIB] info: Fetched all cart items
+[16/04/2025, 16.29.29 WIB] info: User authenticated successfully
+[16/04/2025, 16.29.29 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[16/04/2025, 16.29.29 WIB] info: Fetched all cart items
+[16/04/2025, 16.29.32 WIB] info: User authenticated successfully
+[16/04/2025, 16.29.32 WIB] info: User authenticated successfully
+[16/04/2025, 16.29.32 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[16/04/2025, 16.29.32 WIB] info: Fetched all cart items
+[16/04/2025, 16.29.33 WIB] info: Fetching all categories
+[16/04/2025, 16.29.33 WIB] info: Fetched all categories
+[16/04/2025, 16.29.33 WIB] info: Fetching all categories
+[16/04/2025, 16.29.33 WIB] info: Fetched all categories
+[16/04/2025, 16.29.35 WIB] info: User authenticated successfully
+[16/04/2025, 16.29.35 WIB] info: Updated cart item
+[16/04/2025, 16.29.35 WIB] info: User authenticated successfully
+[16/04/2025, 16.29.35 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[16/04/2025, 16.29.35 WIB] info: Fetched all cart items
+[16/04/2025, 16.29.37 WIB] info: User authenticated successfully
+[16/04/2025, 16.29.37 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[16/04/2025, 16.29.37 WIB] info: Fetched all cart items
+[16/04/2025, 16.29.37 WIB] info: User authenticated successfully
+[16/04/2025, 16.29.37 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[16/04/2025, 16.29.37 WIB] info: Fetched all cart items
+[16/04/2025, 16.29.42 WIB] info: Fetching all categories
+[16/04/2025, 16.29.42 WIB] info: Fetched all categories
+[16/04/2025, 16.29.42 WIB] info: Fetching all categories
+[16/04/2025, 16.29.42 WIB] info: Fetched all categories
+[16/04/2025, 16.29.48 WIB] info: User authenticated successfully
+[16/04/2025, 16.29.48 WIB] info: Updated cart item
+[16/04/2025, 16.29.48 WIB] info: User authenticated successfully
+[16/04/2025, 16.29.48 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[16/04/2025, 16.29.48 WIB] info: Fetched all cart items
+[16/04/2025, 16.29.49 WIB] info: User authenticated successfully
+[16/04/2025, 16.29.49 WIB] info: Updated cart item
+[16/04/2025, 16.29.49 WIB] info: User authenticated successfully
+[16/04/2025, 16.29.49 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[16/04/2025, 16.29.49 WIB] info: Fetched all cart items
+[16/04/2025, 16.29.49 WIB] info: User authenticated successfully
+[16/04/2025, 16.29.49 WIB] info: Updated cart item
+[16/04/2025, 16.29.49 WIB] info: User authenticated successfully
+[16/04/2025, 16.29.49 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[16/04/2025, 16.29.49 WIB] info: Fetched all cart items
+[16/04/2025, 16.29.49 WIB] info: User authenticated successfully
+[16/04/2025, 16.29.49 WIB] info: Updated cart item
+[16/04/2025, 16.29.49 WIB] info: User authenticated successfully
+[16/04/2025, 16.29.49 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[16/04/2025, 16.29.49 WIB] info: Fetched all cart items
+[16/04/2025, 16.29.49 WIB] info: User authenticated successfully
+[16/04/2025, 16.29.49 WIB] info: Updated cart item
+[16/04/2025, 16.29.49 WIB] info: User authenticated successfully
+[16/04/2025, 16.29.49 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[16/04/2025, 16.29.49 WIB] info: Fetched all cart items
+[16/04/2025, 16.29.49 WIB] info: User authenticated successfully
+[16/04/2025, 16.29.49 WIB] info: Updated cart item
+[16/04/2025, 16.29.49 WIB] info: User authenticated successfully
+[16/04/2025, 16.29.49 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[16/04/2025, 16.29.49 WIB] info: Fetched all cart items
+[16/04/2025, 16.29.50 WIB] info: User authenticated successfully
+[16/04/2025, 16.29.50 WIB] info: Updated cart item
+[16/04/2025, 16.29.50 WIB] info: User authenticated successfully
+[16/04/2025, 16.29.50 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[16/04/2025, 16.29.50 WIB] info: Fetched all cart items
+[16/04/2025, 16.29.50 WIB] info: User authenticated successfully
+[16/04/2025, 16.29.50 WIB] info: Updated cart item
+[16/04/2025, 16.29.50 WIB] info: User authenticated successfully
+[16/04/2025, 16.29.50 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[16/04/2025, 16.29.50 WIB] info: Fetched all cart items
+[17/04/2025, 18.07.22 WIB] info: Server running on http://localhost:5000
+[17/04/2025, 18.07.43 WIB] error: Token validation failed
+[17/04/2025, 18.07.43 WIB] info: Fetching all categories
+[17/04/2025, 18.07.43 WIB] info: Fetched all categories
+[17/04/2025, 18.09.46 WIB] error: Token validation failed
+[17/04/2025, 18.09.46 WIB] info: Fetching all categories
+[17/04/2025, 18.09.46 WIB] info: Fetched all categories
+[17/04/2025, 18.09.52 WIB] info: Fetching all categories
+[17/04/2025, 18.09.52 WIB] info: Fetched all categories
+[17/04/2025, 18.09.52 WIB] info: Fetching all categories
+[17/04/2025, 18.09.52 WIB] info: Fetched all categories
+[17/04/2025, 18.25.27 WIB] error: Token validation failed
+[17/04/2025, 18.25.27 WIB] info: Fetching all categories
+[17/04/2025, 18.25.27 WIB] info: Fetched all categories
+[17/04/2025, 18.30.02 WIB] error: Token validation failed
+[17/04/2025, 18.30.06 WIB] error: Token validation failed
+[17/04/2025, 18.30.06 WIB] info: Fetching all categories
+[17/04/2025, 18.30.06 WIB] info: Fetched all categories
+[17/04/2025, 18.30.15 WIB] error: Token validation failed
+[17/04/2025, 18.30.15 WIB] info: Fetching all categories
+[17/04/2025, 18.30.15 WIB] info: Fetched all categories
+[17/04/2025, 18.32.22 WIB] info: Fetching all categories
+[17/04/2025, 18.32.22 WIB] info: Fetched all categories
+[17/04/2025, 18.42.03 WIB] info: API /books/search dipanggil dengan query: animal
+[17/04/2025, 18.42.03 WIB] info: API /books/search dipanggil dengan query: animal
+[17/04/2025, 18.42.28 WIB] info: Fetching all categories
+[17/04/2025, 18.42.28 WIB] info: Fetched all categories
+[17/04/2025, 18.42.37 WIB] info: Fetching all categories
+[17/04/2025, 18.42.37 WIB] info: Fetched all categories
+[17/04/2025, 18.46.55 WIB] warn: Validation failed for login: Password must be at least 6 characters
+[17/04/2025, 18.47.17 WIB] info: Register request received {"name":"admin","email":"admin@example.com","password":"admin123","phone":"85876000034","role":"admin"}
+[17/04/2025, 18.47.17 WIB] warn: Registration failed: Email or phone number already in use for email: admin@example.com, phone: +6285876000034
+[17/04/2025, 18.47.22 WIB] info: Register request received {"name":"admin","email":"admin@example.com","password":"admin123","phone":"85376000034","role":"admin"}
+[17/04/2025, 18.47.22 WIB] warn: Registration failed: Email or phone number already in use for email: admin@example.com, phone: +6285376000034
+[17/04/2025, 18.47.28 WIB] info: Register request received {"name":"admin123","email":"admin123@example.com","password":"admin123","phone":"85376000034","role":"admin"}
+[17/04/2025, 18.47.29 WIB] info: User registered successfully: admin123@example.com
+[17/04/2025, 18.47.37 WIB] info: User logged in successfully: admin123@example.com
+[17/04/2025, 18.49.02 WIB] info: User logged in successfully: admin123@example.com
+[17/04/2025, 18.50.07 WIB] info: User authenticated successfully
+[17/04/2025, 18.50.07 WIB] error: Token validation failed
+[17/04/2025, 18.50.17 WIB] error: Error during token verification
+[17/04/2025, 18.50.50 WIB] info: User authenticated successfully
+[17/04/2025, 18.50.50 WIB] error: Token validation failed
+[17/04/2025, 18.52.24 WIB] info: User authenticated successfully
+[17/04/2025, 18.52.24 WIB] error: Token validation failed
+[17/04/2025, 18.52.31 WIB] info: User authenticated successfully
+[17/04/2025, 18.52.31 WIB] error: Token validation failed
+[17/04/2025, 18.52.50 WIB] info: User authenticated successfully
+[17/04/2025, 18.52.56 WIB] info: User authenticated successfully
+[17/04/2025, 18.52.56 WIB] error: Token validation failed
+[17/04/2025, 18.53.08 WIB] info: User authenticated successfully
+[17/04/2025, 18.53.08 WIB] error: Token validation failed
+[17/04/2025, 18.56.20 WIB] info: Server running on http://localhost:5000
+[17/04/2025, 18.58.36 WIB] info: Server running on http://localhost:5000
+[17/04/2025, 18.58.38 WIB] info: User authenticated successfully
+[17/04/2025, 18.58.38 WIB] error: Token validation failed
+[17/04/2025, 18.58.49 WIB] info: User logged in successfully: admin123@example.com
+[17/04/2025, 18.58.55 WIB] info: User authenticated successfully
+[17/04/2025, 18.59.00 WIB] info: User authenticated successfully
+[17/04/2025, 18.59.00 WIB] error: Token validation failed
+[17/04/2025, 18.59.57 WIB] info: Server running on http://localhost:5000
+[17/04/2025, 19.00.01 WIB] info: User authenticated successfully
+[17/04/2025, 19.00.01 WIB] error: Token validation failed
+[17/04/2025, 19.01.02 WIB] info: Server running on http://localhost:5000
+[17/04/2025, 19.01.04 WIB] info: User authenticated successfully
+[17/04/2025, 19.01.04 WIB] error: Token validation failed
+[17/04/2025, 19.01.23 WIB] info: Server running on http://localhost:5000
+[17/04/2025, 19.01.25 WIB] info: User authenticated successfully
+[17/04/2025, 19.01.25 WIB] error: Token validation failed [object Object]
+[17/04/2025, 19.02.39 WIB] info: Server running on http://localhost:5000
+[17/04/2025, 19.02.41 WIB] info: User authenticated successfully
+[17/04/2025, 19.02.41 WIB] warn: Access denied for non-admin user
+[17/04/2025, 19.02.44 WIB] info: User authenticated successfully
+[17/04/2025, 19.02.44 WIB] warn: Access denied for non-admin user
+[17/04/2025, 19.03.29 WIB] info: Server running on http://localhost:5000
+[17/04/2025, 19.03.30 WIB] info: User authenticated successfully
+[17/04/2025, 19.03.30 WIB] warn: Access denied for non-admin user
+[17/04/2025, 19.03.48 WIB] info: User authenticated successfully
+[17/04/2025, 19.03.55 WIB] info: User authenticated successfully
+[17/04/2025, 19.04.04 WIB] info: User authenticated successfully
+[17/04/2025, 19.04.04 WIB] warn: Access denied for non-admin user
+[17/04/2025, 19.05.51 WIB] info: Server running on http://localhost:5000
+[17/04/2025, 19.05.55 WIB] info: User authenticated successfully
+[17/04/2025, 19.05.55 WIB] warn: Access denied for non-admin user
+[17/04/2025, 20.09.18 WIB] info: Server running on http://localhost:5000
+[17/04/2025, 20.09.19 WIB] info: User authenticated successfully
+[17/04/2025, 20.09.19 WIB] warn: Access denied for non-admin user
+[17/04/2025, 20.09.26 WIB] info: Server running on http://localhost:5000
+[17/04/2025, 20.09.27 WIB] info: User authenticated successfully
+[17/04/2025, 20.09.27 WIB] warn: Access denied for non-admin user
+[17/04/2025, 20.09.47 WIB] info: Server running on http://localhost:5000
+[17/04/2025, 20.09.48 WIB] info: User authenticated successfully
+[17/04/2025, 20.09.48 WIB] warn: Access denied for non-admin user
+[17/04/2025, 20.10.01 WIB] info: Server running on http://localhost:5000
+[17/04/2025, 20.10.02 WIB] info: User authenticated successfully
+[17/04/2025, 20.10.02 WIB] warn: Access denied for non-admin user
+[17/04/2025, 20.10.08 WIB] info: Server running on http://localhost:5000
+[17/04/2025, 20.10.09 WIB] info: User authenticated successfully
+[17/04/2025, 20.10.09 WIB] warn: Access denied for non-admin user
+[17/04/2025, 20.10.14 WIB] info: Server running on http://localhost:5000
+[17/04/2025, 20.10.15 WIB] info: User authenticated successfully
+[17/04/2025, 20.10.15 WIB] warn: Access denied for non-admin user
+[17/04/2025, 20.11.05 WIB] info: Server running on http://localhost:5000
+[18/04/2025, 13.31.52 WIB] info: Server running on http://localhost:5000
+[18/04/2025, 13.32.25 WIB] info: Fetching all categories
+[18/04/2025, 13.32.25 WIB] info: Fetched all categories
+[18/04/2025, 13.32.43 WIB] warn: Validation failed for login: Password must be at least 6 characters
+[18/04/2025, 13.32.53 WIB] info: User logged in successfully: admin123@example.com
+[18/04/2025, 13.32.53 WIB] error: Token validation failed [object Object]
+[18/04/2025, 13.33.03 WIB] info: User logged in successfully: admin123@example.com
+[18/04/2025, 13.33.03 WIB] error: Token validation failed [object Object]
+[18/04/2025, 13.33.14 WIB] info: User logged in successfully: danielfebrian@example.com
+[18/04/2025, 13.33.14 WIB] error: Token validation failed [object Object]
+[18/04/2025, 13.34.16 WIB] info: Server running on http://localhost:5000
+[18/04/2025, 13.34.18 WIB] info: User logged in successfully: danielfebrian@example.com
+[18/04/2025, 13.34.18 WIB] error: Token validation failed undefined
+[18/04/2025, 13.34.39 WIB] info: Server running on http://localhost:5000
+[18/04/2025, 13.34.39 WIB] info: User logged in successfully: danielfebrian@example.com
+[18/04/2025, 13.34.39 WIB] error: Token validation failed undefined
+[18/04/2025, 13.34.45 WIB] info: Server running on http://localhost:5000
+[18/04/2025, 13.34.56 WIB] info: User logged in successfully: danielfebrian@example.com
+[18/04/2025, 13.34.56 WIB] error: Token validation failed [object Object]
+[18/04/2025, 13.35.14 WIB] info: Server running on http://localhost:5000
+[18/04/2025, 13.35.15 WIB] info: User logged in successfully: danielfebrian@example.com
+[18/04/2025, 13.35.15 WIB] error: User token validation failed [object Object]
+[18/04/2025, 13.36.20 WIB] info: Server running on http://localhost:5000
+[18/04/2025, 13.36.23 WIB] info: User logged in successfully: danielfebrian@example.com
+[18/04/2025, 13.36.23 WIB] error: User token validation failed {
+  "success": false,
+  "error": {
+    "issues": [
+      {
+        "code": "invalid_type",
+        "expected": "string",
+        "received": "undefined",
+        "path": [],
+        "message": "Required"
+      }
+    ],
+    "name": "ZodError"
+  }
+}
+[18/04/2025, 13.38.30 WIB] info: Server running on http://localhost:5000
+[18/04/2025, 13.38.33 WIB] info: User logged in successfully: danielfebrian@example.com
+[18/04/2025, 13.38.33 WIB] warn: Token not provided
+[18/04/2025, 13.40.24 WIB] info: Server running on http://localhost:5000
+[18/04/2025, 13.40.26 WIB] info: User logged in successfully: danielfebrian@example.com
+[18/04/2025, 13.40.26 WIB] warn: Token not provided
+[18/04/2025, 13.46.04 WIB] info: User logged in successfully: danielfebrian@example.com
+[18/04/2025, 13.47.12 WIB] info: Token received:
+[18/04/2025, 13.47.12 WIB] info: User authenticated successfully
+[18/04/2025, 13.47.12 WIB] warn: Access denied for non-admin user
+[18/04/2025, 13.47.24 WIB] info: Token received:
+[18/04/2025, 13.47.24 WIB] info: User authenticated successfully
+[18/04/2025, 13.50.17 WIB] info: Server running on http://localhost:5000
+[18/04/2025, 13.50.23 WIB] info: User logged in successfully: danielfebrian@example.com
+[18/04/2025, 13.50.23 WIB] info: Token received:
+[18/04/2025, 13.50.23 WIB] info: User authenticated successfully
+[18/04/2025, 13.50.23 WIB] info: Fetching all categories
+[18/04/2025, 13.50.23 WIB] info: Fetched all categories
+[18/04/2025, 13.50.23 WIB] info: Fetching all categories
+[18/04/2025, 13.50.23 WIB] info: Fetched all categories
+[18/04/2025, 13.51.01 WIB] info: Fetching all categories
+[18/04/2025, 13.51.01 WIB] info: Fetched all categories
+[18/04/2025, 13.51.22 WIB] info: User logged in successfully: admin123@example.com
+[18/04/2025, 13.51.22 WIB] info: Token received:
+[18/04/2025, 13.51.22 WIB] info: User authenticated successfully
+[18/04/2025, 13.51.23 WIB] info: Fetching all categories
+[18/04/2025, 13.51.23 WIB] info: Fetched all categories
+[18/04/2025, 13.51.23 WIB] info: Fetching all categories
+[18/04/2025, 13.51.23 WIB] info: Fetched all categories
+[18/04/2025, 13.51.29 WIB] info: Token received:
+[18/04/2025, 13.51.29 WIB] info: User authenticated successfully
+[18/04/2025, 13.51.29 WIB] info: Token received:
+[18/04/2025, 13.51.29 WIB] info: User authenticated successfully
+[18/04/2025, 13.51.35 WIB] info: Fetching all categories
+[18/04/2025, 13.51.35 WIB] info: Fetched all categories
+[18/04/2025, 13.51.56 WIB] info: User logged in successfully: admin123@example.com
+[18/04/2025, 13.51.56 WIB] info: Token received:
+[18/04/2025, 13.51.56 WIB] info: User authenticated successfully
+[18/04/2025, 13.51.56 WIB] info: Fetching all categories
+[18/04/2025, 13.51.56 WIB] info: Fetched all categories
+[18/04/2025, 13.51.56 WIB] info: Fetching all categories
+[18/04/2025, 13.51.56 WIB] info: Fetched all categories
+[18/04/2025, 13.51.59 WIB] info: Token received:
+[18/04/2025, 13.51.59 WIB] info: User authenticated successfully
+[18/04/2025, 13.51.59 WIB] info: Fetching all cart items for user ID 2d576526-aae4-439f-ad6f-2822ab256062
+[18/04/2025, 13.51.59 WIB] info: Fetched all cart items
+[18/04/2025, 13.51.59 WIB] info: Token received:
+[18/04/2025, 13.51.59 WIB] info: User authenticated successfully
+[18/04/2025, 13.51.59 WIB] info: Fetching all cart items for user ID 2d576526-aae4-439f-ad6f-2822ab256062
+[18/04/2025, 13.51.59 WIB] info: Fetched all cart items
+[18/04/2025, 13.52.01 WIB] info: Fetching all categories
+[18/04/2025, 13.52.01 WIB] info: Fetched all categories
+[18/04/2025, 13.52.01 WIB] info: Fetching all categories
+[18/04/2025, 13.52.01 WIB] info: Fetched all categories
+[18/04/2025, 13.52.03 WIB] info: Token received:
+[18/04/2025, 13.52.03 WIB] info: User authenticated successfully
+[18/04/2025, 13.52.03 WIB] info: Added new cart item
+[18/04/2025, 13.52.03 WIB] info: Token received:
+[18/04/2025, 13.52.03 WIB] info: User authenticated successfully
+[18/04/2025, 13.52.03 WIB] info: Fetching all cart items for user ID 2d576526-aae4-439f-ad6f-2822ab256062
+[18/04/2025, 13.52.03 WIB] info: Fetched all cart items
+[18/04/2025, 13.52.05 WIB] info: Token received:
+[18/04/2025, 13.52.05 WIB] info: User authenticated successfully
+[18/04/2025, 13.52.05 WIB] info: Fetching all cart items for user ID 2d576526-aae4-439f-ad6f-2822ab256062
+[18/04/2025, 13.52.05 WIB] info: Fetched all cart items
+[18/04/2025, 13.52.05 WIB] info: Token received:
+[18/04/2025, 13.52.05 WIB] info: User authenticated successfully
+[18/04/2025, 13.52.05 WIB] info: Fetching all cart items for user ID 2d576526-aae4-439f-ad6f-2822ab256062
+[18/04/2025, 13.52.05 WIB] info: Fetched all cart items
+[18/04/2025, 14.19.32 WIB] info: Token received:
+[18/04/2025, 14.19.32 WIB] info: User authenticated successfully
+[18/04/2025, 14.19.32 WIB] info: Token received:
+[18/04/2025, 14.19.32 WIB] info: User authenticated successfully
+[18/04/2025, 14.19.32 WIB] info: Fetching all cart items for user ID 2d576526-aae4-439f-ad6f-2822ab256062
+[18/04/2025, 14.19.32 WIB] info: Fetched all cart items
+[18/04/2025, 14.24.33 WIB] info: Token received:
+[18/04/2025, 14.24.33 WIB] info: Fetching all categories
+[18/04/2025, 14.24.33 WIB] info: User authenticated successfully
+[18/04/2025, 14.24.33 WIB] info: Fetched all categories
+[18/04/2025, 14.24.33 WIB] info: Token received:
+[18/04/2025, 14.24.33 WIB] info: User authenticated successfully
+[18/04/2025, 14.24.37 WIB] info: Token received:
+[18/04/2025, 14.24.37 WIB] info: User authenticated successfully
+[18/04/2025, 14.24.37 WIB] info: Fetching all cart items for user ID 2d576526-aae4-439f-ad6f-2822ab256062
+[18/04/2025, 14.24.37 WIB] info: Fetched all cart items
+[18/04/2025, 14.24.37 WIB] info: Token received:
+[18/04/2025, 14.24.37 WIB] info: User authenticated successfully
+[18/04/2025, 14.24.37 WIB] info: Fetching all cart items for user ID 2d576526-aae4-439f-ad6f-2822ab256062
+[18/04/2025, 14.24.37 WIB] info: Fetched all cart items
+[18/04/2025, 14.24.41 WIB] info: Token received:
+[18/04/2025, 14.24.41 WIB] info: User authenticated successfully
+[18/04/2025, 14.24.41 WIB] info: Token received:
+[18/04/2025, 14.24.41 WIB] info: User authenticated successfully
+[18/04/2025, 14.24.41 WIB] info: Token received:
+[18/04/2025, 14.24.41 WIB] info: User authenticated successfully
+[18/04/2025, 14.24.41 WIB] info: Fetching all cart items for user ID 2d576526-aae4-439f-ad6f-2822ab256062
+[18/04/2025, 14.24.41 WIB] info: Fetched all cart items
+[18/04/2025, 14.24.41 WIB] info: Token received:
+[18/04/2025, 14.24.41 WIB] info: User authenticated successfully
+[18/04/2025, 14.24.41 WIB] info: Fetching all cart items for user ID 2d576526-aae4-439f-ad6f-2822ab256062
+[18/04/2025, 14.24.41 WIB] info: Fetched all cart items
+[18/04/2025, 14.24.43 WIB] info: Fetching all categories
+[18/04/2025, 14.24.43 WIB] info: Fetched all categories
+[18/04/2025, 14.24.43 WIB] info: Fetching all categories
+[18/04/2025, 14.24.43 WIB] info: Fetched all categories
+[18/04/2025, 14.24.51 WIB] info: Token received:
+[18/04/2025, 14.24.51 WIB] info: User authenticated successfully
+[18/04/2025, 14.24.51 WIB] info: Added new cart item
+[18/04/2025, 14.24.51 WIB] info: Token received:
+[18/04/2025, 14.24.51 WIB] info: User authenticated successfully
+[18/04/2025, 14.24.51 WIB] info: Fetching all cart items for user ID 2d576526-aae4-439f-ad6f-2822ab256062
+[18/04/2025, 14.24.51 WIB] info: Fetched all cart items
+[18/04/2025, 14.24.53 WIB] info: Token received:
+[18/04/2025, 14.24.53 WIB] info: User authenticated successfully
+[18/04/2025, 14.24.53 WIB] info: Fetching all cart items for user ID 2d576526-aae4-439f-ad6f-2822ab256062
+[18/04/2025, 14.24.53 WIB] info: Fetched all cart items
+[18/04/2025, 14.24.53 WIB] info: Token received:
+[18/04/2025, 14.24.53 WIB] info: User authenticated successfully
+[18/04/2025, 14.24.53 WIB] info: Fetching all cart items for user ID 2d576526-aae4-439f-ad6f-2822ab256062
+[18/04/2025, 14.24.53 WIB] info: Fetched all cart items
+[18/04/2025, 14.24.56 WIB] info: [REQ] GET /api/v1/checkout/shipping-options - Body: {}
+[18/04/2025, 14.24.56 WIB] info: Token received:
+[18/04/2025, 14.24.56 WIB] info: User authenticated successfully
+[18/04/2025, 14.24.56 WIB] warn: 📭 No default address found during shipping option check
+[18/04/2025, 14.24.56 WIB] info: [REQ] GET /api/v1/checkout/shipping-options - Body: {}
+[18/04/2025, 14.24.56 WIB] info: Token received:
+[18/04/2025, 14.24.56 WIB] info: User authenticated successfully
+[18/04/2025, 14.24.56 WIB] warn: 📭 No default address found during shipping option check
+[18/04/2025, 14.25.06 WIB] info: Fetching all categories
+[18/04/2025, 14.25.06 WIB] info: Fetched all categories
+[18/04/2025, 14.25.06 WIB] info: Fetching all categories
+[18/04/2025, 14.25.06 WIB] info: Fetched all categories
+[18/04/2025, 14.25.11 WIB] info: Token received:
+[18/04/2025, 14.25.11 WIB] info: User authenticated successfully
+[18/04/2025, 14.25.11 WIB] info: Token received:
+[18/04/2025, 14.25.11 WIB] info: User authenticated successfully
+[18/04/2025, 14.25.15 WIB] info: Token received:
+[18/04/2025, 14.25.15 WIB] info: Fetching all categories
+[18/04/2025, 14.25.15 WIB] info: User authenticated successfully
+[18/04/2025, 14.25.15 WIB] info: Fetched all categories
+[18/04/2025, 14.25.15 WIB] info: Token received:
+[18/04/2025, 14.25.15 WIB] info: User authenticated successfully
+[18/04/2025, 14.25.17 WIB] info: Token received:
+[18/04/2025, 14.25.17 WIB] info: User authenticated successfully
+[18/04/2025, 14.25.17 WIB] info: Fetching all cart items for user ID 2d576526-aae4-439f-ad6f-2822ab256062
+[18/04/2025, 14.25.17 WIB] info: Fetched all cart items
+[18/04/2025, 14.25.17 WIB] info: Token received:
+[18/04/2025, 14.25.17 WIB] info: User authenticated successfully
+[18/04/2025, 14.25.17 WIB] info: Fetching all cart items for user ID 2d576526-aae4-439f-ad6f-2822ab256062
+[18/04/2025, 14.25.17 WIB] info: Fetched all cart items
+[18/04/2025, 14.25.18 WIB] info: Fetching all categories
+[18/04/2025, 14.25.18 WIB] info: Fetched all categories
+[18/04/2025, 14.25.18 WIB] info: Fetching all categories
+[18/04/2025, 14.25.18 WIB] info: Fetched all categories
+[18/04/2025, 14.26.16 WIB] info: Token received:
+[18/04/2025, 14.26.16 WIB] info: User authenticated successfully
+[18/04/2025, 14.26.16 WIB] info: Fetching all cart items for user ID 2d576526-aae4-439f-ad6f-2822ab256062
+[18/04/2025, 14.26.16 WIB] info: Fetched all cart items
+[18/04/2025, 14.26.16 WIB] info: Token received:
+[18/04/2025, 14.26.16 WIB] info: User authenticated successfully
+[18/04/2025, 14.26.16 WIB] info: Fetching all cart items for user ID 2d576526-aae4-439f-ad6f-2822ab256062
+[18/04/2025, 14.26.16 WIB] info: Fetched all cart items
+[18/04/2025, 14.26.19 WIB] info: Token received:
+[18/04/2025, 14.26.19 WIB] info: User authenticated successfully
+[18/04/2025, 14.26.19 WIB] info: Removed cart item with ID 6e4c464b-0d42-486e-b7c8-8ee8651e33e1 for user ID 2d576526-aae4-439f-ad6f-2822ab256062
+[18/04/2025, 14.26.22 WIB] info: Fetching all categories
+[18/04/2025, 14.26.22 WIB] info: Fetched all categories
+[18/04/2025, 14.26.22 WIB] info: Fetching all categories
+[18/04/2025, 14.26.22 WIB] info: Fetched all categories
+[18/04/2025, 14.26.24 WIB] info: Token received:
+[18/04/2025, 14.26.24 WIB] info: User authenticated successfully
+[18/04/2025, 14.26.24 WIB] info: Fetching all cart items for user ID 2d576526-aae4-439f-ad6f-2822ab256062
+[18/04/2025, 14.26.24 WIB] info: Fetched all cart items
+[18/04/2025, 14.26.24 WIB] info: Token received:
+[18/04/2025, 14.26.24 WIB] info: User authenticated successfully
+[18/04/2025, 14.26.24 WIB] info: Fetching all cart items for user ID 2d576526-aae4-439f-ad6f-2822ab256062
+[18/04/2025, 14.26.24 WIB] info: Fetched all cart items
+[18/04/2025, 14.26.27 WIB] info: Fetching all categories
+[18/04/2025, 14.26.27 WIB] info: Fetched all categories
+[18/04/2025, 14.26.27 WIB] info: Fetching all categories
+[18/04/2025, 14.26.27 WIB] info: Fetched all categories
+[18/04/2025, 14.33.08 WIB] info: Token received:
+[18/04/2025, 14.33.09 WIB] info: User authenticated successfully
+[18/04/2025, 14.33.09 WIB] info: Fetching all cart items for user ID 2d576526-aae4-439f-ad6f-2822ab256062
+[18/04/2025, 14.33.09 WIB] info: Fetched all cart items
+[18/04/2025, 14.33.09 WIB] info: Token received:
+[18/04/2025, 14.33.09 WIB] info: User authenticated successfully
+[18/04/2025, 14.33.09 WIB] info: Fetching all cart items for user ID 2d576526-aae4-439f-ad6f-2822ab256062
+[18/04/2025, 14.33.09 WIB] info: Fetched all cart items
+[18/04/2025, 14.33.12 WIB] info: [REQ] GET /api/v1/checkout/shipping-options - Body: {}
+[18/04/2025, 14.33.12 WIB] info: Token received:
+[18/04/2025, 14.33.12 WIB] info: User authenticated successfully
+[18/04/2025, 14.33.12 WIB] warn: 📭 No default address found during shipping option check
+[18/04/2025, 14.33.12 WIB] info: [REQ] GET /api/v1/checkout/shipping-options - Body: {}
+[18/04/2025, 14.33.12 WIB] info: Token received:
+[18/04/2025, 14.33.12 WIB] info: User authenticated successfully
+[18/04/2025, 14.33.12 WIB] warn: 📭 No default address found during shipping option check
+[18/04/2025, 14.33.46 WIB] info: Token received:
+[18/04/2025, 14.33.46 WIB] info: [REQ] GET /api/v1/checkout/shipping-options - Body: {}
+[18/04/2025, 14.33.46 WIB] info: Token received:
+[18/04/2025, 14.33.46 WIB] info: User authenticated successfully
+[18/04/2025, 14.33.46 WIB] info: User authenticated successfully
+[18/04/2025, 14.33.46 WIB] warn: 📭 No default address found during shipping option check
+[18/04/2025, 14.33.46 WIB] info: Token received:
+[18/04/2025, 14.33.46 WIB] info: User authenticated successfully
+[18/04/2025, 14.34.15 WIB] info: Token received:
+[18/04/2025, 14.34.15 WIB] info: User authenticated successfully
+[18/04/2025, 14.34.15 WIB] info: Token received:
+[18/04/2025, 14.34.15 WIB] info: User authenticated successfully
+[18/04/2025, 14.35.06 WIB] info: Token received:
+[18/04/2025, 14.35.06 WIB] info: User authenticated successfully
+[18/04/2025, 14.35.06 WIB] info: Token received:
+[18/04/2025, 14.35.06 WIB] info: User authenticated successfully
+[18/04/2025, 14.35.06 WIB] info: Token received:
+[18/04/2025, 14.35.06 WIB] info: User authenticated successfully
+[18/04/2025, 14.35.50 WIB] info: Token received:
+[18/04/2025, 14.35.50 WIB] info: User authenticated successfully
+[18/04/2025, 14.35.50 WIB] info: Token received:
+[18/04/2025, 14.35.50 WIB] info: User authenticated successfully
+[18/04/2025, 14.35.50 WIB] info: Token received:
+[18/04/2025, 14.35.50 WIB] info: User authenticated successfully
+[18/04/2025, 14.36.14 WIB] info: Token received:
+[18/04/2025, 14.36.14 WIB] info: User authenticated successfully
+[18/04/2025, 14.36.14 WIB] info: Token received:
+[18/04/2025, 14.36.14 WIB] info: User authenticated successfully
+[18/04/2025, 14.36.14 WIB] info: Token received:
+[18/04/2025, 14.36.14 WIB] info: User authenticated successfully
+[18/04/2025, 14.36.28 WIB] info: Token received:
+[18/04/2025, 14.36.28 WIB] info: User authenticated successfully
+[18/04/2025, 14.36.28 WIB] info: Token received:
+[18/04/2025, 14.36.28 WIB] info: User authenticated successfully
+[18/04/2025, 14.36.31 WIB] info: Token received:
+[18/04/2025, 14.36.31 WIB] info: User authenticated successfully
+[18/04/2025, 14.36.31 WIB] info: Token received:
+[18/04/2025, 14.36.31 WIB] info: User authenticated successfully
+[18/04/2025, 14.36.31 WIB] info: Token received:
+[18/04/2025, 14.36.31 WIB] info: User authenticated successfully
+[18/04/2025, 14.36.39 WIB] info: Token received:
+[18/04/2025, 14.36.39 WIB] info: User authenticated successfully
+[18/04/2025, 14.36.39 WIB] info: Token received:
+[18/04/2025, 14.36.39 WIB] info: User authenticated successfully
+[18/04/2025, 14.37.22 WIB] info: Token received:
+[18/04/2025, 14.37.22 WIB] info: User authenticated successfully
+[18/04/2025, 14.37.22 WIB] info: Address created for user 2d576526-aae4-439f-ad6f-2822ab256062
+[18/04/2025, 14.37.25 WIB] info: Token received:
+[18/04/2025, 14.37.25 WIB] info: User authenticated successfully
+[18/04/2025, 14.37.25 WIB] info: Token received:
+[18/04/2025, 14.37.25 WIB] info: User authenticated successfully
+[18/04/2025, 14.37.25 WIB] info: Token received:
+[18/04/2025, 14.37.25 WIB] info: User authenticated successfully
+[18/04/2025, 14.37.32 WIB] info: Fetching all categories
+[18/04/2025, 14.37.32 WIB] info: Fetched all categories
+[18/04/2025, 14.37.32 WIB] info: Fetching all categories
+[18/04/2025, 14.37.32 WIB] info: Fetched all categories
+[18/04/2025, 14.37.34 WIB] info: Token received:
+[18/04/2025, 14.37.34 WIB] info: User authenticated successfully
+[18/04/2025, 14.37.34 WIB] info: Token received:
+[18/04/2025, 14.37.34 WIB] info: User authenticated successfully
+[18/04/2025, 14.39.16 WIB] info: Token received:
+[18/04/2025, 14.39.16 WIB] info: User authenticated successfully
+[18/04/2025, 14.39.16 WIB] info: Token received:
+[18/04/2025, 14.39.16 WIB] info: User authenticated successfully
+[18/04/2025, 14.39.16 WIB] info: Token received:
+[18/04/2025, 14.39.16 WIB] info: User authenticated successfully
+[18/04/2025, 14.39.18 WIB] info: Token received:
+[18/04/2025, 14.39.18 WIB] info: User authenticated successfully
+[18/04/2025, 14.40.08 WIB] info: Token received:
+[18/04/2025, 14.40.08 WIB] info: User authenticated successfully
+[18/04/2025, 14.40.08 WIB] info: Token received:
+[18/04/2025, 14.40.08 WIB] info: User authenticated successfully
+[18/04/2025, 14.40.27 WIB] info: Token received:
+[18/04/2025, 14.40.27 WIB] info: User authenticated successfully
+[18/04/2025, 14.40.36 WIB] info: Token received:
+[18/04/2025, 14.40.36 WIB] info: User authenticated successfully
+[18/04/2025, 14.40.40 WIB] info: Token received:
+[18/04/2025, 14.40.40 WIB] info: User authenticated successfully
+[18/04/2025, 14.40.40 WIB] info: Token received:
+[18/04/2025, 14.40.40 WIB] info: User authenticated successfully
+[18/04/2025, 14.40.45 WIB] info: Token received:
+[18/04/2025, 14.40.45 WIB] info: User authenticated successfully
+[18/04/2025, 14.40.45 WIB] info: Fetching all cart items for user ID 2d576526-aae4-439f-ad6f-2822ab256062
+[18/04/2025, 14.40.45 WIB] info: Fetched all cart items
+[18/04/2025, 14.40.45 WIB] info: Token received:
+[18/04/2025, 14.40.45 WIB] info: User authenticated successfully
+[18/04/2025, 14.40.45 WIB] info: Fetching all cart items for user ID 2d576526-aae4-439f-ad6f-2822ab256062
+[18/04/2025, 14.40.45 WIB] info: Fetched all cart items
+[18/04/2025, 14.40.48 WIB] info: Token received:
+[18/04/2025, 14.40.48 WIB] info: User authenticated successfully
+[18/04/2025, 14.40.48 WIB] info: Token received:
+[18/04/2025, 14.40.48 WIB] info: User authenticated successfully
+[18/04/2025, 14.40.50 WIB] info: Token received:
+[18/04/2025, 14.40.50 WIB] info: User authenticated successfully
+[18/04/2025, 14.40.50 WIB] info: Token received:
+[18/04/2025, 14.40.50 WIB] info: User authenticated successfully
+[18/04/2025, 14.40.52 WIB] info: Token received:
+[18/04/2025, 14.40.52 WIB] info: User authenticated successfully
+[18/04/2025, 14.40.52 WIB] info: Token received:
+[18/04/2025, 14.40.52 WIB] info: User authenticated successfully
+[18/04/2025, 14.40.52 WIB] info: Token received:
+[18/04/2025, 14.40.52 WIB] info: User authenticated successfully
+[18/04/2025, 23.18.58 WIB] info: Server running on http://localhost:5000
+[18/04/2025, 23.19.09 WIB] info: Token received:
+[18/04/2025, 23.19.09 WIB] info: Fetching all categories
+[18/04/2025, 23.19.09 WIB] info: Fetched all categories
+[18/04/2025, 23.19.09 WIB] info: User authenticated successfully
+[18/04/2025, 23.19.09 WIB] info: Token received:
+[18/04/2025, 23.19.09 WIB] info: User authenticated successfully
+[18/04/2025, 23.19.30 WIB] info: Token received:
+[18/04/2025, 23.19.30 WIB] info: User authenticated successfully
+[18/04/2025, 23.19.30 WIB] info: Token received:
+[18/04/2025, 23.19.30 WIB] info: User authenticated successfully
+[18/04/2025, 23.36.59 WIB] info: Server running on http://localhost:5000
+[18/04/2025, 23.37.05 WIB] info: User logged out successfully
+[18/04/2025, 23.37.05 WIB] info: Fetching all categories
+[18/04/2025, 23.37.05 WIB] info: Fetched all categories
+[18/04/2025, 23.37.05 WIB] info: Fetching all categories
+[18/04/2025, 23.37.05 WIB] info: Fetched all categories
+[18/04/2025, 23.37.18 WIB] warn: Validation failed for login: Password must be at least 6 characters
+[18/04/2025, 23.39.30 WIB] info: Token received:
+[18/04/2025, 23.39.30 WIB] error: Error during token verification
+[18/04/2025, 23.39.45 WIB] warn: Validation failed for login: Password must be at least 6 characters
+[18/04/2025, 23.39.52 WIB] info: User logged in successfully: admin123@example.com
+[18/04/2025, 23.40.04 WIB] info: Token received:
+[18/04/2025, 23.40.04 WIB] info: User authenticated successfully
+[18/04/2025, 23.40.04 WIB] warn: Access denied for non-admin user
+[18/04/2025, 23.40.10 WIB] info: Token received:
+[18/04/2025, 23.40.10 WIB] info: User authenticated successfully
+[18/04/2025, 23.40.47 WIB] info: Server running on http://localhost:5000
+[18/04/2025, 23.40.47 WIB] info: Token received:
+[18/04/2025, 23.40.47 WIB] info: User authenticated successfully
+[18/04/2025, 23.40.48 WIB] error: Error fetching user profile: 
+Invalid `prisma.user.findUnique()` invocation:
+
+{
+  where: {
+    id: "2d576526-aae4-439f-ad6f-2822ab256062"
+  },
+  select: {
+    id: true,
+    name: true,
+    email: true,
+    role: true,
+    phone: true,
+    idCardImage: true,
+    ~~~~~~~~~~~
+?   password?: true,
+?   profilePicture?: true,
+?   addresses?: true,
+?   orders?: true,
+?   carts?: true,
+?   _count?: true
+  }
+}
+
+Unknown field `idCardImage` for select statement on model `User`. Available options are marked with ?.
+[18/04/2025, 23.40.59 WIB] info: Server running on http://localhost:5000
+[18/04/2025, 23.41.00 WIB] info: Token received:
+[18/04/2025, 23.41.00 WIB] info: User authenticated successfully
+[18/04/2025, 23.41.31 WIB] info: Server running on http://localhost:5000
+[18/04/2025, 23.41.35 WIB] info: User logged in successfully: admin@example.com
+[18/04/2025, 23.41.35 WIB] info: Token received:
+[18/04/2025, 23.41.35 WIB] info: User authenticated successfully
+[18/04/2025, 23.41.35 WIB] info: Fetching all categories
+[18/04/2025, 23.41.35 WIB] info: Fetched all categories
+[18/04/2025, 23.41.35 WIB] info: Fetching all categories
+[18/04/2025, 23.41.35 WIB] info: Fetched all categories
+[18/04/2025, 23.41.38 WIB] info: Token received:
+[18/04/2025, 23.41.38 WIB] info: User authenticated successfully
+[18/04/2025, 23.41.38 WIB] info: Token received:
+[18/04/2025, 23.41.38 WIB] info: User authenticated successfully
+[18/04/2025, 23.42.05 WIB] info: User logged in successfully: admin@example.com
+[18/04/2025, 23.42.14 WIB] info: Token received:
+[18/04/2025, 23.42.14 WIB] info: User authenticated successfully
+[18/04/2025, 23.42.14 WIB] info: Admin authorization successful
+[18/04/2025, 23.42.14 WIB] info: Fetched all users.
+[18/04/2025, 23.42.36 WIB] info: Fetching all categories
+[18/04/2025, 23.42.36 WIB] info: Fetched all categories
+[18/04/2025, 23.42.36 WIB] info: Fetching all categories
+[18/04/2025, 23.42.36 WIB] info: Fetched all categories
+[18/04/2025, 23.42.53 WIB] info: Token received:
+[18/04/2025, 23.42.53 WIB] info: User authenticated successfully
+[18/04/2025, 23.42.53 WIB] info: Admin authorization successful
+[18/04/2025, 23.42.56 WIB] info: Book created: 0f5621ab-dd1d-4e7b-b368-04e2f60fa4ce
+[18/04/2025, 23.43.00 WIB] info: Token received:
+[18/04/2025, 23.43.00 WIB] info: Fetching all categories
+[18/04/2025, 23.43.00 WIB] info: User authenticated successfully
+[18/04/2025, 23.43.00 WIB] info: Fetched all categories
+[18/04/2025, 23.43.00 WIB] info: Token received:
+[18/04/2025, 23.43.00 WIB] info: User authenticated successfully
+[18/04/2025, 23.43.17 WIB] info: Token received:
+[18/04/2025, 23.43.17 WIB] info: User authenticated successfully
+[18/04/2025, 23.43.17 WIB] info: Token received:
+[18/04/2025, 23.43.17 WIB] info: User authenticated successfully
+[18/04/2025, 23.43.19 WIB] info: Token received:
+[18/04/2025, 23.43.19 WIB] info: Fetching all categories
+[18/04/2025, 23.43.19 WIB] info: User authenticated successfully
+[18/04/2025, 23.43.19 WIB] info: Fetched all categories
+[18/04/2025, 23.43.19 WIB] info: Token received:
+[18/04/2025, 23.43.19 WIB] info: User authenticated successfully
+[18/04/2025, 23.43.21 WIB] info: Token received:
+[18/04/2025, 23.43.21 WIB] info: User authenticated successfully
+[18/04/2025, 23.43.21 WIB] info: Token received:
+[18/04/2025, 23.43.21 WIB] info: User authenticated successfully
+[18/04/2025, 23.43.23 WIB] info: Token received:
+[18/04/2025, 23.43.23 WIB] info: Fetching all categories
+[18/04/2025, 23.43.23 WIB] info: User authenticated successfully
+[18/04/2025, 23.43.23 WIB] info: Fetched all categories
+[18/04/2025, 23.43.23 WIB] info: Token received:
+[18/04/2025, 23.43.23 WIB] info: User authenticated successfully
+[18/04/2025, 23.43.24 WIB] info: Token received:
+[18/04/2025, 23.43.24 WIB] info: User authenticated successfully
+[18/04/2025, 23.43.24 WIB] info: Token received:
+[18/04/2025, 23.43.24 WIB] info: User authenticated successfully
+[18/04/2025, 23.43.25 WIB] info: Token received:
+[18/04/2025, 23.43.25 WIB] info: Fetching all categories
+[18/04/2025, 23.43.25 WIB] info: User authenticated successfully
+[18/04/2025, 23.43.25 WIB] info: Fetched all categories
+[18/04/2025, 23.43.25 WIB] info: Token received:
+[18/04/2025, 23.43.25 WIB] info: User authenticated successfully
+[18/04/2025, 23.43.46 WIB] info: Server running on http://localhost:5000
+[18/04/2025, 23.45.58 WIB] info: Server running on http://localhost:5000
+[19/04/2025, 00.35.25 WIB] info: User logged in successfully: admin@example.com
+[19/04/2025, 00.35.36 WIB] info: Token received:
+[19/04/2025, 00.35.36 WIB] info: User authenticated successfully
+[19/04/2025, 00.35.36 WIB] info: Added new cart item
+[19/04/2025, 00.37.22 WIB] info: Token received:
+[19/04/2025, 00.37.22 WIB] error: Error during token verification
+[19/04/2025, 00.40.08 WIB] info: User logged in successfully: admin@example.com
+[19/04/2025, 00.40.10 WIB] info: Token received:
+[19/04/2025, 00.40.10 WIB] info: User authenticated successfully
+[19/04/2025, 00.40.10 WIB] info: Updated cart item
+[19/04/2025, 00.40.11 WIB] info: Token received:
+[19/04/2025, 00.40.11 WIB] info: User authenticated successfully
+[19/04/2025, 00.40.11 WIB] info: Fetching all cart items for user ID afae1e2d-be8d-451c-abe5-af2479214a7a
+[19/04/2025, 00.40.11 WIB] info: Fetched all cart items
+[19/04/2025, 00.41.22 WIB] info: Token received:
+[19/04/2025, 00.41.22 WIB] info: User authenticated successfully
+[19/04/2025, 00.41.22 WIB] info: Fetching all cart items for user ID afae1e2d-be8d-451c-abe5-af2479214a7a
+[19/04/2025, 00.41.22 WIB] info: Fetched all cart items
+[19/04/2025, 00.45.05 WIB] info: Token received:
+[19/04/2025, 00.45.05 WIB] info: User authenticated successfully
+[19/04/2025, 00.45.05 WIB] info: Fetching all cart items for user ID afae1e2d-be8d-451c-abe5-af2479214a7a
+[19/04/2025, 00.45.05 WIB] info: Fetched all cart items
+[19/04/2025, 00.45.09 WIB] info: Token received:
+[19/04/2025, 00.45.09 WIB] info: User authenticated successfully
+[19/04/2025, 00.45.09 WIB] info: Fetching all cart items for user ID afae1e2d-be8d-451c-abe5-af2479214a7a
+[19/04/2025, 00.45.09 WIB] info: Fetched all cart items
+[19/04/2025, 00.45.12 WIB] info: Token received:
+[19/04/2025, 00.45.12 WIB] info: User authenticated successfully
+[19/04/2025, 00.45.12 WIB] info: Fetching all cart items for user ID afae1e2d-be8d-451c-abe5-af2479214a7a
+[19/04/2025, 00.45.12 WIB] info: Fetched all cart items
+[19/04/2025, 00.45.42 WIB] info: Token received:
+[19/04/2025, 00.45.42 WIB] info: User authenticated successfully
+[19/04/2025, 00.45.42 WIB] info: Fetching all cart items for user ID afae1e2d-be8d-451c-abe5-af2479214a7a
+[19/04/2025, 00.45.42 WIB] info: Fetched all cart items
+[19/04/2025, 00.45.50 WIB] info: Token received:
+[19/04/2025, 00.45.50 WIB] info: User authenticated successfully
+[19/04/2025, 00.45.50 WIB] info: Fetching all cart items for user ID afae1e2d-be8d-451c-abe5-af2479214a7a
+[19/04/2025, 00.45.50 WIB] info: Fetched all cart items
+[19/04/2025, 00.45.58 WIB] info: Token received:
+[19/04/2025, 00.45.58 WIB] info: User authenticated successfully
+[19/04/2025, 00.45.58 WIB] info: Fetching all cart items for user ID afae1e2d-be8d-451c-abe5-af2479214a7a
+[19/04/2025, 00.45.58 WIB] info: Fetched all cart items
+[19/04/2025, 00.47.49 WIB] info: Token received:
+[19/04/2025, 00.47.49 WIB] info: User authenticated successfully
+[19/04/2025, 00.47.49 WIB] info: Fetching all cart items for user ID afae1e2d-be8d-451c-abe5-af2479214a7a
+[19/04/2025, 00.47.49 WIB] info: Fetched all cart items
+[19/04/2025, 00.49.19 WIB] info: Token received:
+[19/04/2025, 00.49.19 WIB] info: User authenticated successfully
+[19/04/2025, 00.49.19 WIB] info: Fetching all cart items for user ID afae1e2d-be8d-451c-abe5-af2479214a7a
+[19/04/2025, 00.49.19 WIB] info: Fetched all cart items
+[19/04/2025, 00.54.45 WIB] info: Server running on http://localhost:5000
+[19/04/2025, 01.02.11 WIB] info: Token received:
+[19/04/2025, 01.02.11 WIB] info: User authenticated successfully
+[19/04/2025, 01.02.11 WIB] info: Fetching all cart items for user ID afae1e2d-be8d-451c-abe5-af2479214a7a
+[19/04/2025, 01.02.11 WIB] info: Fetched all cart items
+[19/04/2025, 01.07.26 WIB] info: Token received:
+[19/04/2025, 01.07.26 WIB] info: User authenticated successfully
+[19/04/2025, 01.07.26 WIB] info: Fetching all cart items for user ID afae1e2d-be8d-451c-abe5-af2479214a7a
+[19/04/2025, 01.07.26 WIB] info: Fetched all cart items
+[19/04/2025, 01.07.50 WIB] info: Token received:
+[19/04/2025, 01.07.50 WIB] info: User authenticated successfully
+[19/04/2025, 01.07.50 WIB] info: Fetching all cart items for user ID afae1e2d-be8d-451c-abe5-af2479214a7a
+[19/04/2025, 01.07.50 WIB] info: Fetched all cart items
+[19/04/2025, 01.09.24 WIB] info: Token received:
+[19/04/2025, 01.09.24 WIB] info: User authenticated successfully
+[19/04/2025, 01.09.24 WIB] info: Removed cart item with ID d206de87-734e-4c60-b420-1cd77d94cf0a for user ID afae1e2d-be8d-451c-abe5-af2479214a7a
+[19/04/2025, 01.16.59 WIB] info: Server running on http://localhost:5000
+[19/04/2025, 01.17.11 WIB] info: Token received:
+[19/04/2025, 01.17.11 WIB] info: User authenticated successfully
+[19/04/2025, 01.17.11 WIB] info: Fetching all cart items for user ID afae1e2d-be8d-451c-abe5-af2479214a7a
+[19/04/2025, 01.17.11 WIB] info: Fetched all cart items
+[19/04/2025, 01.17.17 WIB] info: Token received:
+[19/04/2025, 01.17.17 WIB] info: User authenticated successfully
+[19/04/2025, 01.17.17 WIB] info: Fetching all cart items for user ID afae1e2d-be8d-451c-abe5-af2479214a7a
+[19/04/2025, 01.17.17 WIB] info: Fetched all cart items
+[19/04/2025, 01.20.41 WIB] info: Token received:
+[19/04/2025, 01.20.41 WIB] info: User authenticated successfully
+[19/04/2025, 01.20.41 WIB] info: Fetching all cart items for user ID afae1e2d-be8d-451c-abe5-af2479214a7a
+[19/04/2025, 01.20.41 WIB] info: Fetched all cart items
+[19/04/2025, 01.20.44 WIB] info: Token received:
+[19/04/2025, 01.20.44 WIB] info: User authenticated successfully
+[19/04/2025, 01.20.44 WIB] info: Removed cart item with ID 2ea337af-80a4-4301-a210-b3ccba68ae91 for user ID afae1e2d-be8d-451c-abe5-af2479214a7a
+[19/04/2025, 01.20.49 WIB] info: Token received:
+[19/04/2025, 01.20.49 WIB] info: User authenticated successfully
+[19/04/2025, 01.20.49 WIB] info: Fetching all cart items for user ID afae1e2d-be8d-451c-abe5-af2479214a7a
+[19/04/2025, 01.20.49 WIB] info: Fetched all cart items
+[19/04/2025, 01.24.38 WIB] info: Token received:
+[19/04/2025, 01.24.38 WIB] info: User authenticated successfully
+[19/04/2025, 01.24.38 WIB] info: Fetching all cart items for user ID afae1e2d-be8d-451c-abe5-af2479214a7a
+[19/04/2025, 01.24.38 WIB] info: Fetched all cart items
+[19/04/2025, 01.24.41 WIB] info: Token received:
+[19/04/2025, 01.24.41 WIB] info: User authenticated successfully
+[19/04/2025, 01.24.41 WIB] info: Removed cart item with ID 121f335a-5fe1-4832-add1-0b2bd114e66e for user ID afae1e2d-be8d-451c-abe5-af2479214a7a
+[19/04/2025, 01.24.44 WIB] info: Token received:
+[19/04/2025, 01.24.44 WIB] info: User authenticated successfully
+[19/04/2025, 01.24.44 WIB] info: Fetching all cart items for user ID afae1e2d-be8d-451c-abe5-af2479214a7a
+[19/04/2025, 01.24.44 WIB] info: Fetched all cart items
+[19/04/2025, 01.24.47 WIB] info: Token received:
+[19/04/2025, 01.24.47 WIB] info: User authenticated successfully
+[19/04/2025, 01.24.47 WIB] info: Added new cart item
+[19/04/2025, 01.24.47 WIB] info: Token received:
+[19/04/2025, 01.24.47 WIB] info: User authenticated successfully
+[19/04/2025, 01.24.47 WIB] info: Fetching all cart items for user ID afae1e2d-be8d-451c-abe5-af2479214a7a
+[19/04/2025, 01.24.47 WIB] info: Fetched all cart items
+[19/04/2025, 01.24.47 WIB] info: Token received:
+[19/04/2025, 01.24.47 WIB] info: User authenticated successfully
+[19/04/2025, 01.24.47 WIB] info: Fetching all cart items for user ID afae1e2d-be8d-451c-abe5-af2479214a7a
+[19/04/2025, 01.24.47 WIB] info: Fetched all cart items
+[19/04/2025, 01.24.49 WIB] info: Token received:
+[19/04/2025, 01.24.49 WIB] info: User authenticated successfully
+[19/04/2025, 01.24.49 WIB] info: Removed cart item with ID 1eb4d043-f477-4036-92e3-3667f48f0abe for user ID afae1e2d-be8d-451c-abe5-af2479214a7a
+[19/04/2025, 01.24.52 WIB] info: Token received:
+[19/04/2025, 01.24.52 WIB] info: User authenticated successfully
+[19/04/2025, 01.24.52 WIB] info: Added new cart item
+[19/04/2025, 01.24.52 WIB] info: Token received:
+[19/04/2025, 01.24.52 WIB] info: User authenticated successfully
+[19/04/2025, 01.24.52 WIB] info: Fetching all cart items for user ID afae1e2d-be8d-451c-abe5-af2479214a7a
+[19/04/2025, 01.24.52 WIB] info: Fetched all cart items
+[19/04/2025, 01.24.54 WIB] info: Token received:
+[19/04/2025, 01.24.54 WIB] info: User authenticated successfully
+[19/04/2025, 01.24.54 WIB] info: Fetching all cart items for user ID afae1e2d-be8d-451c-abe5-af2479214a7a
+[19/04/2025, 01.24.54 WIB] info: Fetched all cart items
+[19/04/2025, 01.24.57 WIB] info: Token received:
+[19/04/2025, 01.24.57 WIB] info: User authenticated successfully
+[19/04/2025, 01.24.57 WIB] info: Added new cart item
+[19/04/2025, 01.24.57 WIB] info: Token received:
+[19/04/2025, 01.24.57 WIB] info: User authenticated successfully
+[19/04/2025, 01.24.57 WIB] info: Fetching all cart items for user ID afae1e2d-be8d-451c-abe5-af2479214a7a
+[19/04/2025, 01.24.57 WIB] info: Fetched all cart items
+[19/04/2025, 01.24.58 WIB] info: Token received:
+[19/04/2025, 01.24.58 WIB] info: User authenticated successfully
+[19/04/2025, 01.24.58 WIB] info: Fetching all cart items for user ID afae1e2d-be8d-451c-abe5-af2479214a7a
+[19/04/2025, 01.24.58 WIB] info: Fetched all cart items
+[19/04/2025, 01.25.01 WIB] info: Token received:
+[19/04/2025, 01.25.01 WIB] info: User authenticated successfully
+[19/04/2025, 01.25.01 WIB] info: Fetching all cart items for user ID afae1e2d-be8d-451c-abe5-af2479214a7a
+[19/04/2025, 01.25.01 WIB] info: Fetched all cart items
+[19/04/2025, 01.25.01 WIB] info: Token received:
+[19/04/2025, 01.25.01 WIB] info: User authenticated successfully
+[19/04/2025, 01.25.01 WIB] info: Removed cart item with ID 47479ed0-44c2-4d20-85f0-f10cc0ef8d58 for user ID afae1e2d-be8d-451c-abe5-af2479214a7a
+[19/04/2025, 01.25.03 WIB] info: Token received:
+[19/04/2025, 01.25.03 WIB] info: User authenticated successfully
+[19/04/2025, 01.25.03 WIB] info: Fetching all cart items for user ID afae1e2d-be8d-451c-abe5-af2479214a7a
+[19/04/2025, 01.25.03 WIB] info: Fetched all cart items
+[19/04/2025, 01.26.56 WIB] info: Token received:
+[19/04/2025, 01.26.56 WIB] info: User authenticated successfully
+[19/04/2025, 01.26.56 WIB] info: Added new cart item
+[19/04/2025, 01.26.56 WIB] info: Token received:
+[19/04/2025, 01.26.56 WIB] info: User authenticated successfully
+[19/04/2025, 01.26.56 WIB] info: Fetching all cart items for user ID afae1e2d-be8d-451c-abe5-af2479214a7a
+[19/04/2025, 01.26.56 WIB] info: Fetched all cart items
+[19/04/2025, 01.27.14 WIB] info: Token received:
+[19/04/2025, 01.27.14 WIB] info: User authenticated successfully
+[19/04/2025, 01.27.14 WIB] info: Updated cart item
+[19/04/2025, 01.27.15 WIB] info: Token received:
+[19/04/2025, 01.27.15 WIB] info: User authenticated successfully
+[19/04/2025, 01.27.15 WIB] info: Fetching all cart items for user ID afae1e2d-be8d-451c-abe5-af2479214a7a
+[19/04/2025, 01.27.15 WIB] info: Fetched all cart items
+[19/04/2025, 01.27.34 WIB] info: Token received:
+[19/04/2025, 01.27.34 WIB] info: User authenticated successfully
+[19/04/2025, 01.27.34 WIB] info: Fetching all cart items for user ID afae1e2d-be8d-451c-abe5-af2479214a7a
+[19/04/2025, 01.27.34 WIB] info: Fetched all cart items
+[19/04/2025, 01.27.35 WIB] info: Token received:
+[19/04/2025, 01.27.35 WIB] info: User authenticated successfully
+[19/04/2025, 01.27.35 WIB] info: Removed cart item with ID a1f3f415-7d9c-46be-a757-962dadf613e0 for user ID afae1e2d-be8d-451c-abe5-af2479214a7a
+[19/04/2025, 01.27.37 WIB] info: Token received:
+[19/04/2025, 01.27.37 WIB] info: User authenticated successfully
+[19/04/2025, 01.27.37 WIB] info: Fetching all cart items for user ID afae1e2d-be8d-451c-abe5-af2479214a7a
+[19/04/2025, 01.27.37 WIB] info: Fetched all cart items
+[19/04/2025, 01.31.35 WIB] info: Server running on http://localhost:5000
+[19/04/2025, 12.04.01 WIB] info: Server running on http://localhost:5000
+[19/04/2025, 12.15.55 WIB] info: Token received:
+[19/04/2025, 12.15.55 WIB] info: User authenticated successfully
+[19/04/2025, 12.15.55 WIB] info: Added new cart item
+[19/04/2025, 12.15.56 WIB] info: Token received:
+[19/04/2025, 12.15.56 WIB] info: User authenticated successfully
+[19/04/2025, 12.15.56 WIB] info: Added new cart item
+[19/04/2025, 12.15.57 WIB] info: Token received:
+[19/04/2025, 12.15.57 WIB] info: User authenticated successfully
+[19/04/2025, 12.15.57 WIB] info: Updated cart item
+[19/04/2025, 12.15.57 WIB] info: Token received:
+[19/04/2025, 12.15.57 WIB] info: User authenticated successfully
+[19/04/2025, 12.15.57 WIB] info: Fetching all cart items for user ID afae1e2d-be8d-451c-abe5-af2479214a7a
+[19/04/2025, 12.15.57 WIB] info: Fetched all cart items
+[19/04/2025, 12.16.04 WIB] info: Token received:
+[19/04/2025, 12.16.04 WIB] info: User authenticated successfully
+[19/04/2025, 12.16.04 WIB] info: Removed cart item with ID f50bbe0d-2f29-4222-8d1e-27560d11ac03 for user ID afae1e2d-be8d-451c-abe5-af2479214a7a
+[19/04/2025, 12.16.06 WIB] info: Token received:
+[19/04/2025, 12.16.06 WIB] info: User authenticated successfully
+[19/04/2025, 12.16.06 WIB] info: Fetching all cart items for user ID afae1e2d-be8d-451c-abe5-af2479214a7a
+[19/04/2025, 12.16.06 WIB] info: Fetched all cart items
+[19/04/2025, 12.16.11 WIB] info: Token received:
+[19/04/2025, 12.16.11 WIB] info: User authenticated successfully
+[19/04/2025, 12.16.11 WIB] info: Fetching all cart items for user ID afae1e2d-be8d-451c-abe5-af2479214a7a
+[19/04/2025, 12.16.11 WIB] info: Fetched all cart items
+[19/04/2025, 12.16.12 WIB] info: Token received:
+[19/04/2025, 12.16.12 WIB] info: User authenticated successfully
+[19/04/2025, 12.16.12 WIB] info: Removed cart item with ID dc935e2c-756d-4283-b07d-275e3d41deee for user ID afae1e2d-be8d-451c-abe5-af2479214a7a
+[19/04/2025, 12.16.14 WIB] info: Token received:
+[19/04/2025, 12.16.14 WIB] info: User authenticated successfully
+[19/04/2025, 12.16.14 WIB] info: Fetching all cart items for user ID afae1e2d-be8d-451c-abe5-af2479214a7a
+[19/04/2025, 12.16.14 WIB] info: Fetched all cart items
+[19/04/2025, 13.37.07 WIB] info: Token received:
+[19/04/2025, 13.37.07 WIB] info: User authenticated successfully
+[19/04/2025, 13.37.07 WIB] info: Added new cart item
+[19/04/2025, 13.37.07 WIB] info: Token received:
+[19/04/2025, 13.37.07 WIB] info: User authenticated successfully
+[19/04/2025, 13.37.07 WIB] info: Fetching all cart items for user ID afae1e2d-be8d-451c-abe5-af2479214a7a
+[19/04/2025, 13.37.07 WIB] info: Fetched all cart items
+[19/04/2025, 13.37.10 WIB] info: Token received:
+[19/04/2025, 13.37.10 WIB] info: User authenticated successfully
+[19/04/2025, 13.37.10 WIB] info: Removed cart item with ID f36ba4e6-7c59-4d33-a3fc-97add545eccb for user ID afae1e2d-be8d-451c-abe5-af2479214a7a
+[19/04/2025, 13.37.12 WIB] info: Token received:
+[19/04/2025, 13.37.12 WIB] info: User authenticated successfully
+[19/04/2025, 13.37.12 WIB] info: Fetching all cart items for user ID afae1e2d-be8d-451c-abe5-af2479214a7a
+[19/04/2025, 13.37.12 WIB] info: Fetched all cart items
+[19/04/2025, 13.45.00 WIB] info: Token received:
+[19/04/2025, 13.45.00 WIB] info: User authenticated successfully
+[19/04/2025, 13.45.00 WIB] info: Fetching all cart items for user ID afae1e2d-be8d-451c-abe5-af2479214a7a
+[19/04/2025, 13.45.00 WIB] info: Fetched all cart items
+[19/04/2025, 13.45.01 WIB] info: Token received:
+[19/04/2025, 13.45.01 WIB] info: User authenticated successfully
+[19/04/2025, 13.45.01 WIB] info: Removed cart item with ID 5999f3ca-1936-43a9-9794-ac5314d3935e for user ID afae1e2d-be8d-451c-abe5-af2479214a7a
+[19/04/2025, 13.46.13 WIB] info: Token received:
+[19/04/2025, 13.46.13 WIB] info: User authenticated successfully
+[19/04/2025, 13.46.13 WIB] info: Fetching all cart items for user ID afae1e2d-be8d-451c-abe5-af2479214a7a
+[19/04/2025, 13.46.13 WIB] info: Fetched all cart items
+[19/04/2025, 13.46.15 WIB] info: Token received:
+[19/04/2025, 13.46.15 WIB] info: User authenticated successfully
+[19/04/2025, 13.46.15 WIB] info: Added new cart item
+[19/04/2025, 13.46.16 WIB] info: Token received:
+[19/04/2025, 13.46.16 WIB] info: User authenticated successfully
+[19/04/2025, 13.46.16 WIB] info: Fetching all cart items for user ID afae1e2d-be8d-451c-abe5-af2479214a7a
+[19/04/2025, 13.46.16 WIB] info: Fetched all cart items
+[19/04/2025, 13.46.17 WIB] info: Token received:
+[19/04/2025, 13.46.17 WIB] info: User authenticated successfully
+[19/04/2025, 13.46.17 WIB] info: Removed cart item with ID 3cadb620-141a-4aa8-a270-e2de6e55a260 for user ID afae1e2d-be8d-451c-abe5-af2479214a7a
+[19/04/2025, 13.46.20 WIB] info: Token received:
+[19/04/2025, 13.46.20 WIB] info: User authenticated successfully
+[19/04/2025, 13.46.20 WIB] info: Fetching all cart items for user ID afae1e2d-be8d-451c-abe5-af2479214a7a
+[19/04/2025, 13.46.20 WIB] info: Fetched all cart items
+[19/04/2025, 13.46.57 WIB] info: Token received:
+[19/04/2025, 13.46.57 WIB] info: User authenticated successfully
+[19/04/2025, 13.46.57 WIB] info: Fetching all cart items for user ID afae1e2d-be8d-451c-abe5-af2479214a7a
+[19/04/2025, 13.46.57 WIB] info: Fetched all cart items
+[19/04/2025, 13.47.20 WIB] info: Token received:
+[19/04/2025, 13.47.20 WIB] info: User authenticated successfully
+[19/04/2025, 13.47.20 WIB] info: Added new cart item
+[19/04/2025, 13.47.22 WIB] info: Token received:
+[19/04/2025, 13.47.22 WIB] info: User authenticated successfully
+[19/04/2025, 13.47.22 WIB] info: Updated cart item
+[19/04/2025, 13.47.43 WIB] info: Token received:
+[19/04/2025, 13.47.43 WIB] info: User authenticated successfully
+[19/04/2025, 13.47.43 WIB] info: Fetching all cart items for user ID afae1e2d-be8d-451c-abe5-af2479214a7a
+[19/04/2025, 13.47.43 WIB] info: Fetched all cart items
+[19/04/2025, 13.58.16 WIB] info: Token received:
+[19/04/2025, 13.58.16 WIB] info: User authenticated successfully
+[19/04/2025, 13.58.30 WIB] info: Token received:
+[19/04/2025, 13.58.30 WIB] info: User authenticated successfully
+[19/04/2025, 13.58.42 WIB] info: Token received:
+[19/04/2025, 13.58.42 WIB] info: User authenticated successfully
+[19/04/2025, 13.58.44 WIB] info: Token received:
+[19/04/2025, 13.58.44 WIB] info: User authenticated successfully
+[19/04/2025, 13.59.10 WIB] info: Token received:
+[19/04/2025, 13.59.10 WIB] info: User authenticated successfully
+[19/04/2025, 13.59.25 WIB] info: Token received:
+[19/04/2025, 13.59.25 WIB] info: User authenticated successfully
+[19/04/2025, 13.59.32 WIB] info: Token received:
+[19/04/2025, 13.59.32 WIB] info: User authenticated successfully
+[19/04/2025, 13.59.44 WIB] info: Token received:
+[19/04/2025, 13.59.44 WIB] info: User authenticated successfully
+[19/04/2025, 14.00.58 WIB] info: Server running on http://localhost:5000
+[19/04/2025, 14.03.04 WIB] info: Register request received {}
+[19/04/2025, 14.03.04 WIB] warn: Validation failed for registration: Field: name, Message: Required, Field: email, Message: Required, Field: password, Message: Required, Field: phone, Message: Required
+[19/04/2025, 16.02.41 WIB] info: Server running on http://localhost:5000
+[19/04/2025, 16.03.12 WIB] info: Register request received {"name":"dalton","email":"dalton@example.com","password":"dalton","phone":"85376892034","role":"admin"}
+[19/04/2025, 16.03.12 WIB] info: User registered successfully: dalton@example.com
+[19/04/2025, 16.03.58 WIB] info: Token received:
+[19/04/2025, 16.03.58 WIB] info: User authenticated successfully
+[19/04/2025, 16.04.00 WIB] info: Token received:
+[19/04/2025, 16.04.00 WIB] info: User authenticated successfully
+[19/04/2025, 16.04.00 WIB] info: Fetching all cart items for user ID afae1e2d-be8d-451c-abe5-af2479214a7a
+[19/04/2025, 16.04.00 WIB] info: Fetched all cart items
+[19/04/2025, 16.04.03 WIB] info: Token received:
+[19/04/2025, 16.04.03 WIB] info: User authenticated successfully
+[19/04/2025, 16.06.14 WIB] info: Token received:
+[19/04/2025, 16.06.14 WIB] info: User authenticated successfully
+[19/04/2025, 16.06.34 WIB] info: Token received:
+[19/04/2025, 16.06.34 WIB] info: User authenticated successfully
+[19/04/2025, 16.08.09 WIB] info: Token received:
+[19/04/2025, 16.08.09 WIB] info: User authenticated successfully
+[19/04/2025, 16.08.34 WIB] info: Token received:
+[19/04/2025, 16.08.34 WIB] info: User authenticated successfully
+[19/04/2025, 16.08.38 WIB] info: Token received:
+[19/04/2025, 16.08.38 WIB] info: User authenticated successfully
+[19/04/2025, 16.08.45 WIB] info: Token received:
+[19/04/2025, 16.08.45 WIB] info: User authenticated successfully
+[19/04/2025, 16.09.14 WIB] info: Token received:
+[19/04/2025, 16.09.14 WIB] info: User authenticated successfully
+[19/04/2025, 16.15.20 WIB] info: Server running on http://localhost:5000
+[19/04/2025, 16.16.17 WIB] info: Server running on http://localhost:5000
+[19/04/2025, 16.18.04 WIB] info: Token received:
+[19/04/2025, 16.18.04 WIB] info: User authenticated successfully
+[19/04/2025, 16.18.09 WIB] info: Token received:
+[19/04/2025, 16.18.09 WIB] info: User authenticated successfully
+[19/04/2025, 16.18.12 WIB] info: Token received:
+[19/04/2025, 16.18.12 WIB] info: User authenticated successfully
+[19/04/2025, 16.18.12 WIB] info: Fetching all cart items for user ID afae1e2d-be8d-451c-abe5-af2479214a7a
+[19/04/2025, 16.18.12 WIB] info: Fetched all cart items
+[19/04/2025, 16.18.15 WIB] info: Token received:
+[19/04/2025, 16.18.15 WIB] info: User authenticated successfully
+[19/04/2025, 16.18.42 WIB] info: Server running on http://localhost:5000
+[19/04/2025, 16.18.45 WIB] info: Token received:
+[19/04/2025, 16.18.46 WIB] info: User authenticated successfully
+[19/04/2025, 16.19.22 WIB] info: Server running on http://localhost:5000
+[19/04/2025, 16.20.17 WIB] info: Token received:
+[19/04/2025, 16.20.17 WIB] info: User authenticated successfully
+[19/04/2025, 16.21.17 WIB] info: Token received:
+[19/04/2025, 16.21.17 WIB] info: User authenticated successfully
+[19/04/2025, 16.21.21 WIB] info: User updated: admin@example.com
+[19/04/2025, 16.22.33 WIB] info: Token received:
+[19/04/2025, 16.22.33 WIB] info: User authenticated successfully
+[19/04/2025, 16.23.08 WIB] info: Token received:
+[19/04/2025, 16.23.08 WIB] info: User authenticated successfully
+[19/04/2025, 16.24.00 WIB] info: Token received:
+[19/04/2025, 16.24.00 WIB] info: User authenticated successfully
+[19/04/2025, 16.24.04 WIB] info: Token received:
+[19/04/2025, 16.24.04 WIB] info: User authenticated successfully
+[19/04/2025, 16.24.08 WIB] info: Token received:
+[19/04/2025, 16.24.08 WIB] info: User authenticated successfully
+[19/04/2025, 16.24.18 WIB] info: Token received:
+[19/04/2025, 16.24.18 WIB] info: User authenticated successfully
+[19/04/2025, 16.24.42 WIB] info: Token received:
+[19/04/2025, 16.24.42 WIB] info: User authenticated successfully
+[19/04/2025, 16.24.54 WIB] info: Token received:
+[19/04/2025, 16.24.54 WIB] info: User authenticated successfully
+[19/04/2025, 16.26.16 WIB] info: Token received:
+[19/04/2025, 16.26.17 WIB] info: User authenticated successfully
+[19/04/2025, 16.26.35 WIB] info: Token received:
+[19/04/2025, 16.26.35 WIB] info: User authenticated successfully
+[19/04/2025, 16.27.18 WIB] info: Token received:
+[19/04/2025, 16.27.18 WIB] info: User authenticated successfully
+[19/04/2025, 16.28.55 WIB] info: Token received:
+[19/04/2025, 16.28.55 WIB] info: User authenticated successfully
+[19/04/2025, 16.29.24 WIB] info: Token received:
+[19/04/2025, 16.29.24 WIB] info: User authenticated successfully
+[19/04/2025, 16.31.46 WIB] info: Token received:
+[19/04/2025, 16.31.47 WIB] info: User authenticated successfully
+[19/04/2025, 16.32.23 WIB] info: Token received:
+[19/04/2025, 16.32.23 WIB] info: User authenticated successfully
+[19/04/2025, 16.32.29 WIB] info: Token received:
+[19/04/2025, 16.32.29 WIB] info: User authenticated successfully
+[19/04/2025, 16.32.46 WIB] info: Token received:
+[19/04/2025, 16.32.46 WIB] info: User authenticated successfully
+[19/04/2025, 16.32.55 WIB] info: Token received:
+[19/04/2025, 16.32.55 WIB] info: User authenticated successfully
+[19/04/2025, 16.33.01 WIB] info: Token received:
+[19/04/2025, 16.33.01 WIB] info: User authenticated successfully
+[19/04/2025, 16.33.06 WIB] info: Token received:
+[19/04/2025, 16.33.06 WIB] info: User authenticated successfully
+[19/04/2025, 16.33.08 WIB] info: Token received:
+[19/04/2025, 16.33.08 WIB] info: User authenticated successfully
+[19/04/2025, 16.33.17 WIB] info: Token received:
+[19/04/2025, 16.33.17 WIB] info: User authenticated successfully
+[19/04/2025, 16.33.25 WIB] info: Token received:
+[19/04/2025, 16.33.25 WIB] info: User authenticated successfully
+[19/04/2025, 16.33.29 WIB] info: Token received:
+[19/04/2025, 16.33.29 WIB] info: User authenticated successfully
+[19/04/2025, 16.34.09 WIB] info: Token received:
+[19/04/2025, 16.34.09 WIB] info: User authenticated successfully
+[19/04/2025, 16.34.24 WIB] info: Token received:
+[19/04/2025, 16.34.24 WIB] info: User authenticated successfully
+[19/04/2025, 16.34.24 WIB] info: Updated cart item
+[19/04/2025, 16.34.25 WIB] info: Token received:
+[19/04/2025, 16.34.25 WIB] info: User authenticated successfully
+[19/04/2025, 16.34.25 WIB] info: Fetching all cart items for user ID afae1e2d-be8d-451c-abe5-af2479214a7a
+[19/04/2025, 16.34.25 WIB] info: Fetched all cart items
+[19/04/2025, 16.34.26 WIB] info: Token received:
+[19/04/2025, 16.34.26 WIB] info: User authenticated successfully
+[19/04/2025, 16.34.26 WIB] info: Removed cart item with ID f954525e-c61c-4d04-bb66-b8a9bddf3bb5 for user ID afae1e2d-be8d-451c-abe5-af2479214a7a
+[19/04/2025, 16.34.31 WIB] info: Token received:
+[19/04/2025, 16.34.31 WIB] info: User authenticated successfully
+[19/04/2025, 16.34.33 WIB] info: Token received:
+[19/04/2025, 16.34.33 WIB] info: User authenticated successfully
+[19/04/2025, 16.34.58 WIB] info: Token received:
+[19/04/2025, 16.34.58 WIB] info: User authenticated successfully
+[19/04/2025, 18.00.20 WIB] info: Token received:
+[19/04/2025, 18.00.20 WIB] info: User authenticated successfully
+[19/04/2025, 18.01.34 WIB] info: Token received:
+[19/04/2025, 18.01.34 WIB] info: User authenticated successfully
+[19/04/2025, 18.01.43 WIB] info: Token received:
+[19/04/2025, 18.01.43 WIB] info: User authenticated successfully
+[19/04/2025, 18.01.47 WIB] info: Token received:
+[19/04/2025, 18.01.47 WIB] info: User authenticated successfully
+[19/04/2025, 18.01.51 WIB] info: Token received:
+[19/04/2025, 18.01.51 WIB] info: User authenticated successfully
+[19/04/2025, 18.01.58 WIB] info: Token received:
+[19/04/2025, 18.01.58 WIB] info: User authenticated successfully
+[19/04/2025, 18.02.02 WIB] info: Token received:
+[19/04/2025, 18.02.02 WIB] info: User authenticated successfully
+[19/04/2025, 18.02.20 WIB] info: Token received:
+[19/04/2025, 18.02.20 WIB] info: User authenticated successfully
+[19/04/2025, 18.03.29 WIB] info: Token received:
+[19/04/2025, 18.03.29 WIB] info: User authenticated successfully
+[19/04/2025, 18.04.16 WIB] info: Token received:
+[19/04/2025, 18.04.16 WIB] info: User authenticated successfully
+[19/04/2025, 18.18.40 WIB] info: Token received:
+[19/04/2025, 18.18.40 WIB] info: User authenticated successfully
+[20/04/2025, 11.43.10 WIB] info: Server running on http://localhost:5000
+[20/04/2025, 11.48.34 WIB] info: Server running on http://localhost:5000
+[20/04/2025, 12.05.46 WIB] info: Server running on http://localhost:5000
+[20/04/2025, 17.37.41 WIB] info: Server running on http://localhost:5000
+[20/04/2025, 17.53.38 WIB] info: Server running on http://localhost:5000
+[20/04/2025, 17.53.46 WIB] info: Token received:
+[20/04/2025, 17.53.46 WIB] error: Error during token verification
+[20/04/2025, 17.53.51 WIB] info: Token received:
+[20/04/2025, 17.53.51 WIB] error: Error during token verification
+[20/04/2025, 17.55.15 WIB] info: Token received:
+[20/04/2025, 17.55.15 WIB] error: Error during token verification
+[20/04/2025, 17.55.44 WIB] info: Token received:
+[20/04/2025, 17.55.44 WIB] error: Error during token verification
+[20/04/2025, 17.56.25 WIB] info: Token received:
+[20/04/2025, 17.56.25 WIB] error: Error during token verification
+[20/04/2025, 17.59.21 WIB] warn: Login failed: Invalid email or password for email: daniel@example.com
+[20/04/2025, 17.59.47 WIB] info: User logged in successfully: danielfebrian@example.com
+[20/04/2025, 17.59.50 WIB] info: Token received:
+[20/04/2025, 17.59.50 WIB] info: User authenticated successfully
+[20/04/2025, 17.59.50 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[20/04/2025, 17.59.50 WIB] info: Fetched all cart items
+[20/04/2025, 17.59.53 WIB] info: Token received:
+[20/04/2025, 17.59.53 WIB] info: User authenticated successfully
+[20/04/2025, 17.59.53 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[20/04/2025, 17.59.53 WIB] info: Fetched all cart items
+[20/04/2025, 17.59.57 WIB] info: Token received:
+[20/04/2025, 17.59.57 WIB] info: User authenticated successfully
+[20/04/2025, 18.14.56 WIB] info: User logged in successfully: danielfebrian@example.com
+[20/04/2025, 18.15.03 WIB] info: Token received:
+[20/04/2025, 18.15.03 WIB] info: User authenticated successfully
+[20/04/2025, 18.15.09 WIB] info: Token received:
+[20/04/2025, 18.15.09 WIB] info: User authenticated successfully
+[20/04/2025, 18.22.33 WIB] info: User logged in successfully: danielfebrian@example.com
+[20/04/2025, 18.22.35 WIB] info: Token received:
+[20/04/2025, 18.22.35 WIB] info: User authenticated successfully
+[20/04/2025, 18.22.37 WIB] info: Token received:
+[20/04/2025, 18.22.37 WIB] info: User authenticated successfully
+[20/04/2025, 18.22.41 WIB] info: Token received:
+[20/04/2025, 18.22.41 WIB] info: User authenticated successfully
+[20/04/2025, 18.22.43 WIB] info: Token received:
+[20/04/2025, 18.22.43 WIB] info: User authenticated successfully
+[20/04/2025, 18.22.46 WIB] info: User updated: danielfebrian@example.com
+[20/04/2025, 18.34.12 WIB] info: User logged in successfully: danielfebrian@example.com
+[20/04/2025, 18.34.14 WIB] info: Token received:
+[20/04/2025, 18.34.14 WIB] info: User authenticated successfully
+[20/04/2025, 18.34.17 WIB] info: Token received:
+[20/04/2025, 18.34.17 WIB] info: User authenticated successfully
+[20/04/2025, 18.34.25 WIB] info: User updated: danielfebrian@example.com
+[20/04/2025, 18.34.25 WIB] info: Token received:
+[20/04/2025, 18.34.25 WIB] info: User authenticated successfully
+[20/04/2025, 18.41.57 WIB] info: Token received:
+[20/04/2025, 18.41.57 WIB] info: User authenticated successfully
+[20/04/2025, 18.42.00 WIB] info: User updated: danielfebrian@example.com
+[20/04/2025, 18.42.00 WIB] info: Token received:
+[20/04/2025, 18.42.00 WIB] info: User authenticated successfully
+[20/04/2025, 18.45.46 WIB] info: Token received:
+[20/04/2025, 18.45.46 WIB] info: User authenticated successfully
+[20/04/2025, 18.46.03 WIB] info: User updated: danielfebrian@example.com
+[20/04/2025, 18.46.03 WIB] info: Token received:
+[20/04/2025, 18.46.03 WIB] info: User authenticated successfully
+[20/04/2025, 18.47.13 WIB] info: User logged in successfully: danielfebrian@example.com
+[20/04/2025, 18.47.15 WIB] info: Token received:
+[20/04/2025, 18.47.15 WIB] info: User authenticated successfully
+[20/04/2025, 18.47.22 WIB] info: Token received:
+[20/04/2025, 18.47.22 WIB] info: User authenticated successfully
+[20/04/2025, 18.47.37 WIB] info: User updated: danielfebrian@example.com
+[20/04/2025, 18.50.44 WIB] info: Token received:
+[20/04/2025, 18.50.44 WIB] info: User authenticated successfully
+[20/04/2025, 20.10.31 WIB] info: Server running on http://localhost:5000
+[20/04/2025, 20.12.26 WIB] info: Token received:
+[20/04/2025, 20.12.26 WIB] info: User authenticated successfully
+[20/04/2025, 20.12.28 WIB] info: Token received:
+[20/04/2025, 20.12.28 WIB] info: User authenticated successfully
+[20/04/2025, 20.12.42 WIB] info: Token received:
+[20/04/2025, 20.12.42 WIB] info: User authenticated successfully
+[20/04/2025, 20.13.08 WIB] info: Token received:
+[20/04/2025, 20.13.08 WIB] info: User authenticated successfully
+[20/04/2025, 20.13.11 WIB] info: Token received:
+[20/04/2025, 20.13.11 WIB] info: User authenticated successfully
+[20/04/2025, 20.13.14 WIB] info: Token received:
+[20/04/2025, 20.13.14 WIB] info: User authenticated successfully
+[20/04/2025, 20.13.24 WIB] info: Token received:
+[20/04/2025, 20.13.24 WIB] info: User authenticated successfully
+[20/04/2025, 20.13.25 WIB] info: Token received:
+[20/04/2025, 20.13.25 WIB] info: User authenticated successfully
+[20/04/2025, 20.13.27 WIB] info: User updated: danielfebrian@example.com
+[20/04/2025, 20.13.27 WIB] info: Token received:
+[20/04/2025, 20.13.27 WIB] info: User authenticated successfully
+[20/04/2025, 20.13.31 WIB] info: Token received:
+[20/04/2025, 20.13.31 WIB] info: User authenticated successfully
+[20/04/2025, 20.13.33 WIB] info: Token received:
+[20/04/2025, 20.13.33 WIB] info: User authenticated successfully
+[20/04/2025, 20.13.38 WIB] info: Token received:
+[20/04/2025, 20.13.38 WIB] info: User authenticated successfully
+[20/04/2025, 20.13.40 WIB] info: Token received:
+[20/04/2025, 20.13.40 WIB] info: User authenticated successfully
+[20/04/2025, 20.13.42 WIB] info: Token received:
+[20/04/2025, 20.13.42 WIB] info: User authenticated successfully
+[20/04/2025, 20.13.46 WIB] info: Token received:
+[20/04/2025, 20.13.46 WIB] info: User authenticated successfully
+[20/04/2025, 20.13.47 WIB] info: Token received:
+[20/04/2025, 20.13.47 WIB] info: User authenticated successfully
+[20/04/2025, 20.13.54 WIB] info: Token received:
+[20/04/2025, 20.13.54 WIB] info: User authenticated successfully
+[20/04/2025, 20.13.55 WIB] info: Token received:
+[20/04/2025, 20.13.55 WIB] info: User authenticated successfully
+[20/04/2025, 20.13.57 WIB] info: Token received:
+[20/04/2025, 20.13.57 WIB] info: User authenticated successfully
+[20/04/2025, 20.13.59 WIB] info: Token received:
+[20/04/2025, 20.13.59 WIB] info: User authenticated successfully
+[20/04/2025, 20.14.02 WIB] info: Token received:
+[20/04/2025, 20.14.02 WIB] info: User authenticated successfully
+[20/04/2025, 20.14.03 WIB] info: Token received:
+[20/04/2025, 20.14.03 WIB] info: User authenticated successfully
+[20/04/2025, 20.14.06 WIB] info: User updated: danielfebrian@example.com
+[20/04/2025, 20.14.06 WIB] info: Token received:
+[20/04/2025, 20.14.06 WIB] info: User authenticated successfully
+[20/04/2025, 20.14.07 WIB] info: User updated: danielfebrian@example.com
+[20/04/2025, 20.15.02 WIB] info: Token received:
+[20/04/2025, 20.15.02 WIB] info: User authenticated successfully
+[20/04/2025, 20.15.04 WIB] info: Token received:
+[20/04/2025, 20.15.04 WIB] info: User authenticated successfully
+[20/04/2025, 20.15.13 WIB] info: Token received:
+[20/04/2025, 20.15.13 WIB] error: Error during token verification
+[20/04/2025, 20.15.26 WIB] info: User logged in successfully: danielfebrian@example.com
+[20/04/2025, 20.15.29 WIB] info: Token received:
+[20/04/2025, 20.15.29 WIB] info: User authenticated successfully
+[20/04/2025, 20.16.10 WIB] info: Token received:
+[20/04/2025, 20.16.10 WIB] info: User authenticated successfully
+[20/04/2025, 20.16.10 WIB] info: Added new cart item
+[20/04/2025, 20.16.11 WIB] info: Token received:
+[20/04/2025, 20.16.11 WIB] info: User authenticated successfully
+[20/04/2025, 20.16.11 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[20/04/2025, 20.16.11 WIB] info: Fetched all cart items
+[20/04/2025, 20.16.13 WIB] info: Token received:
+[20/04/2025, 20.16.13 WIB] info: User authenticated successfully
+[20/04/2025, 20.16.13 WIB] info: Removed cart item with ID 0ed20cdc-5f82-45df-9938-ee14e5cbe1b2 for user ID 01457523-1670-4415-803c-19700cdbe463
+[20/04/2025, 20.16.15 WIB] info: Token received:
+[20/04/2025, 20.16.15 WIB] info: User authenticated successfully
+[20/04/2025, 20.16.15 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[20/04/2025, 20.16.15 WIB] info: Fetched all cart items
+[20/04/2025, 20.16.18 WIB] info: Token received:
+[20/04/2025, 20.16.18 WIB] info: User authenticated successfully
+[20/04/2025, 20.16.18 WIB] info: Removed cart item with ID 656202f7-9908-49d3-a547-825ac3da5bf0 for user ID 01457523-1670-4415-803c-19700cdbe463
+[20/04/2025, 20.16.19 WIB] info: Token received:
+[20/04/2025, 20.16.19 WIB] info: User authenticated successfully
+[20/04/2025, 20.16.19 WIB] info: Removed cart item with ID 22e1ea98-8616-45da-9a1f-a33afb1f3297 for user ID 01457523-1670-4415-803c-19700cdbe463
+[20/04/2025, 20.16.50 WIB] info: Token received:
+[20/04/2025, 20.16.50 WIB] info: User authenticated successfully
+[20/04/2025, 20.16.50 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[20/04/2025, 20.16.50 WIB] info: Fetched all cart items
+[20/04/2025, 21.46.25 WIB] info: Server running on http://localhost:5000
+[20/04/2025, 21.48.34 WIB] info: Token received:
+[20/04/2025, 21.48.35 WIB] info: User authenticated successfully
+[20/04/2025, 21.49.22 WIB] info: Token received:
+[20/04/2025, 21.49.22 WIB] info: User authenticated successfully
+[20/04/2025, 21.49.22 WIB] info: Updated cart item
+[20/04/2025, 21.49.23 WIB] info: Token received:
+[20/04/2025, 21.49.23 WIB] info: User authenticated successfully
+[20/04/2025, 21.49.23 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[20/04/2025, 21.49.23 WIB] info: Fetched all cart items
+[20/04/2025, 22.16.32 WIB] info: Token received:
+[20/04/2025, 22.16.32 WIB] info: User authenticated successfully
+[20/04/2025, 22.16.32 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[20/04/2025, 22.16.32 WIB] info: Fetched all cart items
+[20/04/2025, 22.19.04 WIB] info: Token received:
+[20/04/2025, 22.19.04 WIB] info: User authenticated successfully
+[25/04/2025, 20.03.49 WIB] info: Server running on http://localhost:5000
+[25/04/2025, 20.04.15 WIB] info: Server running on http://localhost:5000
+[25/04/2025, 20.07.04 WIB] info: Server running on http://localhost:5000
+[25/04/2025, 20.07.08 WIB] info: Token received:
+[25/04/2025, 20.07.08 WIB] error: Error during token verification
+[25/04/2025, 20.07.50 WIB] info: Token received:
+[25/04/2025, 20.07.50 WIB] error: Error during token verification
+[25/04/2025, 20.12.33 WIB] info: Token received:
+[25/04/2025, 20.12.33 WIB] error: Error during token verification
+[25/04/2025, 20.12.34 WIB] info: Token received:
+[25/04/2025, 20.12.34 WIB] error: Error during token verification
+[25/04/2025, 20.12.35 WIB] info: Token received:
+[25/04/2025, 20.12.35 WIB] error: Error during token verification
+[25/04/2025, 20.12.36 WIB] info: Token received:
+[25/04/2025, 20.12.36 WIB] error: Error during token verification
+[25/04/2025, 22.28.47 WIB] info: Token received:
+[25/04/2025, 22.28.47 WIB] error: Error during token verification
+[25/04/2025, 22.40.30 WIB] info: Server running on http://localhost:5000
+[25/04/2025, 22.41.18 WIB] info: Token received:
+[25/04/2025, 22.41.18 WIB] error: Error during token verification
+[25/04/2025, 22.41.26 WIB] info: User logged in successfully: danielfebrian@example.com
+[25/04/2025, 22.41.29 WIB] info: Token received:
+[25/04/2025, 22.41.29 WIB] info: User authenticated successfully
+[25/04/2025, 22.44.04 WIB] info: Token received:
+[25/04/2025, 22.44.04 WIB] error: Error during token verification
+[25/04/2025, 22.49.17 WIB] warn: Login failed: Invalid email or password for email: danielfebrian@gmail.com
+[25/04/2025, 22.49.26 WIB] info: User logged in successfully: danielfebrian@example.com
+[25/04/2025, 22.49.28 WIB] info: Token received:
+[25/04/2025, 22.49.28 WIB] info: User authenticated successfully
+[25/04/2025, 22.49.28 WIB] info: Updated cart item
+[25/04/2025, 22.49.29 WIB] info: Token received:
+[25/04/2025, 22.49.29 WIB] info: User authenticated successfully
+[25/04/2025, 22.49.29 WIB] info: Updated cart item
+[25/04/2025, 22.49.30 WIB] info: Token received:
+[25/04/2025, 22.49.30 WIB] info: User authenticated successfully
+[09/05/2025, 11.11.29 WIB] info: Server running on http://localhost:5000
+[09/05/2025, 21.01.45 WIB] info: Server running on http://localhost:5000
+[09/05/2025, 21.03.12 WIB] info: Token received:
+[09/05/2025, 21.03.12 WIB] error: Error during token verification
+[09/05/2025, 21.03.54 WIB] info: User logged in successfully: danielfebrian@example.com
+[09/05/2025, 21.04.05 WIB] info: Token received:
+[09/05/2025, 21.04.05 WIB] info: User authenticated successfully
+[09/05/2025, 21.04.07 WIB] info: Token received:
+[09/05/2025, 21.04.07 WIB] info: User authenticated successfully
+[09/05/2025, 21.04.45 WIB] info: Token received:
+[09/05/2025, 21.04.45 WIB] info: User authenticated successfully
+[09/05/2025, 21.04.45 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[09/05/2025, 21.04.45 WIB] info: Fetched all cart items
+[09/05/2025, 21.05.35 WIB] info: Token received:
+[09/05/2025, 21.05.35 WIB] info: User authenticated successfully
+[09/05/2025, 21.05.41 WIB] info: Token received:
+[09/05/2025, 21.05.41 WIB] info: User authenticated successfully
+[09/05/2025, 21.05.46 WIB] info: Token received:
+[09/05/2025, 21.05.46 WIB] info: User authenticated successfully
+[09/05/2025, 21.07.05 WIB] info: Token received:
+[09/05/2025, 21.07.05 WIB] info: User authenticated successfully
+[09/05/2025, 21.12.05 WIB] info: Token received:
+[09/05/2025, 21.12.05 WIB] info: User authenticated successfully
+[09/05/2025, 21.13.13 WIB] info: Token received:
+[09/05/2025, 21.13.13 WIB] info: User authenticated successfully
+[09/05/2025, 21.13.33 WIB] info: Token received:
+[09/05/2025, 21.13.33 WIB] info: User authenticated successfully
+[09/05/2025, 21.17.57 WIB] info: Token received:
+[09/05/2025, 21.17.57 WIB] info: User authenticated successfully
+[09/05/2025, 21.17.57 WIB] info: Updated cart item
+[09/05/2025, 21.21.31 WIB] info: User logged in successfully: danielfebrian@example.com
+[09/05/2025, 21.21.42 WIB] info: Token received:
+[09/05/2025, 21.21.42 WIB] info: User authenticated successfully
+[09/05/2025, 21.21.42 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[09/05/2025, 21.21.42 WIB] info: Fetched all cart items
+[09/05/2025, 21.21.47 WIB] info: Token received:
+[09/05/2025, 21.21.47 WIB] info: User authenticated successfully
+[09/05/2025, 21.21.47 WIB] info: Added new cart item
+[09/05/2025, 21.21.48 WIB] info: Token received:
+[09/05/2025, 21.21.48 WIB] info: User authenticated successfully
+[09/05/2025, 21.21.48 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[09/05/2025, 21.21.48 WIB] info: Fetched all cart items
+[09/05/2025, 21.25.33 WIB] info: Token received:
+[09/05/2025, 21.25.33 WIB] info: User authenticated successfully
+[09/05/2025, 21.30.38 WIB] info: Token received:
+[09/05/2025, 21.30.38 WIB] info: User authenticated successfully
+[09/05/2025, 21.34.26 WIB] info: Token received:
+[09/05/2025, 21.34.26 WIB] info: User authenticated successfully
+[09/05/2025, 21.34.26 WIB] info: Updated cart item
+[11/05/2025, 08.17.27 WIB] info: Server running on http://localhost:5000
+[11/05/2025, 08.19.42 WIB] info: Token received:
+[11/05/2025, 08.19.42 WIB] error: Error during token verification
+[11/05/2025, 08.43.33 WIB] info: User logged in successfully: danielfebrian@example.com
+[11/05/2025, 08.43.35 WIB] info: Token received:
+[11/05/2025, 08.43.35 WIB] info: User authenticated successfully
+[11/05/2025, 08.43.35 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[11/05/2025, 08.43.35 WIB] info: Fetched all cart items
+[11/05/2025, 08.43.40 WIB] info: Token received:
+[11/05/2025, 08.43.40 WIB] info: User authenticated successfully
+[11/05/2025, 09.04.33 WIB] info: Token received:
+[11/05/2025, 09.04.33 WIB] info: User authenticated successfully
+[11/05/2025, 09.05.07 WIB] info: Token received:
+[11/05/2025, 09.05.07 WIB] info: User authenticated successfully
+[11/05/2025, 09.16.23 WIB] info: Token received:
+[11/05/2025, 09.16.23 WIB] info: User authenticated successfully
+[11/05/2025, 09.39.25 WIB] info: Token received:
+[11/05/2025, 09.39.25 WIB] info: User authenticated successfully
+[11/05/2025, 09.39.31 WIB] info: Token received:
+[11/05/2025, 09.39.31 WIB] info: User authenticated successfully
+[11/05/2025, 09.39.31 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[11/05/2025, 09.39.31 WIB] info: Fetched all cart items
+[11/05/2025, 09.39.35 WIB] info: Token received:
+[11/05/2025, 09.39.35 WIB] info: User authenticated successfully
+[11/05/2025, 09.40.55 WIB] info: Token received:
+[11/05/2025, 09.40.55 WIB] info: User authenticated successfully
+[11/05/2025, 09.40.55 WIB] info: Updated cart item
+[11/05/2025, 09.40.57 WIB] info: Token received:
+[11/05/2025, 09.40.57 WIB] info: User authenticated successfully
+[11/05/2025, 09.40.57 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[11/05/2025, 09.40.57 WIB] info: Fetched all cart items
+[11/05/2025, 09.41.00 WIB] info: Token received:
+[11/05/2025, 09.41.00 WIB] info: User authenticated successfully
+[11/05/2025, 09.41.00 WIB] info: Removed cart item with ID 4290e774-08df-453b-a253-cefc41830b0e for user ID 01457523-1670-4415-803c-19700cdbe463
+[11/05/2025, 09.41.06 WIB] info: Token received:
+[11/05/2025, 09.41.06 WIB] info: User authenticated successfully
+[11/05/2025, 09.58.09 WIB] info: Token received:
+[11/05/2025, 09.58.09 WIB] info: User authenticated successfully
+[11/05/2025, 09.58.37 WIB] info: Token received:
+[11/05/2025, 09.58.37 WIB] info: User authenticated successfully
+[11/05/2025, 09.58.37 WIB] info: Updated cart item
+[11/05/2025, 09.58.39 WIB] info: Token received:
+[11/05/2025, 09.58.39 WIB] info: User authenticated successfully
+[11/05/2025, 09.58.39 WIB] info: Updated cart item
+[11/05/2025, 09.58.40 WIB] info: Token received:
+[11/05/2025, 09.58.40 WIB] info: User authenticated successfully
+[11/05/2025, 09.58.40 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[11/05/2025, 09.58.40 WIB] info: Fetched all cart items
+[11/05/2025, 10.28.21 WIB] info: Token received:
+[11/05/2025, 10.28.21 WIB] info: User authenticated successfully
+[11/05/2025, 10.28.21 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[11/05/2025, 10.28.21 WIB] info: Fetched all cart items
+[11/05/2025, 22.28.02 WIB] info: Server running on http://localhost:5000
+[11/05/2025, 22.28.04 WIB] warn: Login failed: Invalid email or password for email: daniefebrian@example.com
+[11/05/2025, 22.28.05 WIB] warn: Login failed: Invalid email or password for email: daniefebrian@example.com
+[11/05/2025, 22.28.40 WIB] info: User logged in successfully: danielfebrian@example.com
+[11/05/2025, 22.28.46 WIB] info: Token received:
+[11/05/2025, 22.28.46 WIB] info: User authenticated successfully
+[11/05/2025, 22.29.06 WIB] info: Token received:
+[11/05/2025, 22.29.06 WIB] info: User authenticated successfully
+[11/05/2025, 22.29.06 WIB] info: Updated cart item
+[11/05/2025, 22.29.08 WIB] info: Token received:
+[11/05/2025, 22.29.08 WIB] info: User authenticated successfully
+[11/05/2025, 22.29.08 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[11/05/2025, 22.29.08 WIB] info: Fetched all cart items
+[11/05/2025, 22.43.12 WIB] info: Token received:
+[11/05/2025, 22.43.12 WIB] info: User authenticated successfully
+[11/05/2025, 22.43.25 WIB] info: Token received:
+[11/05/2025, 22.43.25 WIB] info: User authenticated successfully
+[11/05/2025, 22.43.25 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[11/05/2025, 22.43.25 WIB] info: Fetched all cart items
+[11/05/2025, 22.50.16 WIB] info: Token received:
+[11/05/2025, 22.50.16 WIB] info: User authenticated successfully
+[11/05/2025, 22.53.00 WIB] info: Token received:
+[11/05/2025, 22.53.00 WIB] info: User authenticated successfully
+[11/05/2025, 22.53.00 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[11/05/2025, 22.53.00 WIB] info: Fetched all cart items
+[11/05/2025, 22.56.43 WIB] info: Token received:
+[11/05/2025, 22.56.43 WIB] info: User authenticated successfully
+[11/05/2025, 22.56.43 WIB] info: Added new cart item
+[11/05/2025, 22.56.44 WIB] info: Token received:
+[11/05/2025, 22.56.44 WIB] info: User authenticated successfully
+[11/05/2025, 22.56.44 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[11/05/2025, 22.56.44 WIB] info: Fetched all cart items
+[11/05/2025, 23.50.44 WIB] info: Token received:
+[11/05/2025, 23.50.44 WIB] info: User authenticated successfully
+[11/05/2025, 23.50.44 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[11/05/2025, 23.50.44 WIB] info: Fetched all cart items
+[12/05/2025, 01.04.46 WIB] info: Token received:
+[12/05/2025, 01.04.46 WIB] info: User authenticated successfully
+[12/05/2025, 01.04.46 WIB] info: Updated cart item
+[12/05/2025, 01.14.50 WIB] info: Token received:
+[12/05/2025, 01.14.50 WIB] info: User authenticated successfully
+[12/05/2025, 01.14.50 WIB] info: Updated cart item
+[12/05/2025, 01.14.51 WIB] info: Token received:
+[12/05/2025, 01.14.51 WIB] info: User authenticated successfully
+[12/05/2025, 01.14.51 WIB] info: Updated cart item
+[12/05/2025, 01.14.52 WIB] info: Token received:
+[12/05/2025, 01.14.52 WIB] info: User authenticated successfully
+[12/05/2025, 01.14.52 WIB] info: Updated cart item
+[12/05/2025, 01.14.53 WIB] info: Token received:
+[12/05/2025, 01.14.53 WIB] info: User authenticated successfully
+[12/05/2025, 01.14.53 WIB] info: Updated cart item
+[12/05/2025, 01.14.54 WIB] info: Token received:
+[12/05/2025, 01.14.54 WIB] info: User authenticated successfully
+[12/05/2025, 01.14.54 WIB] info: Updated cart item
+[12/05/2025, 01.14.54 WIB] info: Token received:
+[12/05/2025, 01.14.54 WIB] info: User authenticated successfully
+[12/05/2025, 01.14.54 WIB] info: Updated cart item
+[12/05/2025, 01.14.55 WIB] info: Token received:
+[12/05/2025, 01.14.55 WIB] info: User authenticated successfully
+[12/05/2025, 01.14.55 WIB] info: Updated cart item
+[12/05/2025, 01.14.56 WIB] info: Token received:
+[12/05/2025, 01.14.56 WIB] info: User authenticated successfully
+[12/05/2025, 01.14.56 WIB] info: Updated cart item
+[12/05/2025, 01.20.05 WIB] info: Token received:
+[12/05/2025, 01.20.05 WIB] info: User authenticated successfully
+[12/05/2025, 01.23.36 WIB] info: Token received:
+[12/05/2025, 01.23.36 WIB] info: User authenticated successfully
+[12/05/2025, 01.23.36 WIB] info: Updated cart item
+[12/05/2025, 01.37.32 WIB] info: Token received:
+[12/05/2025, 01.37.32 WIB] info: User authenticated successfully
+[12/05/2025, 01.37.32 WIB] info: Updated cart item
+[12/05/2025, 01.37.33 WIB] info: Token received:
+[12/05/2025, 01.37.33 WIB] info: User authenticated successfully
+[12/05/2025, 01.37.33 WIB] info: Updated cart item
+[12/05/2025, 01.37.34 WIB] info: Token received:
+[12/05/2025, 01.37.34 WIB] info: User authenticated successfully
+[12/05/2025, 01.37.34 WIB] info: Updated cart item
+[12/05/2025, 01.37.37 WIB] info: Token received:
+[12/05/2025, 01.37.37 WIB] info: User authenticated successfully
+[12/05/2025, 01.37.37 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 01.37.37 WIB] info: Fetched all cart items
+[12/05/2025, 01.37.52 WIB] info: Token received:
+[12/05/2025, 01.37.52 WIB] info: User authenticated successfully
+[12/05/2025, 01.37.52 WIB] info: Removed cart item with ID 7d8e5e94-539e-422c-bd7f-74e5cb1d8d57 for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 01.37.55 WIB] info: Token received:
+[12/05/2025, 01.37.55 WIB] info: User authenticated successfully
+[12/05/2025, 01.37.55 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 01.37.55 WIB] info: Fetched all cart items
+[12/05/2025, 01.38.04 WIB] info: Token received:
+[12/05/2025, 01.38.04 WIB] info: User authenticated successfully
+[12/05/2025, 01.38.04 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 01.38.04 WIB] info: Fetched all cart items
+[12/05/2025, 01.38.36 WIB] info: Token received:
+[12/05/2025, 01.38.36 WIB] info: User authenticated successfully
+[12/05/2025, 01.38.36 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 01.38.36 WIB] info: Fetched all cart items
+[12/05/2025, 01.40.34 WIB] info: Token received:
+[12/05/2025, 01.40.34 WIB] info: User authenticated successfully
+[12/05/2025, 01.40.34 WIB] info: Added new cart item
+[12/05/2025, 01.40.36 WIB] info: Token received:
+[12/05/2025, 01.40.36 WIB] info: User authenticated successfully
+[12/05/2025, 01.40.36 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 01.40.36 WIB] info: Fetched all cart items
+[12/05/2025, 01.40.42 WIB] info: Token received:
+[12/05/2025, 01.40.42 WIB] info: User authenticated successfully
+[12/05/2025, 01.40.42 WIB] info: Added new cart item
+[12/05/2025, 01.40.42 WIB] info: Token received:
+[12/05/2025, 01.40.42 WIB] info: User authenticated successfully
+[12/05/2025, 01.40.42 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 01.40.42 WIB] info: Fetched all cart items
+[12/05/2025, 01.52.41 WIB] info: Token received:
+[12/05/2025, 01.52.41 WIB] info: User authenticated successfully
+[12/05/2025, 01.52.41 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 01.52.41 WIB] info: Fetched all cart items
+[12/05/2025, 01.53.49 WIB] info: Token received:
+[12/05/2025, 01.53.49 WIB] info: User authenticated successfully
+[12/05/2025, 01.53.49 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 01.53.49 WIB] info: Fetched all cart items
+[12/05/2025, 01.53.53 WIB] info: Token received:
+[12/05/2025, 01.53.53 WIB] info: User authenticated successfully
+[12/05/2025, 01.53.53 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 01.53.53 WIB] info: Fetched all cart items
+[12/05/2025, 01.53.54 WIB] info: Token received:
+[12/05/2025, 01.53.54 WIB] info: User authenticated successfully
+[12/05/2025, 01.53.54 WIB] info: Removed cart item with ID efebf7be-4c62-427d-9005-7a8d713b2cf0 for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 01.53.58 WIB] info: Token received:
+[12/05/2025, 01.53.58 WIB] info: User authenticated successfully
+[12/05/2025, 01.53.58 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 01.53.58 WIB] info: Fetched all cart items
+[12/05/2025, 01.54.00 WIB] info: Token received:
+[12/05/2025, 01.54.00 WIB] info: User authenticated successfully
+[12/05/2025, 01.54.00 WIB] info: Added new cart item
+[12/05/2025, 01.54.00 WIB] info: Token received:
+[12/05/2025, 01.54.00 WIB] info: User authenticated successfully
+[12/05/2025, 01.54.00 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 01.54.00 WIB] info: Fetched all cart items
+[12/05/2025, 01.54.02 WIB] info: Token received:
+[12/05/2025, 01.54.02 WIB] info: User authenticated successfully
+[12/05/2025, 01.54.02 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 01.54.02 WIB] info: Fetched all cart items
+[12/05/2025, 01.54.03 WIB] info: Token received:
+[12/05/2025, 01.54.03 WIB] info: User authenticated successfully
+[12/05/2025, 01.54.03 WIB] info: Removed cart item with ID 55d4dbe3-b9ab-4825-a640-f4e3d8a9cbc6 for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 01.54.04 WIB] info: Token received:
+[12/05/2025, 01.54.04 WIB] info: User authenticated successfully
+[12/05/2025, 01.54.04 WIB] warn: Cart item not found or unauthorized for user ID 01457523-1670-4415-803c-19700cdbe463, cart item ID 55d4dbe3-b9ab-4825-a640-f4e3d8a9cbc6
+[12/05/2025, 01.54.04 WIB] info: Token received:
+[12/05/2025, 01.54.04 WIB] info: User authenticated successfully
+[12/05/2025, 01.54.04 WIB] warn: Cart item not found or unauthorized for user ID 01457523-1670-4415-803c-19700cdbe463, cart item ID 55d4dbe3-b9ab-4825-a640-f4e3d8a9cbc6
+[12/05/2025, 01.54.10 WIB] info: Token received:
+[12/05/2025, 01.54.10 WIB] info: User authenticated successfully
+[12/05/2025, 01.54.10 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 01.54.10 WIB] info: Fetched all cart items
+[12/05/2025, 01.54.12 WIB] info: Token received:
+[12/05/2025, 01.54.12 WIB] info: User authenticated successfully
+[12/05/2025, 01.54.12 WIB] info: Removed cart item with ID 5f2f6177-52d9-4728-9ea8-720135fb79f7 for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 01.54.18 WIB] info: Token received:
+[12/05/2025, 01.54.18 WIB] info: User authenticated successfully
+[12/05/2025, 01.54.18 WIB] info: Added new cart item
+[12/05/2025, 01.54.18 WIB] info: Token received:
+[12/05/2025, 01.54.18 WIB] info: User authenticated successfully
+[12/05/2025, 01.54.18 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 01.54.18 WIB] info: Fetched all cart items
+[12/05/2025, 01.54.20 WIB] info: Token received:
+[12/05/2025, 01.54.20 WIB] info: User authenticated successfully
+[12/05/2025, 01.54.20 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 01.54.20 WIB] info: Fetched all cart items
+[12/05/2025, 01.54.21 WIB] info: Token received:
+[12/05/2025, 01.54.21 WIB] info: User authenticated successfully
+[12/05/2025, 01.54.21 WIB] info: Removed cart item with ID e5debf4f-848f-4310-9bfd-47a1f621a1b0 for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 01.54.22 WIB] info: Token received:
+[12/05/2025, 01.54.22 WIB] info: User authenticated successfully
+[12/05/2025, 01.54.22 WIB] info: Removed cart item with ID f95121ee-f90c-4574-adce-049adfbad2ad for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 01.54.24 WIB] info: Token received:
+[12/05/2025, 01.54.24 WIB] info: User authenticated successfully
+[12/05/2025, 01.54.24 WIB] info: Added new cart item
+[12/05/2025, 01.54.24 WIB] info: Token received:
+[12/05/2025, 01.54.24 WIB] info: User authenticated successfully
+[12/05/2025, 01.54.24 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 01.54.24 WIB] info: Fetched all cart items
+[12/05/2025, 01.54.27 WIB] info: Token received:
+[12/05/2025, 01.54.27 WIB] info: User authenticated successfully
+[12/05/2025, 01.54.27 WIB] info: Added new cart item
+[12/05/2025, 01.54.27 WIB] info: Token received:
+[12/05/2025, 01.54.27 WIB] info: User authenticated successfully
+[12/05/2025, 01.54.27 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 01.54.27 WIB] info: Fetched all cart items
+[12/05/2025, 01.54.28 WIB] info: Token received:
+[12/05/2025, 01.54.28 WIB] info: User authenticated successfully
+[12/05/2025, 01.54.28 WIB] info: Updated cart item
+[12/05/2025, 01.54.28 WIB] info: Token received:
+[12/05/2025, 01.54.28 WIB] info: User authenticated successfully
+[12/05/2025, 01.54.28 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 01.54.28 WIB] info: Fetched all cart items
+[12/05/2025, 01.54.33 WIB] info: Token received:
+[12/05/2025, 01.54.33 WIB] info: User authenticated successfully
+[12/05/2025, 01.54.33 WIB] info: Updated cart item
+[12/05/2025, 01.54.33 WIB] info: Token received:
+[12/05/2025, 01.54.33 WIB] info: User authenticated successfully
+[12/05/2025, 01.54.33 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 01.54.33 WIB] info: Fetched all cart items
+[12/05/2025, 01.54.35 WIB] info: Token received:
+[12/05/2025, 01.54.35 WIB] info: User authenticated successfully
+[12/05/2025, 01.54.35 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 01.54.35 WIB] info: Fetched all cart items
+[12/05/2025, 01.55.11 WIB] info: Token received:
+[12/05/2025, 01.55.11 WIB] info: User authenticated successfully
+[12/05/2025, 01.55.11 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 01.55.11 WIB] info: Fetched all cart items
+[12/05/2025, 01.59.51 WIB] info: Token received:
+[12/05/2025, 01.59.51 WIB] info: User authenticated successfully
+[12/05/2025, 01.59.51 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 01.59.51 WIB] info: Fetched all cart items
+[12/05/2025, 02.03.50 WIB] info: Token received:
+[12/05/2025, 02.03.50 WIB] info: User authenticated successfully
+[12/05/2025, 02.03.50 WIB] info: Token received:
+[12/05/2025, 02.03.50 WIB] info: User authenticated successfully
+[12/05/2025, 02.03.50 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 02.03.50 WIB] info: Fetched all cart items
+[12/05/2025, 04.00.06 WIB] info: Token received:
+[12/05/2025, 04.00.06 WIB] info: User authenticated successfully
+[12/05/2025, 04.00.06 WIB] info: Token received:
+[12/05/2025, 04.00.06 WIB] info: User authenticated successfully
+[12/05/2025, 04.00.06 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 04.00.06 WIB] info: Fetched all cart items
+[12/05/2025, 04.00.14 WIB] info: Token received:
+[12/05/2025, 04.00.14 WIB] info: User authenticated successfully
+[12/05/2025, 04.00.14 WIB] info: Updated cart item
+[12/05/2025, 04.00.14 WIB] info: Token received:
+[12/05/2025, 04.00.14 WIB] info: User authenticated successfully
+[12/05/2025, 04.00.14 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 04.00.14 WIB] info: Fetched all cart items
+[12/05/2025, 04.00.16 WIB] info: Token received:
+[12/05/2025, 04.00.16 WIB] info: User authenticated successfully
+[12/05/2025, 04.00.16 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 04.00.16 WIB] info: Fetched all cart items
+[12/05/2025, 04.00.21 WIB] info: Token received:
+[12/05/2025, 04.00.21 WIB] info: User authenticated successfully
+[12/05/2025, 04.00.21 WIB] info: Removed cart item with ID 48e4a905-8fe2-40d4-a067-23877a796ed4 for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 04.00.27 WIB] info: Token received:
+[12/05/2025, 04.00.27 WIB] info: User authenticated successfully
+[12/05/2025, 04.00.27 WIB] warn: Cart item not found or unauthorized for user ID 01457523-1670-4415-803c-19700cdbe463, cart item ID 48e4a905-8fe2-40d4-a067-23877a796ed4
+[12/05/2025, 04.00.34 WIB] info: Token received:
+[12/05/2025, 04.00.34 WIB] info: User authenticated successfully
+[12/05/2025, 04.00.34 WIB] warn: Cart item not found or unauthorized for user ID 01457523-1670-4415-803c-19700cdbe463, cart item ID 48e4a905-8fe2-40d4-a067-23877a796ed4
+[12/05/2025, 04.02.54 WIB] info: Token received:
+[12/05/2025, 04.02.54 WIB] info: User authenticated successfully
+[12/05/2025, 04.02.54 WIB] info: Token received:
+[12/05/2025, 04.02.54 WIB] info: User authenticated successfully
+[12/05/2025, 04.02.54 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 04.02.54 WIB] info: Fetched all cart items
+[12/05/2025, 04.03.04 WIB] info: Token received:
+[12/05/2025, 04.03.04 WIB] info: User authenticated successfully
+[12/05/2025, 04.03.04 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 04.03.04 WIB] info: Fetched all cart items
+[12/05/2025, 04.03.09 WIB] info: Token received:
+[12/05/2025, 04.03.09 WIB] info: User authenticated successfully
+[12/05/2025, 04.03.09 WIB] info: Updated cart item with ID 21811c57-1d1a-4632-b761-b86ab034f002 for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 04.03.12 WIB] info: Token received:
+[12/05/2025, 04.03.12 WIB] info: User authenticated successfully
+[12/05/2025, 04.03.12 WIB] info: Updated cart item with ID 21811c57-1d1a-4632-b761-b86ab034f002 for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 04.03.15 WIB] info: Token received:
+[12/05/2025, 04.03.15 WIB] info: User authenticated successfully
+[12/05/2025, 04.03.15 WIB] info: Updated cart item with ID 21811c57-1d1a-4632-b761-b86ab034f002 for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 04.03.20 WIB] info: Token received:
+[12/05/2025, 04.03.20 WIB] info: User authenticated successfully
+[12/05/2025, 04.03.20 WIB] info: Updated cart item
+[12/05/2025, 04.03.20 WIB] info: Token received:
+[12/05/2025, 04.03.20 WIB] info: User authenticated successfully
+[12/05/2025, 04.03.20 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 04.03.20 WIB] info: Fetched all cart items
+[12/05/2025, 04.03.24 WIB] info: Token received:
+[12/05/2025, 04.03.24 WIB] info: User authenticated successfully
+[12/05/2025, 04.03.24 WIB] info: Updated cart item with ID 21811c57-1d1a-4632-b761-b86ab034f002 for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 04.03.26 WIB] info: Token received:
+[12/05/2025, 04.03.26 WIB] info: User authenticated successfully
+[12/05/2025, 04.03.26 WIB] info: Updated cart item
+[12/05/2025, 04.03.26 WIB] info: Token received:
+[12/05/2025, 04.03.26 WIB] info: User authenticated successfully
+[12/05/2025, 04.03.26 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 04.03.26 WIB] info: Fetched all cart items
+[12/05/2025, 04.03.36 WIB] info: Token received:
+[12/05/2025, 04.03.36 WIB] info: User authenticated successfully
+[12/05/2025, 04.03.36 WIB] info: Updated cart item
+[12/05/2025, 04.03.36 WIB] info: Token received:
+[12/05/2025, 04.03.36 WIB] info: User authenticated successfully
+[12/05/2025, 04.03.36 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 04.03.36 WIB] info: Fetched all cart items
+[12/05/2025, 04.03.39 WIB] info: Token received:
+[12/05/2025, 04.03.39 WIB] info: User authenticated successfully
+[12/05/2025, 04.03.39 WIB] info: Updated cart item with ID 21811c57-1d1a-4632-b761-b86ab034f002 for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 04.03.40 WIB] info: Token received:
+[12/05/2025, 04.03.40 WIB] info: User authenticated successfully
+[12/05/2025, 04.03.40 WIB] info: Updated cart item with ID 21811c57-1d1a-4632-b761-b86ab034f002 for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 04.03.40 WIB] info: Token received:
+[12/05/2025, 04.03.40 WIB] info: User authenticated successfully
+[12/05/2025, 04.03.40 WIB] info: Updated cart item with ID 21811c57-1d1a-4632-b761-b86ab034f002 for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 04.03.40 WIB] info: Token received:
+[12/05/2025, 04.03.40 WIB] info: User authenticated successfully
+[12/05/2025, 04.03.40 WIB] info: Updated cart item with ID 21811c57-1d1a-4632-b761-b86ab034f002 for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 04.03.40 WIB] info: Token received:
+[12/05/2025, 04.03.40 WIB] info: User authenticated successfully
+[12/05/2025, 04.03.40 WIB] info: Updated cart item with ID 21811c57-1d1a-4632-b761-b86ab034f002 for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 04.03.41 WIB] info: Token received:
+[12/05/2025, 04.03.41 WIB] info: User authenticated successfully
+[12/05/2025, 04.03.41 WIB] info: Updated cart item with ID 21811c57-1d1a-4632-b761-b86ab034f002 for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 04.03.46 WIB] info: Token received:
+[12/05/2025, 04.03.46 WIB] info: User authenticated successfully
+[12/05/2025, 04.03.46 WIB] info: Removed cart item with ID 21811c57-1d1a-4632-b761-b86ab034f002 for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 04.15.45 WIB] info: Token received:
+[12/05/2025, 04.15.45 WIB] info: User authenticated successfully
+[12/05/2025, 04.15.45 WIB] info: Added new cart item
+[12/05/2025, 04.15.45 WIB] info: Token received:
+[12/05/2025, 04.15.45 WIB] info: User authenticated successfully
+[12/05/2025, 04.15.45 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 04.15.45 WIB] info: Fetched all cart items
+[12/05/2025, 06.46.28 WIB] info: Token received:
+[12/05/2025, 06.46.28 WIB] info: User authenticated successfully
+[12/05/2025, 06.46.46 WIB] info: Token received:
+[12/05/2025, 06.46.46 WIB] info: User authenticated successfully
+[12/05/2025, 06.46.46 WIB] warn: Cart item not found or unauthorized for user ID 01457523-1670-4415-803c-19700cdbe463, cart item ID 21811c57-1d1a-4632-b761-b86ab034f002
+[12/05/2025, 06.47.26 WIB] info: Token received:
+[12/05/2025, 06.47.26 WIB] info: User authenticated successfully
+[12/05/2025, 06.47.27 WIB] info: Token received:
+[12/05/2025, 06.47.27 WIB] info: User authenticated successfully
+[12/05/2025, 06.47.27 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 06.47.27 WIB] info: Fetched all cart items
+[12/05/2025, 06.48.59 WIB] info: Token received:
+[12/05/2025, 06.48.59 WIB] info: User authenticated successfully
+[12/05/2025, 06.48.59 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 06.48.59 WIB] info: Fetched all cart items
+[12/05/2025, 06.49.02 WIB] info: Token received:
+[12/05/2025, 06.49.02 WIB] info: User authenticated successfully
+[12/05/2025, 06.49.02 WIB] info: Removed cart item with ID 0cf016d0-a0fb-4166-b002-dfa8fb43d7de for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 06.50.57 WIB] info: Token received:
+[12/05/2025, 06.50.57 WIB] info: User authenticated successfully
+[12/05/2025, 06.50.57 WIB] info: Added new cart item
+[12/05/2025, 06.50.57 WIB] info: Token received:
+[12/05/2025, 06.50.57 WIB] info: User authenticated successfully
+[12/05/2025, 06.50.57 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 06.50.57 WIB] info: Fetched all cart items
+[12/05/2025, 06.51.00 WIB] info: Token received:
+[12/05/2025, 06.51.00 WIB] info: User authenticated successfully
+[12/05/2025, 06.51.00 WIB] warn: Cart item not found or unauthorized for user ID 01457523-1670-4415-803c-19700cdbe463, cart item ID 0cf016d0-a0fb-4166-b002-dfa8fb43d7de
+[12/05/2025, 06.51.33 WIB] info: Token received:
+[12/05/2025, 06.51.33 WIB] info: User authenticated successfully
+[12/05/2025, 06.51.33 WIB] info: Token received:
+[12/05/2025, 06.51.33 WIB] info: User authenticated successfully
+[12/05/2025, 06.51.33 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 06.51.33 WIB] info: Fetched all cart items
+[12/05/2025, 06.52.44 WIB] info: Token received:
+[12/05/2025, 06.52.44 WIB] info: User authenticated successfully
+[12/05/2025, 06.52.44 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 06.52.44 WIB] info: Fetched all cart items
+[12/05/2025, 06.52.50 WIB] info: Token received:
+[12/05/2025, 06.52.50 WIB] info: User authenticated successfully
+[12/05/2025, 06.52.50 WIB] info: Added new cart item
+[12/05/2025, 06.52.50 WIB] info: Token received:
+[12/05/2025, 06.52.50 WIB] info: User authenticated successfully
+[12/05/2025, 06.52.50 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 06.52.50 WIB] info: Fetched all cart items
+[12/05/2025, 06.53.04 WIB] info: Token received:
+[12/05/2025, 06.53.04 WIB] info: User authenticated successfully
+[12/05/2025, 06.53.05 WIB] info: Token received:
+[12/05/2025, 06.53.05 WIB] info: User authenticated successfully
+[12/05/2025, 06.53.05 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 06.53.05 WIB] info: Fetched all cart items
+[12/05/2025, 06.53.07 WIB] info: Token received:
+[12/05/2025, 06.53.07 WIB] info: User authenticated successfully
+[12/05/2025, 06.53.07 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 06.53.07 WIB] info: Fetched all cart items
+[12/05/2025, 06.53.16 WIB] info: Token received:
+[12/05/2025, 06.53.16 WIB] info: User authenticated successfully
+[12/05/2025, 06.53.16 WIB] info: Updated cart item
+[12/05/2025, 06.53.16 WIB] info: Token received:
+[12/05/2025, 06.53.16 WIB] info: User authenticated successfully
+[12/05/2025, 06.53.16 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 06.53.16 WIB] info: Fetched all cart items
+[12/05/2025, 06.53.23 WIB] info: Token received:
+[12/05/2025, 06.53.23 WIB] info: User authenticated successfully
+[12/05/2025, 06.53.24 WIB] info: Token received:
+[12/05/2025, 06.53.24 WIB] info: User authenticated successfully
+[12/05/2025, 06.53.24 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 06.53.24 WIB] info: Fetched all cart items
+[12/05/2025, 06.53.26 WIB] info: Token received:
+[12/05/2025, 06.53.26 WIB] info: User authenticated successfully
+[12/05/2025, 06.53.26 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 06.53.26 WIB] info: Fetched all cart items
+[12/05/2025, 06.53.33 WIB] info: Token received:
+[12/05/2025, 06.53.33 WIB] info: User authenticated successfully
+[12/05/2025, 06.53.33 WIB] info: Added new cart item
+[12/05/2025, 06.53.33 WIB] info: Token received:
+[12/05/2025, 06.53.33 WIB] info: User authenticated successfully
+[12/05/2025, 06.53.33 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 06.53.33 WIB] info: Fetched all cart items
+[12/05/2025, 09.07.29 WIB] info: Token received:
+[12/05/2025, 09.07.29 WIB] info: User authenticated successfully
+[12/05/2025, 09.07.29 WIB] info: Updated cart item
+[12/05/2025, 09.07.29 WIB] info: Token received:
+[12/05/2025, 09.07.29 WIB] info: User authenticated successfully
+[12/05/2025, 09.07.29 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 09.07.29 WIB] info: Fetched all cart items
+[12/05/2025, 09.07.32 WIB] info: Token received:
+[12/05/2025, 09.07.32 WIB] info: User authenticated successfully
+[12/05/2025, 09.07.32 WIB] info: Updated cart item with ID aa75b647-c21b-4651-91da-69f9ac2e574a for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 09.07.40 WIB] info: Token received:
+[12/05/2025, 09.07.40 WIB] info: User authenticated successfully
+[12/05/2025, 09.07.40 WIB] info: Removed cart item with ID b9fb541d-5b24-4a03-9793-00cdfbb3f75b for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 09.08.24 WIB] info: Token received:
+[12/05/2025, 09.08.24 WIB] info: User authenticated successfully
+[12/05/2025, 09.08.24 WIB] info: Token received:
+[12/05/2025, 09.08.24 WIB] info: User authenticated successfully
+[12/05/2025, 09.08.24 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 09.08.24 WIB] info: Fetched all cart items
+[12/05/2025, 09.26.52 WIB] info: Token received:
+[12/05/2025, 09.26.52 WIB] info: User authenticated successfully
+[12/05/2025, 09.26.52 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 09.26.52 WIB] info: Fetched all cart items
+[12/05/2025, 09.26.56 WIB] info: Token received:
+[12/05/2025, 09.26.56 WIB] info: User authenticated successfully
+[12/05/2025, 09.26.56 WIB] info: Updated cart item with ID aa75b647-c21b-4651-91da-69f9ac2e574a for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 09.27.00 WIB] info: Token received:
+[12/05/2025, 09.27.00 WIB] info: User authenticated successfully
+[12/05/2025, 09.27.00 WIB] info: Updated cart item with ID aa75b647-c21b-4651-91da-69f9ac2e574a for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 09.27.00 WIB] info: Token received:
+[12/05/2025, 09.27.00 WIB] info: User authenticated successfully
+[12/05/2025, 09.27.00 WIB] info: Updated cart item with ID aa75b647-c21b-4651-91da-69f9ac2e574a for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 09.27.11 WIB] info: Token received:
+[12/05/2025, 09.27.11 WIB] info: User authenticated successfully
+[12/05/2025, 09.27.11 WIB] info: Removed cart item with ID e7064bf1-5b5d-4dcd-92f6-cf8233f32038 for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 09.29.30 WIB] info: Token received:
+[12/05/2025, 09.29.30 WIB] info: User authenticated successfully
+[12/05/2025, 09.29.31 WIB] info: Token received:
+[12/05/2025, 09.29.31 WIB] info: User authenticated successfully
+[12/05/2025, 09.29.31 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 09.29.31 WIB] info: Fetched all cart items
+[12/05/2025, 09.29.59 WIB] info: Token received:
+[12/05/2025, 09.29.59 WIB] info: User authenticated successfully
+[12/05/2025, 09.29.59 WIB] info: Token received:
+[12/05/2025, 09.29.59 WIB] info: User authenticated successfully
+[12/05/2025, 09.29.59 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 09.29.59 WIB] info: Fetched all cart items
+[12/05/2025, 09.30.03 WIB] info: Token received:
+[12/05/2025, 09.30.03 WIB] info: User authenticated successfully
+[12/05/2025, 09.30.03 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 09.30.03 WIB] info: Fetched all cart items
+[12/05/2025, 09.30.07 WIB] info: Token received:
+[12/05/2025, 09.30.07 WIB] info: User authenticated successfully
+[12/05/2025, 09.30.07 WIB] info: Removed cart item with ID aa75b647-c21b-4651-91da-69f9ac2e574a for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 09.30.18 WIB] info: Token received:
+[12/05/2025, 09.30.18 WIB] info: User authenticated successfully
+[12/05/2025, 09.30.18 WIB] warn: Cart item not found or unauthorized for user ID 01457523-1670-4415-803c-19700cdbe463, cart item ID aa75b647-c21b-4651-91da-69f9ac2e574a
+[12/05/2025, 09.30.41 WIB] info: Token received:
+[12/05/2025, 09.30.41 WIB] info: User authenticated successfully
+[12/05/2025, 09.30.41 WIB] info: Token received:
+[12/05/2025, 09.30.41 WIB] info: User authenticated successfully
+[12/05/2025, 09.30.41 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 09.30.41 WIB] info: Fetched all cart items
+[12/05/2025, 09.30.49 WIB] info: Token received:
+[12/05/2025, 09.30.49 WIB] info: User authenticated successfully
+[12/05/2025, 09.30.49 WIB] info: Added new cart item
+[12/05/2025, 09.30.49 WIB] info: Token received:
+[12/05/2025, 09.30.49 WIB] info: User authenticated successfully
+[12/05/2025, 09.30.49 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 09.30.49 WIB] info: Fetched all cart items
+[12/05/2025, 09.30.50 WIB] info: Token received:
+[12/05/2025, 09.30.50 WIB] info: User authenticated successfully
+[12/05/2025, 09.30.50 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 09.30.50 WIB] info: Fetched all cart items
+[12/05/2025, 09.30.52 WIB] info: Token received:
+[12/05/2025, 09.30.52 WIB] info: User authenticated successfully
+[12/05/2025, 09.30.52 WIB] info: Removed cart item with ID 99984966-043f-471b-ba50-1f9d51d71124 for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 09.36.57 WIB] info: Token received:
+[12/05/2025, 09.36.57 WIB] info: User authenticated successfully
+[12/05/2025, 09.36.58 WIB] info: Token received:
+[12/05/2025, 09.36.58 WIB] info: User authenticated successfully
+[12/05/2025, 09.36.58 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 09.36.58 WIB] info: Fetched all cart items
+[12/05/2025, 09.37.26 WIB] info: Token received:
+[12/05/2025, 09.37.26 WIB] info: User authenticated successfully
+[12/05/2025, 09.37.26 WIB] info: Added new cart item
+[12/05/2025, 09.37.26 WIB] info: Token received:
+[12/05/2025, 09.37.26 WIB] info: User authenticated successfully
+[12/05/2025, 09.37.26 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 09.37.26 WIB] info: Fetched all cart items
+[12/05/2025, 09.37.27 WIB] info: Token received:
+[12/05/2025, 09.37.27 WIB] info: User authenticated successfully
+[12/05/2025, 09.37.27 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 09.37.27 WIB] info: Fetched all cart items
+[12/05/2025, 09.37.28 WIB] info: Token received:
+[12/05/2025, 09.37.28 WIB] info: User authenticated successfully
+[12/05/2025, 09.37.28 WIB] info: Removed cart item with ID 000f7bb5-013b-4f70-bfbb-91fffa92a264 for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 09.38.15 WIB] info: Token received:
+[12/05/2025, 09.38.15 WIB] info: User authenticated successfully
+[12/05/2025, 09.38.15 WIB] info: Token received:
+[12/05/2025, 09.38.15 WIB] info: User authenticated successfully
+[12/05/2025, 09.38.15 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 09.38.15 WIB] info: Fetched all cart items
+[12/05/2025, 09.38.48 WIB] info: Token received:
+[12/05/2025, 09.38.48 WIB] info: User authenticated successfully
+[12/05/2025, 09.38.48 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 09.38.48 WIB] info: Fetched all cart items
+[12/05/2025, 09.38.54 WIB] info: Token received:
+[12/05/2025, 09.38.54 WIB] info: User authenticated successfully
+[12/05/2025, 09.38.54 WIB] info: Added new cart item
+[12/05/2025, 09.38.54 WIB] info: Token received:
+[12/05/2025, 09.38.54 WIB] info: User authenticated successfully
+[12/05/2025, 09.38.54 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 09.38.54 WIB] info: Fetched all cart items
+[12/05/2025, 09.38.58 WIB] info: Token received:
+[12/05/2025, 09.38.58 WIB] info: User authenticated successfully
+[12/05/2025, 09.38.58 WIB] info: Added new cart item
+[12/05/2025, 09.38.58 WIB] info: Token received:
+[12/05/2025, 09.38.58 WIB] info: User authenticated successfully
+[12/05/2025, 09.38.58 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 09.38.58 WIB] info: Fetched all cart items
+[12/05/2025, 09.39.16 WIB] info: Token received:
+[12/05/2025, 09.39.16 WIB] info: User authenticated successfully
+[12/05/2025, 09.39.16 WIB] info: Updated cart item
+[12/05/2025, 09.39.16 WIB] info: Token received:
+[12/05/2025, 09.39.16 WIB] info: User authenticated successfully
+[12/05/2025, 09.39.16 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 09.39.16 WIB] info: Fetched all cart items
+[12/05/2025, 09.39.48 WIB] info: Token received:
+[12/05/2025, 09.39.48 WIB] info: User authenticated successfully
+[12/05/2025, 09.39.49 WIB] info: Token received:
+[12/05/2025, 09.39.49 WIB] info: User authenticated successfully
+[12/05/2025, 09.39.49 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 09.39.49 WIB] info: Fetched all cart items
+[12/05/2025, 09.40.02 WIB] info: Token received:
+[12/05/2025, 09.40.02 WIB] info: User authenticated successfully
+[12/05/2025, 09.40.02 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 09.40.02 WIB] info: Fetched all cart items
+[12/05/2025, 09.40.04 WIB] info: Token received:
+[12/05/2025, 09.40.04 WIB] info: User authenticated successfully
+[12/05/2025, 09.40.04 WIB] info: Removed cart item with ID 81f46f4e-6eca-4dbb-b3d2-84b358a78328 for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 09.41.29 WIB] info: Token received:
+[12/05/2025, 09.41.29 WIB] info: User authenticated successfully
+[12/05/2025, 09.41.30 WIB] info: Token received:
+[12/05/2025, 09.41.30 WIB] info: User authenticated successfully
+[12/05/2025, 09.41.30 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 09.41.30 WIB] info: Fetched all cart items
+[12/05/2025, 09.42.00 WIB] info: Token received:
+[12/05/2025, 09.42.00 WIB] info: User authenticated successfully
+[12/05/2025, 09.42.00 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 09.42.00 WIB] info: Fetched all cart items
+[12/05/2025, 09.42.03 WIB] info: Token received:
+[12/05/2025, 09.42.03 WIB] info: User authenticated successfully
+[12/05/2025, 09.42.03 WIB] info: Removed cart item with ID fa5f50dd-c1ec-4d8a-a93b-3281ece13b75 for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 09.55.32 WIB] info: Token received:
+[12/05/2025, 09.55.32 WIB] info: User authenticated successfully
+[12/05/2025, 09.55.32 WIB] info: Token received:
+[12/05/2025, 09.55.32 WIB] info: User authenticated successfully
+[12/05/2025, 09.55.32 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 09.55.32 WIB] info: Fetched all cart items
+[12/05/2025, 09.55.37 WIB] info: Token received:
+[12/05/2025, 09.55.37 WIB] info: User authenticated successfully
+[12/05/2025, 09.55.37 WIB] info: Added new cart item
+[12/05/2025, 09.55.37 WIB] info: Token received:
+[12/05/2025, 09.55.37 WIB] info: User authenticated successfully
+[12/05/2025, 09.55.37 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 09.55.37 WIB] info: Fetched all cart items
+[12/05/2025, 09.57.22 WIB] info: Token received:
+[12/05/2025, 09.57.22 WIB] info: User authenticated successfully
+[12/05/2025, 09.57.23 WIB] info: Token received:
+[12/05/2025, 09.57.23 WIB] info: User authenticated successfully
+[12/05/2025, 09.57.23 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 09.57.23 WIB] info: Fetched all cart items
+[12/05/2025, 09.57.39 WIB] info: Token received:
+[12/05/2025, 09.57.39 WIB] info: User authenticated successfully
+[12/05/2025, 09.57.39 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 09.57.39 WIB] info: Fetched all cart items
+[12/05/2025, 09.57.45 WIB] info: Token received:
+[12/05/2025, 09.57.45 WIB] info: User authenticated successfully
+[12/05/2025, 09.57.45 WIB] info: Added new cart item
+[12/05/2025, 09.57.45 WIB] info: Token received:
+[12/05/2025, 09.57.45 WIB] info: User authenticated successfully
+[12/05/2025, 09.57.45 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 09.57.45 WIB] info: Fetched all cart items
+[12/05/2025, 09.57.49 WIB] info: Token received:
+[12/05/2025, 09.57.49 WIB] info: User authenticated successfully
+[12/05/2025, 09.57.49 WIB] info: Added new cart item
+[12/05/2025, 09.57.49 WIB] info: Token received:
+[12/05/2025, 09.57.49 WIB] info: User authenticated successfully
+[12/05/2025, 09.57.49 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 09.57.49 WIB] info: Fetched all cart items
+[12/05/2025, 09.57.52 WIB] info: Token received:
+[12/05/2025, 09.57.52 WIB] info: User authenticated successfully
+[12/05/2025, 09.57.52 WIB] info: Removed cart item with ID 48ae63ee-965e-4035-9df2-5b2ff7f895fa for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 10.00.14 WIB] info: Token received:
+[12/05/2025, 10.00.14 WIB] info: User authenticated successfully
+[12/05/2025, 10.00.15 WIB] info: Token received:
+[12/05/2025, 10.00.15 WIB] info: User authenticated successfully
+[12/05/2025, 10.00.15 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 10.00.15 WIB] info: Fetched all cart items
+[12/05/2025, 10.00.30 WIB] info: Token received:
+[12/05/2025, 10.00.30 WIB] info: User authenticated successfully
+[12/05/2025, 10.00.30 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 10.00.30 WIB] info: Fetched all cart items
+[12/05/2025, 10.00.32 WIB] info: Token received:
+[12/05/2025, 10.00.32 WIB] info: User authenticated successfully
+[12/05/2025, 10.00.32 WIB] info: Removed cart item with ID 69b5f8f9-7bd7-4226-9efe-3aad18c76043 for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 10.01.02 WIB] info: Token received:
+[12/05/2025, 10.01.02 WIB] info: User authenticated successfully
+[12/05/2025, 10.01.02 WIB] info: Removed cart item with ID fe1aa86d-7687-4798-82cd-02fbf266cced for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 10.01.12 WIB] info: Token received:
+[12/05/2025, 10.01.12 WIB] info: User authenticated successfully
+[12/05/2025, 10.01.12 WIB] info: Added new cart item
+[12/05/2025, 10.01.12 WIB] info: Token received:
+[12/05/2025, 10.01.12 WIB] info: User authenticated successfully
+[12/05/2025, 10.01.12 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 10.01.12 WIB] info: Fetched all cart items
+[12/05/2025, 10.01.17 WIB] info: Token received:
+[12/05/2025, 10.01.17 WIB] info: User authenticated successfully
+[12/05/2025, 10.01.17 WIB] info: Added new cart item
+[12/05/2025, 10.01.17 WIB] info: Token received:
+[12/05/2025, 10.01.17 WIB] info: User authenticated successfully
+[12/05/2025, 10.01.17 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 10.01.17 WIB] info: Fetched all cart items
+[12/05/2025, 10.01.22 WIB] info: Token received:
+[12/05/2025, 10.01.22 WIB] info: User authenticated successfully
+[12/05/2025, 10.01.22 WIB] warn: Cart item not found or unauthorized for user ID 01457523-1670-4415-803c-19700cdbe463, cart item ID fe1aa86d-7687-4798-82cd-02fbf266cced
+[12/05/2025, 10.01.51 WIB] info: Token received:
+[12/05/2025, 10.01.51 WIB] info: User authenticated successfully
+[12/05/2025, 10.01.52 WIB] info: Token received:
+[12/05/2025, 10.01.52 WIB] info: User authenticated successfully
+[12/05/2025, 10.01.52 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 10.01.52 WIB] info: Fetched all cart items
+[12/05/2025, 10.02.05 WIB] info: Token received:
+[12/05/2025, 10.02.05 WIB] info: User authenticated successfully
+[12/05/2025, 10.02.26 WIB] info: Token received:
+[12/05/2025, 10.02.26 WIB] info: User authenticated successfully
+[12/05/2025, 10.02.26 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 10.02.26 WIB] info: Fetched all cart items
+[12/05/2025, 10.02.31 WIB] info: Token received:
+[12/05/2025, 10.02.31 WIB] info: User authenticated successfully
+[12/05/2025, 10.02.31 WIB] info: Added new cart item
+[12/05/2025, 10.02.31 WIB] info: Token received:
+[12/05/2025, 10.02.31 WIB] info: User authenticated successfully
+[12/05/2025, 10.02.31 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 10.02.31 WIB] info: Fetched all cart items
+[12/05/2025, 10.02.34 WIB] info: Token received:
+[12/05/2025, 10.02.35 WIB] info: User authenticated successfully
+[12/05/2025, 10.02.35 WIB] info: Updated cart item
+[12/05/2025, 10.02.35 WIB] info: Token received:
+[12/05/2025, 10.02.35 WIB] info: User authenticated successfully
+[12/05/2025, 10.02.35 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 10.02.35 WIB] info: Fetched all cart items
+[12/05/2025, 11.00.54 WIB] info: Server running on http://localhost:5000
+[12/05/2025, 11.00.59 WIB] warn: Token not provided
+[12/05/2025, 11.00.59 WIB] warn: Token not provided
+[12/05/2025, 11.00.59 WIB] info: Fetching all categories
+[12/05/2025, 11.00.59 WIB] info: Fetched all categories
+[12/05/2025, 11.01.24 WIB] info: User logged in successfully: danielfebrian@example.com
+[12/05/2025, 11.01.24 WIB] info: Token received:
+[12/05/2025, 11.01.24 WIB] info: User authenticated successfully
+[12/05/2025, 11.01.24 WIB] info: Fetching all categories
+[12/05/2025, 11.01.24 WIB] info: Fetched all categories
+[12/05/2025, 11.01.24 WIB] info: Fetching all categories
+[12/05/2025, 11.01.24 WIB] info: Fetched all categories
+[12/05/2025, 11.01.29 WIB] info: Token received:
+[12/05/2025, 11.01.29 WIB] info: User authenticated successfully
+[12/05/2025, 11.01.29 WIB] info: Token received:
+[12/05/2025, 11.01.29 WIB] info: User authenticated successfully
+[12/05/2025, 11.01.39 WIB] info: Token received:
+[12/05/2025, 11.01.39 WIB] info: User authenticated successfully
+[12/05/2025, 11.01.39 WIB] info: Token received:
+[12/05/2025, 11.01.39 WIB] info: User authenticated successfully
+[12/05/2025, 11.01.40 WIB] info: Fetching all categories
+[12/05/2025, 11.01.40 WIB] info: Fetched all categories
+[12/05/2025, 11.01.40 WIB] info: Fetching all categories
+[12/05/2025, 11.01.40 WIB] info: Fetched all categories
+[12/05/2025, 11.01.47 WIB] info: Token received:
+[12/05/2025, 11.01.47 WIB] info: User authenticated successfully
+[12/05/2025, 11.01.47 WIB] info: Added new cart item
+[12/05/2025, 11.01.47 WIB] info: Token received:
+[12/05/2025, 11.01.47 WIB] info: User authenticated successfully
+[12/05/2025, 11.01.47 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 11.01.47 WIB] info: Fetched all cart items
+[12/05/2025, 11.01.50 WIB] info: Token received:
+[12/05/2025, 11.01.50 WIB] info: User authenticated successfully
+[12/05/2025, 11.01.50 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 11.01.50 WIB] info: Fetched all cart items
+[12/05/2025, 11.01.50 WIB] info: Token received:
+[12/05/2025, 11.01.50 WIB] info: User authenticated successfully
+[12/05/2025, 11.01.50 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 11.01.50 WIB] info: Fetched all cart items
+[12/05/2025, 11.01.55 WIB] info: [REQ] GET /api/v1/checkout/shipping-options - Body: {}
+[12/05/2025, 11.01.55 WIB] info: Token received:
+[12/05/2025, 11.01.55 WIB] info: User authenticated successfully
+[12/05/2025, 11.01.55 WIB] warn: 📭 No default address found during shipping option check
+[12/05/2025, 11.01.55 WIB] info: [REQ] GET /api/v1/checkout/shipping-options - Body: {}
+[12/05/2025, 11.01.55 WIB] info: Token received:
+[12/05/2025, 11.01.55 WIB] info: User authenticated successfully
+[12/05/2025, 11.01.55 WIB] warn: 📭 No default address found during shipping option check
+[12/05/2025, 11.04.22 WIB] info: User logged in successfully: danielfebrian@example.com
+[12/05/2025, 11.04.37 WIB] info: Token received:
+[12/05/2025, 11.04.37 WIB] info: User authenticated successfully
+[12/05/2025, 11.06.47 WIB] info: Token received:
+[12/05/2025, 11.06.47 WIB] info: User authenticated successfully
+[12/05/2025, 11.06.48 WIB] info: Token received:
+[12/05/2025, 11.06.48 WIB] info: User authenticated successfully
+[12/05/2025, 11.06.48 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 11.06.48 WIB] info: Fetched all cart items
+[12/05/2025, 11.07.08 WIB] info: Token received:
+[12/05/2025, 11.07.08 WIB] info: User authenticated successfully
+[12/05/2025, 11.07.14 WIB] info: Token received:
+[12/05/2025, 11.07.14 WIB] info: User authenticated successfully
+[12/05/2025, 11.07.14 WIB] info: Address created for user 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 11.07.23 WIB] info: Token received:
+[12/05/2025, 11.07.23 WIB] info: User authenticated successfully
+[12/05/2025, 11.07.31 WIB] info: Fetching all categories
+[12/05/2025, 11.07.32 WIB] info: Fetched all categories
+[12/05/2025, 11.07.32 WIB] info: Fetching all categories
+[12/05/2025, 11.07.32 WIB] info: Fetched all categories
+[12/05/2025, 11.07.32 WIB] info: Token received:
+[12/05/2025, 11.07.32 WIB] info: User authenticated successfully
+[12/05/2025, 11.07.32 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 11.07.32 WIB] info: Fetched all cart items
+[12/05/2025, 11.07.32 WIB] info: Token received:
+[12/05/2025, 11.07.32 WIB] info: User authenticated successfully
+[12/05/2025, 11.07.32 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 11.07.32 WIB] info: Fetched all cart items
+[12/05/2025, 11.07.35 WIB] info: [REQ] GET /api/v1/checkout/shipping-options - Body: {}
+[12/05/2025, 11.07.35 WIB] info: Token received:
+[12/05/2025, 11.07.35 WIB] info: User authenticated successfully
+[12/05/2025, 11.07.36 WIB] info: 📦 Shipping options fetched for user ID: 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 11.07.36 WIB] info: [REQ] GET /api/v1/checkout/shipping-options - Body: {}
+[12/05/2025, 11.07.36 WIB] info: Token received:
+[12/05/2025, 11.07.36 WIB] info: User authenticated successfully
+[12/05/2025, 11.07.37 WIB] info: 📦 Shipping options fetched for user ID: 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 11.07.38 WIB] info: [REQ] POST /api/v1/checkout - Body: {"shippingCode":"jnt","shippingService":"EZ"}
+[12/05/2025, 11.07.38 WIB] info: Token received:
+[12/05/2025, 11.07.38 WIB] info: User authenticated successfully
+[12/05/2025, 11.07.38 WIB] info: 🔐 Authenticated user ID: 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 11.07.38 WIB] info: 📦 Requesting shipping cost for jnt - EZ
+[12/05/2025, 11.07.39 WIB] info: ✅ Shipping selected: J&T Express - EZ, Cost: 92000
+[12/05/2025, 11.07.39 WIB] info: 📝 Order created: ID=d1a34511-87b7-4f61-9993-35390811e403, Total=816000
+[12/05/2025, 11.07.40 WIB] info: 💳 Midtrans transaction created: token=44591823-cdf6-44f5-adb3-48d20db7fda2
+[12/05/2025, 11.07.40 WIB] info: ✅ Checkout completed for user ID: 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 11.07.56 WIB] info: [REQ] GET /api/v1/checkout/shipping-options - Body: {}
+[12/05/2025, 11.07.56 WIB] info: Token received:
+[12/05/2025, 11.07.56 WIB] info: Token received:
+[12/05/2025, 11.07.56 WIB] info: User authenticated successfully
+[12/05/2025, 11.07.56 WIB] info: User authenticated successfully
+[12/05/2025, 11.07.56 WIB] info: Token received:
+[12/05/2025, 11.07.56 WIB] info: User authenticated successfully
+[12/05/2025, 11.07.56 WIB] info: 📦 Shipping options fetched for user ID: 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 11.07.57 WIB] info: Fetching all categories
+[12/05/2025, 11.07.57 WIB] info: Fetched all categories
+[12/05/2025, 11.07.57 WIB] info: Fetching all categories
+[12/05/2025, 11.07.57 WIB] info: Fetched all categories
+[12/05/2025, 11.07.59 WIB] info: User logged out successfully
+[12/05/2025, 11.08.01 WIB] warn: Token not provided
+[12/05/2025, 11.08.01 WIB] info: Fetching all categories
+[12/05/2025, 11.08.01 WIB] warn: Token not provided
+[12/05/2025, 11.08.01 WIB] info: Fetched all categories
+[12/05/2025, 11.08.27 WIB] info: User logged in successfully: danielfebrian@example.com
+[12/05/2025, 11.08.27 WIB] info: Token received:
+[12/05/2025, 11.08.27 WIB] info: User authenticated successfully
+[12/05/2025, 11.08.27 WIB] info: Fetching all categories
+[12/05/2025, 11.08.27 WIB] info: Fetched all categories
+[12/05/2025, 11.08.27 WIB] info: Fetching all categories
+[12/05/2025, 11.08.27 WIB] info: Fetched all categories
+[12/05/2025, 11.08.33 WIB] info: Token received:
+[12/05/2025, 11.08.33 WIB] info: User authenticated successfully
+[12/05/2025, 11.08.33 WIB] info: Added new cart item
+[12/05/2025, 11.08.33 WIB] info: Token received:
+[12/05/2025, 11.08.33 WIB] info: User authenticated successfully
+[12/05/2025, 11.08.33 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 11.08.33 WIB] info: Fetched all cart items
+[12/05/2025, 11.08.35 WIB] info: Token received:
+[12/05/2025, 11.08.35 WIB] info: User authenticated successfully
+[12/05/2025, 11.08.35 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 11.08.35 WIB] info: Fetched all cart items
+[12/05/2025, 11.08.35 WIB] info: Token received:
+[12/05/2025, 11.08.35 WIB] info: User authenticated successfully
+[12/05/2025, 11.08.35 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 11.08.35 WIB] info: Fetched all cart items
+[12/05/2025, 11.08.39 WIB] info: [REQ] GET /api/v1/checkout/shipping-options - Body: {}
+[12/05/2025, 11.08.39 WIB] info: Token received:
+[12/05/2025, 11.08.39 WIB] info: User authenticated successfully
+[12/05/2025, 11.08.39 WIB] info: 📦 Shipping options fetched for user ID: 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 11.08.39 WIB] info: [REQ] GET /api/v1/checkout/shipping-options - Body: {}
+[12/05/2025, 11.08.39 WIB] info: Token received:
+[12/05/2025, 11.08.39 WIB] info: User authenticated successfully
+[12/05/2025, 11.08.39 WIB] info: 📦 Shipping options fetched for user ID: 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 11.08.42 WIB] info: [REQ] POST /api/v1/checkout - Body: {"shippingCode":"sicepat","shippingService":"BBM"}
+[12/05/2025, 11.08.42 WIB] info: Token received:
+[12/05/2025, 11.08.42 WIB] info: User authenticated successfully
+[12/05/2025, 11.08.42 WIB] info: 🔐 Authenticated user ID: 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 11.08.42 WIB] info: 📦 Requesting shipping cost for sicepat - BBM
+[12/05/2025, 11.08.43 WIB] info: ✅ Shipping selected: SiCepat Express - BBM, Cost: 47500
+[12/05/2025, 11.08.43 WIB] info: 📝 Order created: ID=0caf8209-366a-45cd-b693-fddf977d60f6, Total=509500
+[12/05/2025, 11.08.43 WIB] info: 💳 Midtrans transaction created: token=8daa7760-7621-4767-8ae3-ff8561afcd73
+[12/05/2025, 11.08.43 WIB] info: ✅ Checkout completed for user ID: 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 11.08.54 WIB] info: Token received:
+[12/05/2025, 11.08.54 WIB] info: User authenticated successfully
+[12/05/2025, 11.08.54 WIB] info: Added new cart item
+[12/05/2025, 11.08.54 WIB] info: Token received:
+[12/05/2025, 11.08.54 WIB] info: User authenticated successfully
+[12/05/2025, 11.08.54 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 11.08.54 WIB] info: Fetched all cart items
+[12/05/2025, 11.08.55 WIB] info: Token received:
+[12/05/2025, 11.08.55 WIB] info: User authenticated successfully
+[12/05/2025, 11.08.55 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 11.08.55 WIB] info: Fetched all cart items
+[12/05/2025, 11.08.57 WIB] info: Token received:
+[12/05/2025, 11.08.57 WIB] info: User authenticated successfully
+[12/05/2025, 11.08.58 WIB] info: Updated cart item with ID f735b22c-8a6c-4340-8b7e-b37914f3c537 for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 11.08.58 WIB] info: Token received:
+[12/05/2025, 11.08.58 WIB] info: User authenticated successfully
+[12/05/2025, 11.08.58 WIB] info: Updated cart item with ID f735b22c-8a6c-4340-8b7e-b37914f3c537 for user ID 01457523-1670-4415-803c-19700cdbe463
+[12/05/2025, 11.09.00 WIB] info: Token received:
+[12/05/2025, 11.09.00 WIB] info: User authenticated successfully
+[12/05/2025, 11.09.02 WIB] info: Token received:
+[12/05/2025, 11.09.02 WIB] info: User authenticated successfully

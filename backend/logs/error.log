@@ -1,0 +1,149 @@
+[31/03/2025, 08.06.11 WIB] error: Phone validation failed: phoneUtil.parseAndKeepRawInput is not a function
+[31/03/2025, 08.08.10 WIB] error: Phone validation failed: phoneUtil.parseAndKeepRawInput is not a function
+[02/04/2025, 11.21.49 WIB] error: Phone validation failed: Cannot read properties of undefined (reading 'E164')
+[02/04/2025, 11.23.38 WIB] error: Token validation failed
+[02/04/2025, 11.23.54 WIB] error: Phone validation failed: Cannot read properties of undefined (reading 'E164')
+[02/04/2025, 11.27.01 WIB] error: Token validation failed
+[02/04/2025, 11.30.08 WIB] error: Error during token verification
+[02/04/2025, 11.30.22 WIB] error: Error during token verification
+[02/04/2025, 11.30.34 WIB] error: Error during token verification
+[02/04/2025, 11.31.45 WIB] error: Token validation failed
+[02/04/2025, 11.33.29 WIB] error: Error during token verification
+[02/04/2025, 11.33.55 WIB] error: Error during token verification
+[02/04/2025, 11.33.57 WIB] error: Error during token verification
+[02/04/2025, 11.34.03 WIB] error: Error during token verification
+[02/04/2025, 11.34.46 WIB] error: Error during token verification
+[02/04/2025, 11.35.04 WIB] error: Error during token verification
+[02/04/2025, 11.35.31 WIB] error: Error during token verification
+[02/04/2025, 11.36.32 WIB] error: Error fetching user profile: 
+Invalid `prisma.user.findUnique()` invocation:
+
+{
+  where: {
+    id: undefined,
+?   email?: String,
+?   phone?: String,
+?   AND?: UserWhereInput | UserWhereInput[],
+?   OR?: UserWhereInput[],
+?   NOT?: UserWhereInput | UserWhereInput[],
+?   name?: StringFilter | String,
+?   password?: StringFilter | String,
+?   role?: StringFilter | String,
+?   idCardImage?: StringNullableFilter | String | Null,
+?   addresses?: AddressListRelationFilter,
+?   orders?: OrderListRelationFilter,
+?   carts?: CartListRelationFilter
+  },
+  select: {
+    id: true,
+    name: true,
+    email: true
+  }
+}
+
+Argument `where` of type UserWhereUniqueInput needs at least one of `id`, `email` or `phone` arguments. Available options are marked with ?.
+[02/04/2025, 11.37.51 WIB] error: Error during token verification
+[02/04/2025, 11.38.43 WIB] error: Error during token verification
+[15/04/2025, 16.20.30 WIB] error: Token validation failed
+[15/04/2025, 18.46.21 WIB] error: Error during token verification
+[16/04/2025, 16.02.55 WIB] error: Token validation failed
+[16/04/2025, 16.10.17 WIB] error: Token validation failed
+[16/04/2025, 16.10.59 WIB] error: Token validation failed
+[16/04/2025, 16.11.26 WIB] error: Token validation failed
+[16/04/2025, 16.12.37 WIB] error: Token validation failed
+[16/04/2025, 16.14.32 WIB] error: Token validation failed
+[16/04/2025, 16.14.32 WIB] error: Token validation failed
+[16/04/2025, 16.14.53 WIB] error: Token validation failed
+[16/04/2025, 16.16.10 WIB] error: Token validation failed
+[16/04/2025, 16.16.17 WIB] error: Token validation failed
+[16/04/2025, 16.16.43 WIB] error: Token validation failed
+[16/04/2025, 16.28.45 WIB] error: Error during token verification
+[16/04/2025, 16.28.55 WIB] error: Error during token verification
+[16/04/2025, 16.28.56 WIB] error: Error during token verification
+[16/04/2025, 16.29.02 WIB] error: Error during token verification
+[16/04/2025, 16.29.11 WIB] error: Error during token verification
+[17/04/2025, 18.07.43 WIB] error: Token validation failed
+[17/04/2025, 18.09.46 WIB] error: Token validation failed
+[17/04/2025, 18.25.27 WIB] error: Token validation failed
+[17/04/2025, 18.30.02 WIB] error: Token validation failed
+[17/04/2025, 18.30.06 WIB] error: Token validation failed
+[17/04/2025, 18.30.15 WIB] error: Token validation failed
+[17/04/2025, 18.50.07 WIB] error: Token validation failed
+[17/04/2025, 18.50.17 WIB] error: Error during token verification
+[17/04/2025, 18.50.50 WIB] error: Token validation failed
+[17/04/2025, 18.52.24 WIB] error: Token validation failed
+[17/04/2025, 18.52.31 WIB] error: Token validation failed
+[17/04/2025, 18.52.56 WIB] error: Token validation failed
+[17/04/2025, 18.53.08 WIB] error: Token validation failed
+[17/04/2025, 18.58.38 WIB] error: Token validation failed
+[17/04/2025, 18.59.00 WIB] error: Token validation failed
+[17/04/2025, 19.00.01 WIB] error: Token validation failed
+[17/04/2025, 19.01.04 WIB] error: Token validation failed
+[17/04/2025, 19.01.25 WIB] error: Token validation failed [object Object]
+[18/04/2025, 13.32.53 WIB] error: Token validation failed [object Object]
+[18/04/2025, 13.33.03 WIB] error: Token validation failed [object Object]
+[18/04/2025, 13.33.14 WIB] error: Token validation failed [object Object]
+[18/04/2025, 13.34.18 WIB] error: Token validation failed undefined
+[18/04/2025, 13.34.39 WIB] error: Token validation failed undefined
+[18/04/2025, 13.34.56 WIB] error: Token validation failed [object Object]
+[18/04/2025, 13.35.15 WIB] error: User token validation failed [object Object]
+[18/04/2025, 13.36.23 WIB] error: User token validation failed {
+  "success": false,
+  "error": {
+    "issues": [
+      {
+        "code": "invalid_type",
+        "expected": "string",
+        "received": "undefined",
+        "path": [],
+        "message": "Required"
+      }
+    ],
+    "name": "ZodError"
+  }
+}
+[18/04/2025, 23.39.30 WIB] error: Error during token verification
+[18/04/2025, 23.40.48 WIB] error: Error fetching user profile: 
+Invalid `prisma.user.findUnique()` invocation:
+
+{
+  where: {
+    id: "2d576526-aae4-439f-ad6f-2822ab256062"
+  },
+  select: {
+    id: true,
+    name: true,
+    email: true,
+    role: true,
+    phone: true,
+    idCardImage: true,
+    ~~~~~~~~~~~
+?   password?: true,
+?   profilePicture?: true,
+?   addresses?: true,
+?   orders?: true,
+?   carts?: true,
+?   _count?: true
+  }
+}
+
+Unknown field `idCardImage` for select statement on model `User`. Available options are marked with ?.
+[19/04/2025, 00.37.22 WIB] error: Error during token verification
+[19/04/2025, 01.09.24 WIB] error: Error removing cart item
+[20/04/2025, 17.53.46 WIB] error: Error during token verification
+[20/04/2025, 17.53.51 WIB] error: Error during token verification
+[20/04/2025, 17.55.15 WIB] error: Error during token verification
+[20/04/2025, 17.55.44 WIB] error: Error during token verification
+[20/04/2025, 17.56.25 WIB] error: Error during token verification
+[20/04/2025, 20.15.13 WIB] error: Error during token verification
+[25/04/2025, 20.07.08 WIB] error: Error during token verification
+[25/04/2025, 20.07.50 WIB] error: Error during token verification
+[25/04/2025, 20.12.33 WIB] error: Error during token verification
+[25/04/2025, 20.12.34 WIB] error: Error during token verification
+[25/04/2025, 20.12.35 WIB] error: Error during token verification
+[25/04/2025, 20.12.36 WIB] error: Error during token verification
+[25/04/2025, 22.28.47 WIB] error: Error during token verification
+[25/04/2025, 22.41.18 WIB] error: Error during token verification
+[25/04/2025, 22.44.04 WIB] error: Error during token verification
+[09/05/2025, 21.03.12 WIB] error: Error during token verification
+[11/05/2025, 08.19.42 WIB] error: Error during token verification

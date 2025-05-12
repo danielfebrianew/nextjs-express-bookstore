@@ -134,6 +134,7 @@ router.put("/:id", authenticateUser, async (req, res) => {
 
     logger.info(`Updated cart item with ID ${id} for user ID ${req.user.id}`, { updatedCart });
     res.json(updatedCart);
+    
   } catch (error) {
     logger.error("Error updating cart item", { error: error.message });
     res.status(500).json({ error: "Failed to update cart item" });
@@ -157,7 +158,8 @@ router.delete("/:id", authenticateUser, async (req, res) => {
     await prisma.cart.delete({ where: { id } });
 
     logger.info(`Removed cart item with ID ${id} for user ID ${req.user.id}`);
-    res.json({ message: "Item removed from cart" });
+    
+    
   } catch (error) {
     logger.error("Error removing cart item", { error: error.message });
     res.status(500).json({ error: "Failed to remove cart item" });

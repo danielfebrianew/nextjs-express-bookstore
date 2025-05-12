@@ -14,7 +14,7 @@ model User {
   password    String
   role        String   @default("user")
   phone       String   @unique
-  idCardImage String?  
+  profilePicture String?  
   addresses   Address[]
   orders      Order[]
   carts       Cart[]

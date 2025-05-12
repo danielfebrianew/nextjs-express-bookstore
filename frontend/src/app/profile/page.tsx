@@ -22,7 +22,7 @@ interface UserProfile {
   email: string;
   role: string;
   phone: string;
-  idCardImage: string;
+  profilePicture: string;
   addresses: Address[];
 }
 
@@ -36,7 +36,6 @@ export default function ProfilePage() {
     const fetchUserProfile = async () => {
       try {
         const profileData = await authAPI.getProfile();
-        console.log("Profile Data:", profileData);
         setUser(profileData);
       } catch (err) {
         setError("Failed to load profile data.");
@@ -48,18 +47,31 @@ export default function ProfilePage() {
     fetchUserProfile();
   }, []);
 
-  const handleAddAddress = () => {
-    console.log("Navigating to add address page...");
+  const handleAddAddress = async () => {
+    // Navigate to the add address page
     router.push("/profile/add-address");
+
+    // Optionally re-fetch the profile data after adding an address
+    await refetchUserProfile();
   };
 
   const handleEdit = () => {
-    console.log("Navigating to edit profile page...");
     router.push("/profile/edit");
+  };
+
+  const refetchUserProfile = async () => {
+    try {
+      const profileData = await authAPI.getProfile();
+      setUser(profileData);
+    } catch (err) {
+      setError("Failed to load updated profile data.");
+    }
   };
 
   if (loading) return <p className="text-gray-700">Loading...</p>;
   if (error) return <p className="text-red-500">{error}</p>;
+
+  if (!user) return null; // Prevent rendering if user is still null
 
   return (
     <div className="container mx-auto p-6">
@@ -67,8 +79,8 @@ export default function ProfilePage() {
       <div className="bg-gray-900 shadow-md rounded-lg p-6">
         <div className="flex items-center space-x-4">
           <img
-            src={user?.idCardImage}
-            alt="ID Card"
+            src={user?.profilePicture}
+            alt="Profile picture"
             className="w-24 h-24 object-cover rounded-lg border"
           />
           <div>
@@ -85,24 +97,19 @@ export default function ProfilePage() {
 
         <h3 className="text-lg font-semibold mt-6 text-white">Addresses</h3>
         <div className="mt-2">
-          {user?.addresses.length ? (
+          {user?.addresses?.length ? (
             user?.addresses.map((address) => (
               <div
                 key={address.id}
-                className={`p-4 border rounded-md mt-2 ${
-                  address.isDefault ? "bg-blue-600 text-white" : "bg-gray-700 text-gray-300"
-                }`}
+                className={`p-4 border rounded-md mt-2 ${address.isDefault ? "bg-blue-600 text-white" : "bg-gray-700 text-gray-300"}`}
               >
                 <p>
                   <strong>
-                    {address.street}, {address.district}, {address.city}, {address.province},{" "}
-                    {address.zip}
+                    {address.street}, {address.district}, {address.city}, {address.province}, {address.zip}
                   </strong>
                 </p>
                 {address.isDefault && (
-                  <span className="text-sm text-yellow-300 font-semibold">
-                    Default Address
-                  </span>
+                  <span className="text-sm text-yellow-300 font-semibold">Default Address</span>
                 )}
               </div>
             ))

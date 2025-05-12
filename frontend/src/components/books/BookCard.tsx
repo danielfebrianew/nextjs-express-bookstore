@@ -1,10 +1,10 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { useCart } from "@/lib/cart-context";
+import { useCartStore } from "@/lib/stores/cart-store";
 import { formatPrice, truncateText } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
-import PlaceholderImage from "@/components/ui/placeholder-image";
+
 import {
   Card,
   CardContent,
@@ -26,7 +26,8 @@ interface BookCardProps {
 }
 
 export default function BookCard({ book }: BookCardProps) {
-  const { addToCart, loading } = useCart();
+  const addToCart = useCartStore((s) => s.addToCart);
+const loading = useCartStore((s) => s.loading);
 
   const handleAddToCart = async () => {
     try {
