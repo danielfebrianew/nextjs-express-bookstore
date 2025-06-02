@@ -91,7 +91,13 @@ router.get("/", authenticateUser, async (req, res) => {
 
     const orders = await prisma.order.findMany({
       where: { userId: req.user.id },
-      include: { orderItems: true },
+      include: {
+        orderItems: {
+          include: {
+            book: true
+          },
+        }
+      },
     });
 
     logger.info(`Fetched orders for user ID ${req.user.id}`, { orderCount: orders.length });

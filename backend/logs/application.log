@@ -2622,3 +2622,627 @@ Unknown field `idCardImage` for select statement on model `User`. Available opti
 [12/05/2025, 11.09.00 WIB] info: User authenticated successfully
 [12/05/2025, 11.09.02 WIB] info: Token received:
 [12/05/2025, 11.09.02 WIB] info: User authenticated successfully
+[13/05/2025, 12.44.11 WIB] info: Server running on http://localhost:5000
+[13/05/2025, 12.46.09 WIB] info: Token received:
+[13/05/2025, 12.46.09 WIB] error: Error during token verification
+[13/05/2025, 12.47.00 WIB] info: Token received:
+[13/05/2025, 12.47.00 WIB] error: Error during token verification
+[13/05/2025, 12.47.30 WIB] info: User logged in successfully: danielfebrian@example.com
+[13/05/2025, 12.47.31 WIB] info: Token received:
+[13/05/2025, 12.47.31 WIB] info: User authenticated successfully
+[13/05/2025, 12.47.31 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 12.47.31 WIB] info: Fetched all cart items
+[13/05/2025, 12.47.33 WIB] info: Token received:
+[13/05/2025, 12.47.33 WIB] info: User authenticated successfully
+[13/05/2025, 12.47.33 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 12.47.33 WIB] info: Fetched all cart items
+[13/05/2025, 12.47.35 WIB] info: Token received:
+[13/05/2025, 12.47.35 WIB] info: User authenticated successfully
+[13/05/2025, 12.50.25 WIB] info: Token received:
+[13/05/2025, 12.50.25 WIB] info: User authenticated successfully
+[13/05/2025, 12.50.25 WIB] info: Token received:
+[13/05/2025, 12.50.25 WIB] info: User authenticated successfully
+[13/05/2025, 12.50.25 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 12.50.25 WIB] info: Fetched all cart items
+[13/05/2025, 12.50.54 WIB] info: Token received:
+[13/05/2025, 12.50.54 WIB] info: User authenticated successfully
+[13/05/2025, 12.51.56 WIB] info: User logged in successfully: danielfebrian@example.com
+[13/05/2025, 12.52.21 WIB] info: Token received:
+[13/05/2025, 12.52.21 WIB] info: User authenticated successfully
+[13/05/2025, 12.52.21 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 12.52.21 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 12.56.11 WIB] info: Token received:
+[13/05/2025, 12.56.12 WIB] info: User authenticated successfully
+[13/05/2025, 12.56.12 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 12.56.12 WIB] info: Fetched all cart items
+[13/05/2025, 12.57.12 WIB] info: Token received:
+[13/05/2025, 12.57.12 WIB] info: User authenticated successfully
+[13/05/2025, 12.57.12 WIB] info: Fetched order item for ID 1150d1a7-e534-4e9c-8b45-b57e0299d355
+[13/05/2025, 13.09.58 WIB] info: Token received:
+[13/05/2025, 13.09.58 WIB] info: User authenticated successfully
+[13/05/2025, 13.09.59 WIB] info: Token received:
+[13/05/2025, 13.09.59 WIB] info: User authenticated successfully
+[13/05/2025, 13.09.59 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 13.09.59 WIB] info: Fetched all cart items
+[13/05/2025, 13.12.39 WIB] info: Token received:
+[13/05/2025, 13.12.39 WIB] info: User authenticated successfully
+[13/05/2025, 13.13.15 WIB] info: Token received:
+[13/05/2025, 13.13.15 WIB] info: User authenticated successfully
+[13/05/2025, 13.13.15 WIB] info: Token received:
+[13/05/2025, 13.13.15 WIB] info: User authenticated successfully
+[13/05/2025, 13.13.15 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 13.13.15 WIB] info: Fetched all cart items
+[13/05/2025, 13.13.38 WIB] info: Token received:
+[13/05/2025, 13.13.38 WIB] info: User authenticated successfully
+[13/05/2025, 13.13.38 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 13.13.38 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 13.13.57 WIB] info: Token received:
+[13/05/2025, 13.13.57 WIB] info: User authenticated successfully
+[13/05/2025, 13.13.57 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 13.13.57 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 13.14.41 WIB] info: Token received:
+[13/05/2025, 13.14.41 WIB] info: User authenticated successfully
+[13/05/2025, 13.14.41 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 13.14.41 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 13.15.06 WIB] info: Token received:
+[13/05/2025, 13.15.06 WIB] info: User authenticated successfully
+[13/05/2025, 13.15.06 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 13.15.06 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 13.15.15 WIB] info: Token received:
+[13/05/2025, 13.15.15 WIB] info: User authenticated successfully
+[13/05/2025, 13.15.15 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 13.15.15 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 13.15.20 WIB] info: Token received:
+[13/05/2025, 13.15.20 WIB] info: User authenticated successfully
+[13/05/2025, 13.15.20 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 13.15.20 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 13.15.24 WIB] info: Token received:
+[13/05/2025, 13.15.24 WIB] info: User authenticated successfully
+[13/05/2025, 13.15.24 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 13.15.24 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 13.16.10 WIB] info: Token received:
+[13/05/2025, 13.16.10 WIB] info: User authenticated successfully
+[13/05/2025, 13.16.10 WIB] info: Token received:
+[13/05/2025, 13.16.10 WIB] info: User authenticated successfully
+[13/05/2025, 13.16.10 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 13.16.10 WIB] info: Fetched all cart items
+[13/05/2025, 13.16.13 WIB] info: Token received:
+[13/05/2025, 13.16.13 WIB] info: User authenticated successfully
+[13/05/2025, 13.16.13 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 13.16.13 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 13.17.04 WIB] info: Token received:
+[13/05/2025, 13.17.04 WIB] info: User authenticated successfully
+[13/05/2025, 13.17.04 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 13.17.04 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 13.18.19 WIB] info: Token received:
+[13/05/2025, 13.18.19 WIB] info: User authenticated successfully
+[13/05/2025, 13.18.19 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 13.18.19 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 13.18.47 WIB] info: Token received:
+[13/05/2025, 13.18.47 WIB] info: User authenticated successfully
+[13/05/2025, 13.18.47 WIB] info: Token received:
+[13/05/2025, 13.18.47 WIB] info: User authenticated successfully
+[13/05/2025, 13.18.47 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 13.18.47 WIB] info: Fetched all cart items
+[13/05/2025, 13.18.56 WIB] info: Token received:
+[13/05/2025, 13.18.56 WIB] info: User authenticated successfully
+[13/05/2025, 13.18.56 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 13.18.56 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 13.21.17 WIB] info: Token received:
+[13/05/2025, 13.21.17 WIB] info: User authenticated successfully
+[13/05/2025, 13.21.17 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 13.21.17 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 13.22.53 WIB] info: Token received:
+[13/05/2025, 13.22.53 WIB] info: User authenticated successfully
+[13/05/2025, 13.22.53 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 13.22.53 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 13.23.28 WIB] info: Token received:
+[13/05/2025, 13.23.28 WIB] info: User authenticated successfully
+[13/05/2025, 13.23.28 WIB] info: Token received:
+[13/05/2025, 13.23.28 WIB] info: User authenticated successfully
+[13/05/2025, 13.23.28 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 13.23.28 WIB] info: Fetched all cart items
+[13/05/2025, 13.23.38 WIB] info: Token received:
+[13/05/2025, 13.23.38 WIB] info: User authenticated successfully
+[13/05/2025, 13.23.38 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 13.23.38 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 13.24.01 WIB] info: Token received:
+[13/05/2025, 13.24.01 WIB] info: User authenticated successfully
+[13/05/2025, 13.24.01 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 13.24.01 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 13.24.41 WIB] info: Token received:
+[13/05/2025, 13.24.41 WIB] info: User authenticated successfully
+[13/05/2025, 13.24.41 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 13.24.41 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 13.24.56 WIB] info: Token received:
+[13/05/2025, 13.24.56 WIB] info: User authenticated successfully
+[13/05/2025, 13.24.56 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 13.24.56 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 13.25.03 WIB] info: Token received:
+[13/05/2025, 13.25.03 WIB] info: User authenticated successfully
+[13/05/2025, 13.25.03 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 13.25.03 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 13.25.06 WIB] info: Token received:
+[13/05/2025, 13.25.06 WIB] info: User authenticated successfully
+[13/05/2025, 13.25.06 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 13.25.06 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 13.25.15 WIB] info: Token received:
+[13/05/2025, 13.25.15 WIB] info: User authenticated successfully
+[13/05/2025, 13.25.15 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 13.25.15 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 13.25.24 WIB] info: Token received:
+[13/05/2025, 13.25.24 WIB] info: User authenticated successfully
+[13/05/2025, 13.25.24 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 13.25.24 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 13.25.29 WIB] info: Token received:
+[13/05/2025, 13.25.29 WIB] info: User authenticated successfully
+[13/05/2025, 13.25.29 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 13.25.29 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 13.25.36 WIB] info: Token received:
+[13/05/2025, 13.25.36 WIB] info: User authenticated successfully
+[13/05/2025, 13.25.36 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 13.25.36 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 13.25.39 WIB] info: Token received:
+[13/05/2025, 13.25.39 WIB] info: User authenticated successfully
+[13/05/2025, 13.25.39 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 13.25.39 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 13.27.56 WIB] info: Token received:
+[13/05/2025, 13.27.56 WIB] info: User authenticated successfully
+[13/05/2025, 13.27.56 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 13.27.56 WIB] info: Fetched all cart items
+[13/05/2025, 15.15.16 WIB] info: Server running on http://localhost:5000
+[13/05/2025, 15.15.18 WIB] info: Token received:
+[13/05/2025, 15.15.18 WIB] info: User authenticated successfully
+[13/05/2025, 15.15.18 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 15.15.18 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 15.34.48 WIB] info: Token received:
+[13/05/2025, 15.34.48 WIB] info: User authenticated successfully
+[13/05/2025, 15.34.48 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 15.34.48 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 15.35.33 WIB] info: Token received:
+[13/05/2025, 15.35.33 WIB] info: User authenticated successfully
+[13/05/2025, 15.35.33 WIB] info: Token received:
+[13/05/2025, 15.35.33 WIB] info: User authenticated successfully
+[13/05/2025, 15.35.33 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 15.35.33 WIB] info: Fetched all cart items
+[13/05/2025, 15.35.48 WIB] info: Token received:
+[13/05/2025, 15.35.48 WIB] info: User authenticated successfully
+[13/05/2025, 15.35.48 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 15.35.48 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 15.37.32 WIB] info: Token received:
+[13/05/2025, 15.37.32 WIB] info: User authenticated successfully
+[13/05/2025, 15.37.32 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 15.37.32 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 15.38.24 WIB] info: Token received:
+[13/05/2025, 15.38.24 WIB] info: User authenticated successfully
+[13/05/2025, 15.38.24 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 15.38.24 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 15.39.07 WIB] info: Token received:
+[13/05/2025, 15.39.07 WIB] info: User authenticated successfully
+[13/05/2025, 15.39.07 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 15.39.07 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 15.40.04 WIB] info: Token received:
+[13/05/2025, 15.40.04 WIB] info: User authenticated successfully
+[13/05/2025, 15.40.04 WIB] info: Added new cart item
+[13/05/2025, 15.40.04 WIB] info: Token received:
+[13/05/2025, 15.40.04 WIB] info: User authenticated successfully
+[13/05/2025, 15.40.04 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 15.40.04 WIB] info: Fetched all cart items
+[13/05/2025, 15.40.05 WIB] info: Token received:
+[13/05/2025, 15.40.05 WIB] info: User authenticated successfully
+[13/05/2025, 15.40.05 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 15.40.05 WIB] info: Fetched all cart items
+[13/05/2025, 15.40.17 WIB] info: Token received:
+[13/05/2025, 15.40.17 WIB] info: User authenticated successfully
+[13/05/2025, 15.40.17 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 15.40.17 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 15.40.17 WIB] info: Token received:
+[13/05/2025, 15.40.17 WIB] info: User authenticated successfully
+[13/05/2025, 15.41.10 WIB] info: Token received:
+[13/05/2025, 15.41.10 WIB] info: User authenticated successfully
+[13/05/2025, 15.41.10 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 15.41.10 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 15.42.05 WIB] info: Token received:
+[13/05/2025, 15.42.05 WIB] info: User authenticated successfully
+[13/05/2025, 15.42.05 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 15.42.05 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 15.42.07 WIB] info: Token received:
+[13/05/2025, 15.42.07 WIB] info: User authenticated successfully
+[13/05/2025, 15.42.51 WIB] info: Token received:
+[13/05/2025, 15.42.51 WIB] info: User authenticated successfully
+[13/05/2025, 15.42.51 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 15.42.51 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 15.42.52 WIB] info: Token received:
+[13/05/2025, 15.42.52 WIB] info: User authenticated successfully
+[13/05/2025, 15.42.52 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 15.42.52 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 15.42.53 WIB] info: Token received:
+[13/05/2025, 15.42.53 WIB] info: User authenticated successfully
+[13/05/2025, 15.42.53 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 15.42.53 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 15.42.56 WIB] info: Token received:
+[13/05/2025, 15.42.56 WIB] info: User authenticated successfully
+[13/05/2025, 15.42.56 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 15.42.56 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 16.06.58 WIB] info: Token received:
+[13/05/2025, 16.06.58 WIB] info: User authenticated successfully
+[13/05/2025, 16.06.58 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 16.06.58 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 16.07.03 WIB] info: Token received:
+[13/05/2025, 16.07.03 WIB] info: User authenticated successfully
+[13/05/2025, 16.07.03 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 16.07.03 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 17.01.34 WIB] info: Token received:
+[13/05/2025, 17.01.34 WIB] info: User authenticated successfully
+[13/05/2025, 17.01.34 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 17.01.34 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 17.01.45 WIB] info: Token received:
+[13/05/2025, 17.01.45 WIB] info: User authenticated successfully
+[13/05/2025, 17.01.49 WIB] info: Token received:
+[13/05/2025, 17.01.49 WIB] info: User authenticated successfully
+[13/05/2025, 17.01.49 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 17.01.49 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 17.02.06 WIB] info: Token received:
+[13/05/2025, 17.02.06 WIB] info: User authenticated successfully
+[13/05/2025, 17.02.06 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 17.02.06 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 17.02.08 WIB] info: Token received:
+[13/05/2025, 17.02.08 WIB] info: User authenticated successfully
+[13/05/2025, 17.02.28 WIB] info: Token received:
+[13/05/2025, 17.02.28 WIB] info: User authenticated successfully
+[13/05/2025, 17.02.28 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 17.02.28 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 17.03.19 WIB] info: Token received:
+[13/05/2025, 17.03.19 WIB] info: User authenticated successfully
+[13/05/2025, 17.03.19 WIB] info: Removed cart item with ID f735b22c-8a6c-4340-8b7e-b37914f3c537 for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 17.06.15 WIB] info: Token received:
+[13/05/2025, 17.06.15 WIB] info: User authenticated successfully
+[13/05/2025, 17.06.16 WIB] info: Token received:
+[13/05/2025, 17.06.16 WIB] info: User authenticated successfully
+[13/05/2025, 17.06.16 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 17.06.16 WIB] info: Fetched all cart items
+[13/05/2025, 17.08.09 WIB] info: Token received:
+[13/05/2025, 17.08.09 WIB] info: User authenticated successfully
+[13/05/2025, 17.08.23 WIB] info: Token received:
+[13/05/2025, 17.08.23 WIB] info: User authenticated successfully
+[13/05/2025, 17.08.23 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 17.08.23 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 17.08.31 WIB] info: Token received:
+[13/05/2025, 17.08.31 WIB] info: User authenticated successfully
+[13/05/2025, 17.08.31 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 17.08.31 WIB] info: Fetched all cart items
+[13/05/2025, 17.09.01 WIB] info: Token received:
+[13/05/2025, 17.09.01 WIB] info: User authenticated successfully
+[13/05/2025, 17.09.01 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 17.09.01 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 17.13.30 WIB] info: Token received:
+[13/05/2025, 17.13.30 WIB] info: User authenticated successfully
+[13/05/2025, 17.13.30 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 17.13.30 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 17.15.09 WIB] info: Token received:
+[13/05/2025, 17.15.09 WIB] info: User authenticated successfully
+[13/05/2025, 17.15.17 WIB] info: Token received:
+[13/05/2025, 17.15.17 WIB] info: User authenticated successfully
+[13/05/2025, 17.15.17 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 17.15.17 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 17.16.51 WIB] info: Token received:
+[13/05/2025, 17.16.51 WIB] info: User authenticated successfully
+[13/05/2025, 17.16.51 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 17.16.51 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 17.17.51 WIB] info: Token received:
+[13/05/2025, 17.17.51 WIB] info: User authenticated successfully
+[13/05/2025, 17.17.51 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 17.17.51 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 17.17.57 WIB] info: Token received:
+[13/05/2025, 17.17.57 WIB] info: User authenticated successfully
+[13/05/2025, 17.17.57 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 17.17.57 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 17.18.16 WIB] info: Token received:
+[13/05/2025, 17.18.16 WIB] info: User authenticated successfully
+[13/05/2025, 17.18.16 WIB] info: Removed cart item with ID 5dc8ff27-9b0d-41e8-8ca3-c3069574a7e1 for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 17.18.33 WIB] info: Token received:
+[13/05/2025, 17.18.33 WIB] info: User authenticated successfully
+[13/05/2025, 17.18.34 WIB] info: Token received:
+[13/05/2025, 17.18.34 WIB] info: User authenticated successfully
+[13/05/2025, 17.18.34 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 17.18.34 WIB] info: Fetched all cart items
+[13/05/2025, 17.18.35 WIB] info: Token received:
+[13/05/2025, 17.18.35 WIB] info: User authenticated successfully
+[13/05/2025, 17.18.35 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 17.18.35 WIB] info: Fetched all cart items
+[13/05/2025, 17.29.25 WIB] info: Token received:
+[13/05/2025, 17.29.25 WIB] info: User authenticated successfully
+[13/05/2025, 17.29.25 WIB] info: Added new cart item
+[13/05/2025, 17.29.25 WIB] info: Token received:
+[13/05/2025, 17.29.25 WIB] info: User authenticated successfully
+[13/05/2025, 17.29.25 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 17.29.25 WIB] info: Fetched all cart items
+[13/05/2025, 17.29.26 WIB] info: Token received:
+[13/05/2025, 17.29.26 WIB] info: User authenticated successfully
+[13/05/2025, 17.29.26 WIB] info: Added new cart item
+[13/05/2025, 17.29.26 WIB] info: Token received:
+[13/05/2025, 17.29.26 WIB] info: User authenticated successfully
+[13/05/2025, 17.29.26 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 17.29.26 WIB] info: Fetched all cart items
+[13/05/2025, 17.29.27 WIB] info: Token received:
+[13/05/2025, 17.29.27 WIB] info: User authenticated successfully
+[13/05/2025, 17.29.27 WIB] info: Added new cart item
+[13/05/2025, 17.29.27 WIB] info: Token received:
+[13/05/2025, 17.29.27 WIB] info: User authenticated successfully
+[13/05/2025, 17.29.27 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 17.29.27 WIB] info: Fetched all cart items
+[13/05/2025, 17.29.32 WIB] info: Token received:
+[13/05/2025, 17.29.32 WIB] info: User authenticated successfully
+[13/05/2025, 17.29.32 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 17.29.32 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 17.29.32 WIB] info: Token received:
+[13/05/2025, 17.29.32 WIB] info: User authenticated successfully
+[13/05/2025, 17.29.40 WIB] info: Token received:
+[13/05/2025, 17.29.40 WIB] info: User authenticated successfully
+[13/05/2025, 17.29.40 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[13/05/2025, 17.29.40 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[15/05/2025, 02.23.30 WIB] info: Server running on http://localhost:5000
+[15/05/2025, 02.28.28 WIB] info: Server running on http://localhost:5000
+[15/05/2025, 02.28.49 WIB] info: Token received:
+[15/05/2025, 02.28.49 WIB] error: Error during token verification
+[15/05/2025, 02.29.09 WIB] info: User logged in successfully: danielfebrian@example.com
+[15/05/2025, 02.29.09 WIB] info: Token received:
+[15/05/2025, 02.29.09 WIB] info: User authenticated successfully
+[15/05/2025, 02.29.09 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[15/05/2025, 02.29.09 WIB] info: Fetched all cart items
+[15/05/2025, 02.29.12 WIB] info: Token received:
+[15/05/2025, 02.29.12 WIB] info: User authenticated successfully
+[15/05/2025, 02.29.12 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[15/05/2025, 02.29.12 WIB] info: Fetched all cart items
+[15/05/2025, 02.30.20 WIB] info: Token received:
+[15/05/2025, 02.30.20 WIB] error: Error during token verification
+[15/05/2025, 02.30.28 WIB] info: User logged in successfully: danielfebrian@example.com
+[15/05/2025, 02.30.31 WIB] info: Token received:
+[15/05/2025, 02.30.31 WIB] info: User authenticated successfully
+[15/05/2025, 02.31.20 WIB] info: Token received:
+[15/05/2025, 02.31.20 WIB] error: Error during token verification
+[15/05/2025, 02.31.33 WIB] info: Token received:
+[15/05/2025, 02.31.33 WIB] info: User authenticated successfully
+[15/05/2025, 02.31.33 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[15/05/2025, 02.31.33 WIB] info: Fetched all cart items
+[15/05/2025, 02.33.21 WIB] info: [REQ] GET /api/v1/checkout/shipping-options - Body: {}
+[15/05/2025, 02.33.21 WIB] info: Token received:
+[15/05/2025, 02.33.21 WIB] info: User authenticated successfully
+[15/05/2025, 02.33.22 WIB] info: 📦 Shipping options fetched for user ID: 01457523-1670-4415-803c-19700cdbe463
+[15/05/2025, 02.34.28 WIB] info: Token received:
+[15/05/2025, 02.34.28 WIB] info: User authenticated successfully
+[15/05/2025, 02.34.54 WIB] info: Token received:
+[15/05/2025, 02.34.54 WIB] info: User authenticated successfully
+[15/05/2025, 02.34.54 WIB] info: Address created for user 01457523-1670-4415-803c-19700cdbe463
+[15/05/2025, 02.34.57 WIB] info: Token received:
+[15/05/2025, 02.34.57 WIB] info: User authenticated successfully
+[15/05/2025, 03.53.52 WIB] info: Token received:
+[15/05/2025, 03.53.53 WIB] info: User authenticated successfully
+[15/05/2025, 03.53.53 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[15/05/2025, 03.53.53 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[15/05/2025, 03.53.53 WIB] info: Token received:
+[15/05/2025, 03.53.53 WIB] info: User authenticated successfully
+[15/05/2025, 04.00.20 WIB] info: Token received:
+[15/05/2025, 04.00.20 WIB] info: User authenticated successfully
+[15/05/2025, 04.00.21 WIB] info: Token received:
+[15/05/2025, 04.00.21 WIB] info: User authenticated successfully
+[15/05/2025, 04.00.21 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[15/05/2025, 04.00.21 WIB] info: Fetched all cart items
+[15/05/2025, 04.02.34 WIB] info: Token received:
+[15/05/2025, 04.02.34 WIB] info: User authenticated successfully
+[15/05/2025, 04.02.35 WIB] info: Token received:
+[15/05/2025, 04.02.35 WIB] info: User authenticated successfully
+[15/05/2025, 04.02.35 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[15/05/2025, 04.02.35 WIB] info: Fetched all cart items
+[15/05/2025, 04.03.05 WIB] info: Token received:
+[15/05/2025, 04.03.05 WIB] info: User authenticated successfully
+[15/05/2025, 04.03.06 WIB] info: Token received:
+[15/05/2025, 04.03.06 WIB] info: User authenticated successfully
+[15/05/2025, 04.03.06 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[15/05/2025, 04.03.06 WIB] info: Fetched all cart items
+[15/05/2025, 04.13.27 WIB] info: Token received:
+[15/05/2025, 04.13.27 WIB] info: User authenticated successfully
+[15/05/2025, 04.13.27 WIB] info: Token received:
+[15/05/2025, 04.13.27 WIB] info: User authenticated successfully
+[15/05/2025, 04.13.27 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[15/05/2025, 04.13.27 WIB] info: Fetched all cart items
+[15/05/2025, 04.16.34 WIB] info: Token received:
+[15/05/2025, 04.16.34 WIB] info: User authenticated successfully
+[15/05/2025, 04.16.34 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[15/05/2025, 04.16.34 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[15/05/2025, 04.16.35 WIB] info: Token received:
+[15/05/2025, 04.16.35 WIB] info: User authenticated successfully
+[15/05/2025, 04.16.35 WIB] info: Token received:
+[15/05/2025, 04.16.35 WIB] info: User authenticated successfully
+[15/05/2025, 04.16.35 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[15/05/2025, 04.16.35 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[18/05/2025, 10.00.52 WIB] info: Server running on http://localhost:5000
+[18/05/2025, 10.03.27 WIB] info: Token received:
+[18/05/2025, 10.03.27 WIB] error: Error during token verification
+[18/05/2025, 10.03.50 WIB] warn: Login failed: Invalid email or password for email: danielfebrian@examole.com
+[18/05/2025, 10.03.57 WIB] info: User logged in successfully: danielfebrian@example.com
+[18/05/2025, 10.03.57 WIB] info: Token received:
+[18/05/2025, 10.03.57 WIB] info: User authenticated successfully
+[18/05/2025, 10.03.57 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[18/05/2025, 10.03.57 WIB] info: Fetched all cart items
+[18/05/2025, 10.04.03 WIB] info: Token received:
+[18/05/2025, 10.04.03 WIB] info: User authenticated successfully
+[18/05/2025, 10.04.03 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[18/05/2025, 10.04.03 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[18/05/2025, 10.08.29 WIB] info: Token received:
+[18/05/2025, 10.08.29 WIB] info: User authenticated successfully
+[18/05/2025, 10.08.29 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[18/05/2025, 10.08.29 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[18/05/2025, 10.08.37 WIB] info: Token received:
+[18/05/2025, 10.08.37 WIB] info: User authenticated successfully
+[18/05/2025, 10.08.37 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[18/05/2025, 10.08.37 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[18/05/2025, 10.09.40 WIB] info: Token received:
+[18/05/2025, 10.09.40 WIB] info: User authenticated successfully
+[18/05/2025, 10.09.40 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[18/05/2025, 10.09.40 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[18/05/2025, 10.09.57 WIB] info: Token received:
+[18/05/2025, 10.09.57 WIB] info: User authenticated successfully
+[18/05/2025, 10.09.57 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[18/05/2025, 10.09.57 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[18/05/2025, 10.12.26 WIB] info: Token received:
+[18/05/2025, 10.12.26 WIB] info: User authenticated successfully
+[18/05/2025, 10.12.27 WIB] info: Token received:
+[18/05/2025, 10.12.27 WIB] info: User authenticated successfully
+[18/05/2025, 10.12.27 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[18/05/2025, 10.12.27 WIB] info: Fetched all cart items
+[18/05/2025, 10.12.31 WIB] info: Token received:
+[18/05/2025, 10.12.31 WIB] info: User authenticated successfully
+[18/05/2025, 10.12.31 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[18/05/2025, 10.12.31 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[18/05/2025, 10.12.38 WIB] info: Token received:
+[18/05/2025, 10.12.38 WIB] info: User authenticated successfully
+[18/05/2025, 10.12.38 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[18/05/2025, 10.12.38 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[18/05/2025, 10.12.44 WIB] info: Token received:
+[18/05/2025, 10.12.44 WIB] info: User authenticated successfully
+[18/05/2025, 10.12.44 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[18/05/2025, 10.12.44 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[18/05/2025, 10.12.47 WIB] info: Token received:
+[18/05/2025, 10.12.47 WIB] info: User authenticated successfully
+[18/05/2025, 10.12.47 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[18/05/2025, 10.12.47 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[18/05/2025, 10.12.54 WIB] info: Token received:
+[18/05/2025, 10.12.54 WIB] info: User authenticated successfully
+[18/05/2025, 10.12.54 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[18/05/2025, 10.12.54 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[18/05/2025, 10.13.45 WIB] info: Token received:
+[18/05/2025, 10.13.45 WIB] info: User authenticated successfully
+[18/05/2025, 10.13.45 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[18/05/2025, 10.13.45 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[18/05/2025, 10.13.56 WIB] info: Token received:
+[18/05/2025, 10.13.56 WIB] info: User authenticated successfully
+[18/05/2025, 10.13.56 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[18/05/2025, 10.13.56 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[18/05/2025, 10.14.02 WIB] info: Token received:
+[18/05/2025, 10.14.02 WIB] info: User authenticated successfully
+[18/05/2025, 10.14.02 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[18/05/2025, 10.14.02 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[18/05/2025, 10.15.42 WIB] info: Token received:
+[18/05/2025, 10.15.42 WIB] info: User authenticated successfully
+[18/05/2025, 10.15.42 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[18/05/2025, 10.15.42 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[18/05/2025, 10.15.52 WIB] info: Token received:
+[18/05/2025, 10.15.52 WIB] info: User authenticated successfully
+[18/05/2025, 10.15.52 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[18/05/2025, 10.15.52 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[18/05/2025, 10.16.00 WIB] info: Token received:
+[18/05/2025, 10.16.00 WIB] info: User authenticated successfully
+[18/05/2025, 10.16.00 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[18/05/2025, 10.16.00 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[18/05/2025, 10.19.30 WIB] info: Server running on http://localhost:5000
+[18/05/2025, 10.19.43 WIB] info: Server running on http://localhost:5000
+[18/05/2025, 10.20.37 WIB] info: Token received:
+[18/05/2025, 10.20.37 WIB] info: User authenticated successfully
+[18/05/2025, 10.20.38 WIB] info: Token received:
+[18/05/2025, 10.20.38 WIB] info: User authenticated successfully
+[18/05/2025, 10.20.38 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[18/05/2025, 10.20.38 WIB] info: Fetched all cart items
+[18/05/2025, 10.24.33 WIB] info: Token received:
+[18/05/2025, 10.24.33 WIB] info: User authenticated successfully
+[18/05/2025, 10.24.33 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[18/05/2025, 10.24.33 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[18/05/2025, 10.25.08 WIB] info: Token received:
+[18/05/2025, 10.25.08 WIB] info: User authenticated successfully
+[18/05/2025, 10.25.08 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[18/05/2025, 10.25.08 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[18/05/2025, 10.26.51 WIB] info: Token received:
+[18/05/2025, 10.26.51 WIB] info: User authenticated successfully
+[18/05/2025, 10.26.51 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[18/05/2025, 10.26.51 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[18/05/2025, 10.26.53 WIB] info: Token received:
+[18/05/2025, 10.26.53 WIB] info: User authenticated successfully
+[18/05/2025, 10.26.53 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[18/05/2025, 10.26.53 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[18/05/2025, 10.27.27 WIB] info: Token received:
+[18/05/2025, 10.27.27 WIB] info: User authenticated successfully
+[18/05/2025, 10.27.27 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[18/05/2025, 10.27.27 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[18/05/2025, 10.27.33 WIB] info: Token received:
+[18/05/2025, 10.27.33 WIB] info: User authenticated successfully
+[18/05/2025, 10.27.36 WIB] info: Token received:
+[18/05/2025, 10.27.36 WIB] info: User authenticated successfully
+[18/05/2025, 10.27.36 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[18/05/2025, 10.27.36 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[18/05/2025, 10.27.53 WIB] info: Server running on http://localhost:5000
+[02/06/2025, 23.14.48 WIB] info: Server running on http://localhost:5000
+[02/06/2025, 23.14.48 WIB] warn: Token not provided
+[02/06/2025, 23.14.48 WIB] info: Fetching all categories
+[02/06/2025, 23.14.48 WIB] warn: Token not provided
+[02/06/2025, 23.14.48 WIB] info: Fetched all categories
+[02/06/2025, 23.23.39 WIB] info: User logged in successfully: danielfebrian@example.com
+[02/06/2025, 23.23.39 WIB] info: Token received:
+[02/06/2025, 23.23.39 WIB] info: User authenticated successfully
+[02/06/2025, 23.23.39 WIB] info: Fetching all categories
+[02/06/2025, 23.23.39 WIB] info: Fetched all categories
+[02/06/2025, 23.23.39 WIB] info: Fetching all categories
+[02/06/2025, 23.23.39 WIB] info: Fetched all categories
+[02/06/2025, 23.23.45 WIB] info: Token received:
+[02/06/2025, 23.23.45 WIB] info: User authenticated successfully
+[02/06/2025, 23.23.45 WIB] info: Updated cart item
+[02/06/2025, 23.23.45 WIB] info: Token received:
+[02/06/2025, 23.23.45 WIB] info: User authenticated successfully
+[02/06/2025, 23.23.45 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[02/06/2025, 23.23.45 WIB] info: Fetched all cart items
+[02/06/2025, 23.23.47 WIB] info: Token received:
+[02/06/2025, 23.23.47 WIB] info: User authenticated successfully
+[02/06/2025, 23.23.47 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[02/06/2025, 23.23.47 WIB] info: Fetched all cart items
+[02/06/2025, 23.23.47 WIB] info: Token received:
+[02/06/2025, 23.23.47 WIB] info: User authenticated successfully
+[02/06/2025, 23.23.47 WIB] info: Fetching all cart items for user ID 01457523-1670-4415-803c-19700cdbe463
+[02/06/2025, 23.23.47 WIB] info: Fetched all cart items
+[02/06/2025, 23.23.51 WIB] info: [REQ] GET /api/v1/checkout/shipping-options - Body: {}
+[02/06/2025, 23.23.51 WIB] info: Token received:
+[02/06/2025, 23.23.51 WIB] info: User authenticated successfully
+[02/06/2025, 23.23.52 WIB] info: 📦 Shipping options fetched for user ID: 01457523-1670-4415-803c-19700cdbe463
+[02/06/2025, 23.23.52 WIB] info: [REQ] GET /api/v1/checkout/shipping-options - Body: {}
+[02/06/2025, 23.23.52 WIB] info: Token received:
+[02/06/2025, 23.23.52 WIB] info: User authenticated successfully
+[02/06/2025, 23.23.53 WIB] info: 📦 Shipping options fetched for user ID: 01457523-1670-4415-803c-19700cdbe463
+[02/06/2025, 23.23.54 WIB] info: [REQ] POST /api/v1/checkout - Body: {"shippingCode":"jnt","shippingService":"EZ"}
+[02/06/2025, 23.23.54 WIB] info: Token received:
+[02/06/2025, 23.23.54 WIB] info: User authenticated successfully
+[02/06/2025, 23.23.54 WIB] info: 🔐 Authenticated user ID: 01457523-1670-4415-803c-19700cdbe463
+[02/06/2025, 23.23.54 WIB] info: 📦 Requesting shipping cost for jnt - EZ
+[02/06/2025, 23.23.55 WIB] info: ✅ Shipping selected: J&T Express - EZ, Cost: 92000
+[02/06/2025, 23.23.55 WIB] info: 📝 Order created: ID=cf143b95-20ca-46c9-a97d-305124265527, Total=866000
+[02/06/2025, 23.23.56 WIB] info: 💳 Midtrans transaction created: token=03dfd4b7-be71-467f-b99e-5e5ee50d1ddc
+[02/06/2025, 23.23.56 WIB] info: ✅ Checkout completed for user ID: 01457523-1670-4415-803c-19700cdbe463
+[02/06/2025, 23.24.29 WIB] info: Token received:
+[02/06/2025, 23.24.29 WIB] info: [REQ] GET /api/v1/checkout/shipping-options - Body: {}
+[02/06/2025, 23.24.29 WIB] info: Token received:
+[02/06/2025, 23.24.29 WIB] info: User authenticated successfully
+[02/06/2025, 23.24.29 WIB] info: User authenticated successfully
+[02/06/2025, 23.24.29 WIB] info: Token received:
+[02/06/2025, 23.24.29 WIB] info: User authenticated successfully
+[02/06/2025, 23.24.30 WIB] info: 📦 Shipping options fetched for user ID: 01457523-1670-4415-803c-19700cdbe463
+[02/06/2025, 23.24.39 WIB] info: Token received:
+[02/06/2025, 23.24.39 WIB] info: User authenticated successfully
+[02/06/2025, 23.24.39 WIB] info: Token received:
+[02/06/2025, 23.24.39 WIB] info: User authenticated successfully
+[02/06/2025, 23.24.46 WIB] info: Token received:
+[02/06/2025, 23.24.46 WIB] info: User authenticated successfully
+[02/06/2025, 23.24.46 WIB] info: Token received:
+[02/06/2025, 23.24.46 WIB] info: User authenticated successfully
+[02/06/2025, 23.24.48 WIB] info: Fetching all categories
+[02/06/2025, 23.24.48 WIB] info: Fetched all categories
+[02/06/2025, 23.24.48 WIB] info: Fetching all categories
+[02/06/2025, 23.24.48 WIB] info: Fetched all categories
+[02/06/2025, 23.36.44 WIB] info: Token received:
+[02/06/2025, 23.36.44 WIB] error: Error during token verification
+[02/06/2025, 23.36.57 WIB] info: User logged in successfully: danielfebrian@example.com
+[02/06/2025, 23.37.01 WIB] info: Token received:
+[02/06/2025, 23.37.01 WIB] info: User authenticated successfully
+[02/06/2025, 23.40.12 WIB] info: Token received:
+[02/06/2025, 23.40.12 WIB] info: User authenticated successfully
+[02/06/2025, 23.40.12 WIB] info: Fetching orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[02/06/2025, 23.40.12 WIB] info: Fetched orders for user ID 01457523-1670-4415-803c-19700cdbe463
+[02/06/2025, 23.41.01 WIB] info: Token received:
+[02/06/2025, 23.41.01 WIB] info: User authenticated successfully
+[02/06/2025, 23.41.01 WIB] info: Address created for user 01457523-1670-4415-803c-19700cdbe463

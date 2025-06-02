@@ -69,6 +69,7 @@ model Order {
   shippingCost       Int        @default(0) // Biaya ongkir
   shippingTrackingId String?    // ID tracking dari API logistik
   status             String     @default("pending") // pending, paid, shipped, completed
+  createdAt          DateTime   @default(now())
   orderItems         OrderItem[]
 }
 
